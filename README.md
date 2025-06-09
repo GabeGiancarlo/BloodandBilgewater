@@ -14,7 +14,7 @@ A pirate-themed action-RPG built with Rust and Bevy, featuring SNES-era explorat
 BloodandBilgewater is a single-player action-RPG that puts you in the boots of a shipwrecked sailor rising through the ranks to become a legendary pirate lord. Navigate the high seas, engage in tactical ship-to-ship combat, and build your reputation across a vast archipelago.
 
 <p align="center">
-  <img src="assets/ghost_ship_scene.png" alt="Ghost Ship Sailing at Night" width="600"/>
+  <img src="assets/map.png" alt="Ghost Ship Sailing at Night" width="600"/>
 </p>
 
 ### Key Features
