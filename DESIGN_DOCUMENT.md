@@ -1,6 +1,8 @@
 # BloodandBilgewater: Design Document
 *Version 1.0 | Single-Player Action-RPG | Rust + Bevy 0.14*
 
+**v0 alignment:** The authoritative v0 repository uses the same vision with procedural seeded sandbox, solo + multiplayer same world model, 30-minute day/night cycle, Cove + outposts, and three loops (home, expedition, conflict). See [README.md](README.md) and [docs/ARCHITECTURE_RULES.md](docs/ARCHITECTURE_RULES.md) for the production foundation and architecture rules.
+
 ---
 
 ## 1. Game Loop & Core Systems

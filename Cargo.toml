@@ -1,0 +1,18 @@
+[package]
+name = "bloodandbilgewater"
+version = "0.1.0"
+edition = "2021"
+description = "Procedural seeded open-world pirate sandbox RPG"
+license = "MIT"
+repository = "https://github.com/GabeGiancarlo/BloodandBilgewater"
+readme = "README.md"
+
+[dependencies]
+bevy = "0.14"
+serde = { version = "1.0", features = ["derive"] }
+rand = { version = "0.8", features = ["small_rng"] }
+
+[features]
+default = []
+# Future: headless dedicated server without rendering/window
+headless = []
