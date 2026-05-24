@@ -1,10 +1,8 @@
 //! Asset loading, asset keys, Bevy asset pipeline (sprites, tilemaps, atlases).
 //! Must NOT define game rules or simulation logic.
 
-use bevy::prelude::*;
+mod handles;
+mod loading;
+mod plugin;
 
-pub struct AssetsPlugin;
-
-impl Plugin for AssetsPlugin {
-    fn build(&self, _app: &mut App) {}
-}
+pub use plugin::AssetsPlugin;

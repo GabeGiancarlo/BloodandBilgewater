@@ -9,7 +9,7 @@ use bevy::prelude::*;
 pub struct WorldClock {
     /// Total simulation ticks since world start. Deterministic.
     pub tick: u64,
-    /// Time of day in seconds within the 30-minute cycle (0..1800).
+    /// Time of day in seconds within the 30-minute cycle (0..DAY_NIGHT_CYCLE_SECS).
     pub time_of_day_secs: f32,
 }
 

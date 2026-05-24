@@ -50,6 +50,8 @@ cd BloodandBilgewater
 cargo build
 ```
 
+This project tracks **`Cargo.lock`** for reproducible executable builds (intentionally not gitignored).
+
 Optional: use `--features headless` when adding a dedicated server build later.
 
 ---
@@ -74,19 +76,19 @@ cargo test
 
 ## Development workflow: adding a new gameplay feature
 
-1. **Choose the right plugin.** Gameplay lives under `src/gameplay/`; one plugin per feature area (e.g. `player`, `ship`, `combat`, `cove`). If the feature is a new area, add a new subfolder and plugin.
-2. **Define components and systems in that plugin.** Plugins own their ECS components and systems; no orphan components in a generic plugin.
-3. **Consume commands/events, not input devices.** Simulation systems read `MoveCommand`, `InteractCommand`, etc. (from `src/events/` or equivalent); input is translated elsewhere into commands.
-4. **Register the plugin in the central app builder** (`src/app/`). Do not register gameplay in `main.rs`.
-5. **Run and test:** `cargo run`, `cargo test`. Use fixed timestep for any simulation logic (e.g. `FixedUpdate` schedule).
+1. **Create a feature plugin** under `src/gameplay/<feature>/` with `mod.rs`, `plugin.rs`, `components.rs`, and `systems.rs`.
+2. **Define components and systems locally** in that plugin. Plugins own their ECS types; no orphan components elsewhere.
+3. **Use input commands, not direct keyboard reads.** Simulation and gameplay consume events from `src/input/commands.rs` (`MoveCommand`, `AttackCommand`, etc.); device translation lives in `src/input/`.
+4. **Register the feature plugin** in `GameplayPlugin` (`src/gameplay/mod.rs`). The app builder registers only plugin groups (`GameplayPlugin`, not individual feature plugins).
+5. **Run and test:** `cargo fmt`, `cargo check`, `cargo run`, `cargo test`. Use fixed timestep for simulation logic (`FixedUpdate`).
 
 ---
 
 ## Plugin-based architecture
 
-- **Core plugins** (registered by the app builder): world, generation, chunking, persistence, simulation, time, networking stubs, assets, events.
-- **Gameplay plugins:** Each feature (player, ship, combat, etc.) is a plugin that adds its own components, systems, and resources. All game behavior lives in plugins.
-- **`main.rs`** only: creates the app, sets logging/window, injects `WorldSeed`, and calls the central app builder. No gameplay systems or components are registered in `main.rs`.
+- **Core plugins** (registered by the app builder): world, generation, chunking, persistence, simulation, time, networking stubs, assets, events, input, rendering, UI.
+- **Gameplay plugin group:** `GameplayPlugin` registers feature plugins (player, ship, combat, inventory, loot, home, classes). Each feature owns its components and systems.
+- **`main.rs`** only: creates the app, sets logging/window, and calls `BloodAndBilgewaterPlugin`. No gameplay systems or components are registered in `main.rs`.
 
 ---
 
@@ -112,19 +114,24 @@ cargo test
 
 | Folder | Responsibility | Must NOT |
 |--------|----------------|----------|
-| **`src/app/`** | Central app builder: states, schedules, simulation stage, plugin registration, seed injection. | Gameplay logic. |
-| **`src/world/`** | World model: chunk/region ids, world bounds, world-level queries. | Generation, rendering, network serialization. |
-| **`src/generation/`** | Deterministic procedural generation (terrain, islands, POIs, etc.) from seed + chunk/region. | Rendering, networking, I/O except pure functions. |
-| **`src/chunking/`** | Chunk/region lifecycle: load/unload, streaming, chunk cache; interface between “chunk needed” and generation/persistence. | Gameplay rules (combat, economy). |
-| **`src/persistence/`** | Chunk save/load, delta tracking, world serialization, version migration, ship/player saves. | Rendering, networking transport, gameplay logic. |
-| **`src/simulation/`** | Deterministic game simulation: time-of-day, weather, economy, AI, combat resolution; fixed timestep. | Direct input devices; rendering; frame timing. |
-| **`src/time/`** | Authoritative world clock resource, deterministic tick counter, time-of-day conversion (30-min cycle). | Frame count or rendering driving time. |
-| **`src/networking/`** | Network types, message definitions, stubs for server-authoritative replication (no transport in v0). | Gameplay logic; driving simulation. |
-| **`src/gameplay/`** | Player-facing plugins: player, ship, combat, inventory, UI hooks; each feature is a plugin. | Engine-level or world-gen logic. |
-| **`src/assets/`** | Asset loading, asset keys, Bevy asset pipeline (sprites, tilemaps, atlases). | Game rules or simulation logic. |
-| **`src/events/`** | Global event definitions, cross-plugin events, version-safe event schemas. | Gameplay logic; events are data only. |
-| **`docs/`** | ADRs, architecture rules (`ARCHITECTURE_RULES.md`). | — |
-| **`assets/`** | Game assets (sprites, tilesets, audio, data) on disk. | Source code. |
+| **`src/app/`** | Central app builder: states, seed, plugin registration. Submodules: `state.rs`, `seed.rs`, `schedule.rs`. | Gameplay logic. |
+| **`src/core/`** | Shared constants, math helpers, deterministic RNG. | Feature-specific gameplay. |
+| **`src/input/`** | Device → command translation; command event types. | Simulation rules; direct use from rendering. |
+| **`src/events/`** | Cross-plugin domain events (not input commands). | Input commands (see `src/input/`). |
+| **`src/world/`** | World model: chunk/region ids, coordinates, biomes. | Generation, rendering, network serialization. |
+| **`src/generation/`** | Deterministic procedural generation from seed + chunk/region. | Rendering, networking, I/O except pure functions. |
+| **`src/chunking/`** | Chunk load/unload, streaming, cache, chunk-ready events. | Gameplay rules (combat, economy). |
+| **`src/persistence/`** | Save/load, versioning, world serialization. | Rendering, networking transport, gameplay logic. |
+| **`src/simulation/`** | Deterministic simulation; fixed timestep; world clock advance. | Direct input; rendering; frame timing. |
+| **`src/time/`** | Authoritative `WorldClock` resource (30-min cycle). | Frame count or rendering driving time. |
+| **`src/networking/`** | Message stubs, authority model (no transport in v0). | Gameplay logic; driving simulation. |
+| **`src/gameplay/`** | **Plugin group** for player, ship, combat, inventory, loot, home, classes. | Engine-level or world-gen logic. |
+| **`src/rendering/`** | Camera, sprites, animation, tilemaps, visual effects. | Gameplay truth or simulation rules. |
+| **`src/ui/`** | HUD, menus, debug overlays, inventory screens. | Owning authoritative game state. |
+| **`src/assets/`** | Asset loading, handles, Bevy asset pipeline. | Game rules or simulation logic. |
+| **`docs/`** | ADRs, architecture rules, roadmap, art specs, system placeholders. | — |
+| **`assets/source/references/`** | Concept/reference art (not runtime-ready). | — |
+| **`assets/sprites/`**, **`assets/tilesets/`**, **`assets/ui/`**, **`assets/audio/`**, **`assets/data/`** | Runtime game assets on disk. | Source code. |
 
 ---
 

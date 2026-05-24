@@ -5,13 +5,17 @@
 pub mod app;
 pub mod assets;
 pub mod chunking;
+pub mod core;
 pub mod events;
 pub mod gameplay;
 pub mod generation;
+pub mod input;
 pub mod networking;
 pub mod persistence;
+pub mod rendering;
 pub mod simulation;
 pub mod time;
+pub mod ui;
 pub mod world;
 
 pub use app::BloodAndBilgewaterPlugin;

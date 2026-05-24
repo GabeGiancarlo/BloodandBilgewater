@@ -1,10 +1,10 @@
-//! Chunk/region lifecycle: load/unload, streaming, chunk cache; interface between "chunk needed" and generation/persistence.
+//! Chunk/region lifecycle: load/unload, streaming, chunk cache.
+//! Interface between "chunk needed" and generation/persistence.
 //! Must NOT contain gameplay rules; rendering-agnostic (chunk data only).
 
-use bevy::prelude::*;
+mod cache;
+mod events;
+mod loader;
+mod plugin;
 
-pub struct ChunkingPlugin;
-
-impl Plugin for ChunkingPlugin {
-    fn build(&self, _app: &mut App) {}
-}
+pub use plugin::ChunkingPlugin;

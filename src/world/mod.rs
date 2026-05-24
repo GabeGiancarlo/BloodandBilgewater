@@ -1,18 +1,12 @@
 //! World model: chunk/region identifiers, world bounds, world-level queries.
 //! Must NOT contain generation logic, rendering, or network serialization.
 
-use bevy::prelude::*;
+mod biome;
+mod chunk;
+mod coordinates;
+mod plugin;
+mod region;
 
-/// Chunk identifier for streaming and generation. Copyable; used as key for chunk data.
-#[derive(Component, Clone, Copy, PartialEq, Eq, Hash, Debug)]
-pub struct ChunkId(pub i32, pub i32);
-
-/// Region identifier; groups chunks. Used for spatial partitioning.
-#[derive(Clone, Copy, PartialEq, Eq, Hash, Debug)]
-pub struct RegionId(pub i32, pub i32);
-
-pub struct WorldPlugin;
-
-impl Plugin for WorldPlugin {
-    fn build(&self, _app: &mut App) {}
-}
+pub use chunk::ChunkId;
+pub use plugin::WorldPlugin;
+pub use region::RegionId;

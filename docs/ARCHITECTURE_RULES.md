@@ -73,3 +73,48 @@ Save files and serialized state must use stable identity: UUIDs or coordinate-ba
 Simulation logic must never depend on rendering state or frame timing. No animation state in simulation, no camera logic in simulation, no visual-only timers affecting gameplay. Prevents desync and makes headless/replay possible.
 
 **Rationale:** Keeps simulation deterministic and independent of display; enables dedicated server and replay.
+
+---
+
+## 10. Input devices are isolated in `src/input/`
+
+Keyboard, mouse, and gamepad handling lives in `src/input/`. Input systems translate device state into command events defined in `src/input/commands.rs`. No other module reads `ButtonInput<KeyCode>` for gameplay purposes.
+
+**Rationale:** Single place to map controls; enables rebinding, network input, and replay.
+
+---
+
+## 11. Rendering and UI do not own gameplay truth
+
+Presentation code in `src/rendering/` and `src/ui/` reads simulation/world state for display. It must not mutate authoritative gameplay state except through the same command/event paths as everything else.
+
+**Rationale:** Prevents desync between what the player sees and what the simulation believes.
+
+---
+
+## 12. App registers plugin groups, not scattered systems
+
+`src/app/mod.rs` registers top-level plugins (`GameplayPlugin`, `RenderingPlugin`, etc.). Feature systems are registered inside their own plugins. Do not register gameplay systems directly from `app/`.
+
+**Rationale:** Keeps assembly order visible and feature ownership local.
+
+---
+
+## 13. `Cargo.lock` is tracked
+
+This is an executable game project, not a library-only crate. `Cargo.lock` is committed for reproducible builds.
+
+**Rationale:** Same dependency versions for all contributors and CI.
+
+---
+
+## 14. Asset folder conventions
+
+- **Reference/concept art:** `assets/source/references/` (not loaded at runtime by default)
+- **Runtime sprites:** `assets/sprites/`
+- **Tilesets:** `assets/tilesets/`
+- **UI assets:** `assets/ui/`
+- **Audio:** `assets/audio/`
+- **Data tables:** `assets/data/`
+
+**Rationale:** Clear separation between inspiration art and shippable runtime assets.

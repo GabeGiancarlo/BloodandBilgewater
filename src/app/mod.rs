@@ -1,33 +1,29 @@
 //! Central app builder: states, schedules, simulation stage, plugin registration, seed injection.
 //! No gameplay logic; only assembly of core and gameplay plugins.
 
+mod schedule;
+mod seed;
+mod state;
+
 use bevy::prelude::*;
 use std::env;
 
 use crate::assets::AssetsPlugin;
 use crate::chunking::ChunkingPlugin;
 use crate::events::EventsPlugin;
-use crate::gameplay::player::PlayerPlugin;
+use crate::gameplay::GameplayPlugin;
 use crate::generation::GenerationPlugin;
+use crate::input::InputPlugin;
 use crate::networking::NetworkingPlugin;
 use crate::persistence::PersistencePlugin;
+use crate::rendering::RenderingPlugin;
 use crate::simulation::SimulationPlugin;
 use crate::time::TimePlugin;
+use crate::ui::UiPlugin;
 use crate::world::WorldPlugin;
 
-/// World generation and simulation seed. Deterministic; same seed yields same world/sim outcome.
-#[derive(Resource, Clone, Copy, Debug)]
-pub struct WorldSeed(pub u64);
-
-/// Core app state. Used for run criteria (e.g. simulation only when Playing).
-#[derive(States, Clone, PartialEq, Eq, Hash, Debug, Default)]
-pub enum GameState {
-    #[default]
-    MainMenu,
-    Loading,
-    Playing,
-    Paused,
-}
+pub use seed::WorldSeed;
+pub use state::GameState;
 
 /// Central plugin: registers core app state, world seed, fixed timestep, and all core + gameplay plugins.
 /// Simulation runs in FixedUpdate; input is translated to commands elsewhere (see Architecture Rules).
@@ -52,7 +48,10 @@ impl Plugin for BloodAndBilgewaterPlugin {
                 NetworkingPlugin,
                 AssetsPlugin,
                 EventsPlugin,
-                PlayerPlugin,
+                InputPlugin,
+                RenderingPlugin,
+                UiPlugin,
+                GameplayPlugin,
             ));
         // Future: gate server vs client plugins here (e.g. feature flags or runtime mode resource).
     }
