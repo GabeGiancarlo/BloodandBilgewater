@@ -130,8 +130,37 @@ cargo test
 | **`src/ui/`** | HUD, menus, debug overlays, inventory screens. | Owning authoritative game state. |
 | **`src/assets/`** | Asset loading, handles, Bevy asset pipeline. | Game rules or simulation logic. |
 | **`docs/`** | ADRs, architecture rules, roadmap, art specs, system placeholders. | — |
+| **`assets/source/aseprite/`** | Editable Aseprite masters (layers, tags, guides). Not loaded by the game. | Runtime PNG exports. |
 | **`assets/source/references/`** | Concept/reference art (not runtime-ready). | — |
-| **`assets/sprites/`**, **`assets/tilesets/`**, **`assets/ui/`**, **`assets/audio/`**, **`assets/data/`** | Runtime game assets on disk. | Source code. |
+| **`assets/tilesets/`** | Exported runtime tilemap PNGs/JSON (ocean, beach, terrain). | Aseprite source files. |
+| **`assets/sprites/`** | Exported runtime entity/object sprites (characters, props, effects). | Terrain tilesets; Aseprite source. |
+| **`assets/ui/`** | Exported runtime UI images (HUD, menus, prompts, icons). | Aseprite source. |
+| **`assets/audio/`**, **`assets/data/`** | Runtime audio and data tables. | Source art. |
+
+---
+
+## Asset workflow (Aseprite → runtime)
+
+Blood and Bilgewater keeps **editable source** separate from **runtime exports**:
+
+| Role | Location |
+|------|----------|
+| Editable Aseprite source | `assets/source/aseprite/` |
+| Reference / concept images | `assets/source/references/` |
+| Exported tilesets (tilemaps) | `assets/tilesets/` |
+| Exported sprites (entities, props) | `assets/sprites/` |
+| Exported UI | `assets/ui/` |
+
+**Example — ocean/beach tileset v1:**
+
+| | Path |
+|---|------|
+| Save Aseprite source here | `assets/source/aseprite/tilesets/ocean/ocean_beach_basic_tileset.aseprite` |
+| Export runtime PNG here | `assets/tilesets/ocean/basic/ocean_beach_basic_tileset.png` |
+
+The `.aseprite` file is the editable master (layers, animation tags, palettes). The PNG is what the game loads for tilemaps. Do not put `.aseprite` files in `assets/tilesets/` or `assets/sprites/`.
+
+Full pipeline: [docs/art/ASSET_PIPELINE.md](docs/art/ASSET_PIPELINE.md). Tileset specs: [docs/art/TILESET_SPECS.md](docs/art/TILESET_SPECS.md). Per-folder instructions: [assets/source/aseprite/tilesets/ocean/README.md](assets/source/aseprite/tilesets/ocean/README.md).
 
 ---
 

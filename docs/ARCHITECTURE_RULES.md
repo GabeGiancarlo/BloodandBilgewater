@@ -110,11 +110,12 @@ This is an executable game project, not a library-only crate. `Cargo.lock` is co
 
 ## 14. Asset folder conventions
 
+- **Aseprite source:** `assets/source/aseprite/` (editable masters; not loaded at runtime)
 - **Reference/concept art:** `assets/source/references/` (not loaded at runtime by default)
-- **Runtime sprites:** `assets/sprites/`
-- **Tilesets:** `assets/tilesets/`
-- **UI assets:** `assets/ui/`
+- **Runtime tilesets:** `assets/tilesets/` (exported PNG/JSON for tilemaps)
+- **Runtime sprites:** `assets/sprites/` (exported PNG for entities and props)
+- **Runtime UI:** `assets/ui/`
 - **Audio:** `assets/audio/`
 - **Data tables:** `assets/data/`
 
-**Rationale:** Clear separation between inspiration art and shippable runtime assets.
+See [docs/art/ASSET_PIPELINE.md](art/ASSET_PIPELINE.md): source files are for editing; runtime exports are for the game.
