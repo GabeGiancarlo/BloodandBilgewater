@@ -1,0 +1,65 @@
+{
+  "group_id": "de59cb2f-408b-4b9e-ab0d-9eeea0ce3f7a",
+  "states": [
+    {
+      "character": {
+        "id": "3ffd2681-42e9-4735-90d1-212f240c44d3",
+        "name": "Here\u2019s the revised visual description:\n\nA gaunt undead pirate marksman who looks more like a blasted, ruined man than a walking skull. His face still has human structure: one tired eye, torn lips, weathered skin, stubble, and a grim pirate expression. But one side of his head is violently damaged, as if a powder keg or cannon misfire exploded too close. The injured side is burned, cracked, and partly caved in, with torn scalp, black powder stains, scar tissue, exposed metal fragments, and ragged patches where hair will never grow back. He should look like a sailor who used too many explosives, survived something impossible, and came back wrong.\n\nHis body is rugged and practical: dirty torn cream shirt, dark battered vest, deep maroon waist sash, heavy belts, pouches, powder flasks, brass buckles, and torn black-brown trousers. His clothes are scorched in places, especially around the shoulder, collar, and damaged side of the head. Add small blast details: singed sleeve edges, powder burns, broken goggles or a cracked brass eye-piece hanging from his belt, and maybe a few spent shot casings or explosive tools on his bandolier.\n\nHe carries a long rifle/musket as his main weapon, with a wooden stock, dark iron barrel, tarnished brass fittings, and rough pirate repairs. A small hand flintlock is tucked into his belt as a backup pistol. He should feel like a Gunner / Marksman who is reckless with black powder: dangerous, unstable, and experienced.\n\nOverall mood: gritty, undead, pirate-gothic, and bloodstained, but not fully skeletal. He should read as a ruined human corpse-sailor with explosion damage, not a skull monster. Palette should use blackened browns, dirty bone beige, deep maroon cloth, tarnished gold metal, soot gray, and faint moonlit teal shadows.",
+        "prompt": "Here\u2019s the revised visual description:\n\nA gaunt undead pirate marksman who looks more like a blasted, ruined man than a walking skull. His face still has human structure: one tired eye, torn lips, weathered skin, stubble, and a grim pirate expression. But one side of his head is violently damaged, as if a powder keg or cannon misfire exploded too close. The injured side is burned, cracked, and partly caved in, with torn scalp, black powder stains, scar tissue, exposed metal fragments, and ragged patches where hair will never grow back. He should look like a sailor who used too many explosives, survived something impossible, and came back wrong.\n\nHis body is rugged and practical: dirty torn cream shirt, dark battered vest, deep maroon waist sash, heavy belts, pouches, powder flasks, brass buckles, and torn black-brown trousers. His clothes are scorched in places, especially around the shoulder, collar, and damaged side of the head. Add small blast details: singed sleeve edges, powder burns, broken goggles or a cracked brass eye-piece hanging from his belt, and maybe a few spent shot casings or explosive tools on his bandolier.\n\nHe carries a long rifle/musket as his main weapon, with a wooden stock, dark iron barrel, tarnished brass fittings, and rough pirate repairs. A small hand flintlock is tucked into his belt as a backup pistol. He should feel like a Gunner / Marksman who is reckless with black powder: dangerous, unstable, and experienced.\n\nOverall mood: gritty, undead, pirate-gothic, and bloodstained, but not fully skeletal. He should read as a ruined human corpse-sailor with explosion damage, not a skull monster. Palette should use blackened browns, dirty bone beige, deep maroon cloth, tarnished gold metal, soot gray, and faint moonlit teal shadows.",
+        "size": {
+          "width": 88,
+          "height": 88
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "high top-down",
+        "created_at": "2026-06-06T04:57:53.548472+00:00"
+      },
+      "folder": "Heres_the_revised_visual_description_A_gaunt_undea",
+      "frames": {
+        "rotations": {
+          "south": "Heres_the_revised_visual_description_A_gaunt_undea/rotations/south.png",
+          "south-east": "Heres_the_revised_visual_description_A_gaunt_undea/rotations/south-east.png",
+          "east": "Heres_the_revised_visual_description_A_gaunt_undea/rotations/east.png",
+          "north-east": "Heres_the_revised_visual_description_A_gaunt_undea/rotations/north-east.png",
+          "north": "Heres_the_revised_visual_description_A_gaunt_undea/rotations/north.png",
+          "north-west": "Heres_the_revised_visual_description_A_gaunt_undea/rotations/north-west.png",
+          "west": "Heres_the_revised_visual_description_A_gaunt_undea/rotations/west.png",
+          "south-west": "Heres_the_revised_visual_description_A_gaunt_undea/rotations/south-west.png"
+        },
+        "animations": {}
+      }
+    },
+    {
+      "character": {
+        "id": "dee51aff-2edd-42cb-949d-9e4ad2458a66",
+        "name": "create a drowned dea",
+        "prompt": "Here\u2019s the revised visual description:\n\nA gaunt undead pirate marksman who looks more like a blasted, ruined man than a walking skull. His face still has human structure: one tired eye, torn lips, weathered skin, stubble, and a grim pirate expression. But one side of his head is violently damaged, as if a powder keg or cannon misfire exploded too close. The injured side is burned, cracked, and partly caved in, with torn scalp, black powder stains, scar tissue, exposed metal fragments, and ragged patches where hair will never grow back. He should look like a sailor who used too many explosives, survived something impossible, and came back wrong.\n\nHis body is rugged and practical: dirty torn cream shirt, dark battered vest, deep maroon waist sash, heavy belts, pouches, powder flasks, brass buckles, and torn black-brown trousers. His clothes are scorched in places, especially around the shoulder, collar, and damaged side of the head. Add small blast details: singed sleeve edges, powder burns, broken goggles or a cracked brass eye-piece hanging from his belt, and maybe a few spent shot casings or explosive tools on his bandolier.\n\nHe carries a long rifle/musket as his main weapon, with a wooden stock, dark iron barrel, tarnished brass fittings, and rough pirate repairs. A small hand flintlock is tucked into his belt as a backup pistol. He should feel like a Gunner / Marksman who is reckless with black powder: dangerous, unstable, and experienced.\n\nOverall mood: gritty, undead, pirate-gothic, and bloodstained, but not fully skeletal. He should read as a ruined human corpse-sailor with explosion damage, not a skull monster. Palette should use blackened browns, dirty bone beige, deep maroon cloth, tarnished gold metal, soot gray, and faint moonlit teal shadows.",
+        "size": {
+          "width": 88,
+          "height": 88
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "high top-down",
+        "created_at": "2026-06-06T05:29:32.671684+00:00"
+      },
+      "folder": "create_a_drowned_dea",
+      "frames": {
+        "rotations": {
+          "south": "create_a_drowned_dea/rotations/south.png",
+          "south-east": "create_a_drowned_dea/rotations/south-east.png",
+          "east": "create_a_drowned_dea/rotations/east.png",
+          "north-east": "create_a_drowned_dea/rotations/north-east.png",
+          "north": "create_a_drowned_dea/rotations/north.png",
+          "north-west": "create_a_drowned_dea/rotations/north-west.png",
+          "west": "create_a_drowned_dea/rotations/west.png",
+          "south-west": "create_a_drowned_dea/rotations/south-west.png"
+        },
+        "animations": {}
+      }
+    }
+  ],
+  "export_version": "3.0",
+  "export_date": "2026-06-06T22:03:11.279284"
+}
