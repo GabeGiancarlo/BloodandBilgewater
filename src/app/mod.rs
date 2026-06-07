@@ -14,6 +14,7 @@ use crate::events::EventsPlugin;
 use crate::gameplay::GameplayPlugin;
 use crate::generation::GenerationPlugin;
 use crate::input::InputPlugin;
+use crate::lab::LabWorldsPlugin;
 use crate::networking::NetworkingPlugin;
 use crate::persistence::PersistencePlugin;
 use crate::rendering::RenderingPlugin;
@@ -52,6 +53,7 @@ impl Plugin for BloodAndBilgewaterPlugin {
                 RenderingPlugin,
                 UiPlugin,
                 GameplayPlugin,
+                LabWorldsPlugin,
             ));
         // Future: gate server vs client plugins here (e.g. feature flags or runtime mode resource).
     }

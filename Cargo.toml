@@ -16,3 +16,4 @@ rand = { version = "0.8", features = ["small_rng"] }
 default = []
 # Future: headless dedicated server without rendering/window
 headless = []
+lab = []
