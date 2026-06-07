@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/ui/titlescreen/title_mock_up.png" width="760" alt="Blood and Bilgewater title screen">
+<img src="assets/ui/titlescreen/default-menu-background.png" width="760" alt="Blood and Bilgewater — cursed harbor under a blood moon">
 
 # Blood and Bilgewater
 
@@ -34,7 +34,7 @@ Mood and identity, drawn from existing art in the repository.
 
 | Preview | Description |
 | --- | --- |
-| <img src="assets/ui/titlescreen/default-menu-background.png" width="380" alt="Cursed harbor under a blood moon"> | **Title / menu mood** — blood-moon harbor, ghost ship, and a decaying cliffside keep. |
+| <img src="assets/ui/titlescreen/title_mock_up.png" width="380" alt="Blood and Bilgewater title treatment"> | **Title treatment** (WIP) — logo lockup over the cursed harbor *(menu cutout is placeholder)*. |
 | <img src="assets/ui/titlescreen/charater-default-draft.png" width="380" alt="Character select screen mockup"> | **Character select** (UI mockup) — ornate framed roster over the cursed coast. |
 | <img src="assets/source/references/ghost_ship_scene.png" width="380" alt="Ghost ship at sunset near a ruined island keep"> | **Ocean exploration** (concept) — silhouetted galleon, ruined keep, burning horizon. |
 | <img src="assets/source/references/shipwreck_burning.png" width="380" alt="Burning shipwreck beneath a red moon"> | **Conflict at sea** (concept) — a burning wreck adrift under a red moon. |
