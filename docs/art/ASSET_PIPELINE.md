@@ -3,6 +3,8 @@
 How Blood and Bilgewater separates **editable source art** from **runtime game assets**.
 
 > **Key rule:** Source files are for editing. Runtime exports are for the game.
+>
+> **Tile/grid standard:** runtime world tile assets are **64×64**.
 
 ---
 
@@ -57,7 +59,7 @@ These are **not** runtime game assets and are not loaded by default.
 
 Stores **exported runtime tileset** PNGs and optional JSON metadata.
 
-Used by the game for tilemaps: ocean, beach, terrain, cliffs, structures.
+Used by the game for tilemaps: ocean, beach, terrain, cliffs, structures, and modular ship tiles.
 
 Ocean/beach tilesets belong here **after export** because they are terrain/tilemap assets, not character sprites.
 
@@ -123,11 +125,12 @@ Runtime data files (not pixel art):
 
 ## Workflow: ocean/beach tileset v1
 
-1. **Create** `ocean_beach_basic_tileset.aseprite` in Aseprite (512×256, 32×32 grid).
+1. **Create** `ocean_beach_basic_tileset.aseprite` in Aseprite (512×512 canvas, 64×64 grid).
 2. **Save source** to `assets/source/aseprite/tilesets/ocean/ocean_beach_basic_tileset.aseprite`.
 3. **Export sprite sheet** (Trim OFF) to `assets/tilesets/ocean/basic/ocean_beach_basic_tileset.png`.
 4. **Export JSON** (optional) if animation tags are used.
-5. **Wire in code** via `src/assets/` when the rendering pipeline loads tilesets (future phase).
+5. **Validate tile slicing**: each frame is exactly 64×64 (example 4-frame strip = 256×64).
+6. **Wire in code** via `src/assets/` when the rendering pipeline loads tilesets (future phase).
 
 See [tilesets/ocean/README.md](../../assets/source/aseprite/tilesets/ocean/README.md) for sheet layout and tile list.
 
@@ -136,6 +139,7 @@ See [tilesets/ocean/README.md](../../assets/source/aseprite/tilesets/ocean/READM
 ## Related docs
 
 - [TILESET_SPECS.md](TILESET_SPECS.md) — tile size, palette, export rules
+- [TILE_ASSET_PIPELINE.md](TILE_ASSET_PIPELINE.md) — focused 64×64 tile authoring/export workflow
 - [SPRITE_SPECS.md](SPRITE_SPECS.md) — character/entity sprite specs
 - [ART_DIRECTION.md](ART_DIRECTION.md) — tone and readability
 - [PALETTE.md](PALETTE.md) — anchor colors

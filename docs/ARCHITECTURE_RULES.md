@@ -119,3 +119,31 @@ This is an executable game project, not a library-only crate. `Cargo.lock` is co
 - **Data tables:** `assets/data/`
 
 See [docs/art/ASSET_PIPELINE.md](art/ASSET_PIPELINE.md): source files are for editing; runtime exports are for the game.
+
+---
+
+## 15. Tile/world dimensions use shared constants
+
+Runtime systems must rely on shared constants for tile dimensions (`src/core/constants.rs`), not magic numbers.
+
+- Rendering/tilemap/world-coordinate code should use the authoritative tile size constants.
+- Asset docs (`docs/art/`) are authoritative for source/export layout.
+- Gameplay/simulation should reason in tile/world units where possible, not hardcoded pixel values.
+- Rendering converts tile/world positions into pixel/screen positions.
+
+**Rationale:** Keeps world math consistent across plugins, prevents hidden tile-size drift, and supports future refactors.
+
+---
+
+## 16. Role, rank, and duty ownership
+
+Character specialization and ship authority are distinct concerns and must not be conflated.
+See [docs/systems/ROLES.md](systems/ROLES.md).
+
+- **Role data** (`CharacterRole`) belongs to persistent character/player state.
+- **Ship rank** (`ShipRank`, e.g. Captain/First Mate) belongs to ship/session authority state, not character identity.
+- **NPC crew duties** (`CrewDuty`) are separate from player roles; NPCs can fill duties to support solo/small-crew play.
+- **Generated voyage/world state must not own permanent character progression** (level, role, gear, skill trees, stash).
+- **Skill trees and gear reference role identity** without hard-locking generic actions; anyone can perform basic ship interactions, specialists just do them better.
+
+**Rationale:** Keeps persistent progression separate from disposable voyage state and from per-session authority, which is required for multiplayer and persistence.

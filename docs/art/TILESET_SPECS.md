@@ -1,6 +1,6 @@
 # Tileset Specs
 
-Specifications for terrain and tilemap art. For entity sprites see [SPRITE_SPECS.md](SPRITE_SPECS.md). For folder workflow see [ASSET_PIPELINE.md](ASSET_PIPELINE.md).
+Specifications for terrain and tilemap art. For entity sprites see [SPRITE_SPECS.md](SPRITE_SPECS.md). For folder workflow see [ASSET_PIPELINE.md](ASSET_PIPELINE.md) and [TILE_ASSET_PIPELINE.md](TILE_ASSET_PIPELINE.md).
 
 ---
 
@@ -8,10 +8,10 @@ Specifications for terrain and tilemap art. For entity sprites see [SPRITE_SPECS
 
 | Rule | Value |
 |------|--------|
-| Base tile size | **32×32** |
+| Base tile size | **64×64** |
 | Work scale | **1×** (no draw-large-then-shrink) |
-| Export trim | **OFF** — keep exact 32×32 boundaries |
-| Grid alignment | All tiles aligned to 32×32 grid |
+| Export trim | **OFF** — keep exact 64×64 boundaries |
+| Grid alignment | All tiles aligned to 64×64 grid |
 | Pixel style | Clustered shapes; avoid noisy single-pixel scatter |
 | Palette | Controlled; see [PALETTE.md](PALETTE.md) |
 
@@ -31,9 +31,10 @@ First production pass for core shoreline terrain.
 
 ### Source sheet
 
-- Canvas: **512×256**
-- Grid: **32×32**
+- Canvas: **512×512**
+- Grid: **64×64**
 - First source file: `ocean_beach_basic_tileset.aseprite`
+- 4-frame horizontal animation example: **256×64** (4 columns × 1 row)
 
 ### Scope (first pass)
 

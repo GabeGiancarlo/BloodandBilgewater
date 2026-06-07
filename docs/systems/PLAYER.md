@@ -24,4 +24,4 @@ Placeholder — shipwreck spawn marker and example update system only.
 ## Open questions
 
 - Single vs multiplayer player entity model
-- Character creation flow and class selection integration
+- Character creation flow and role selection integration (see [ROLES.md](ROLES.md))

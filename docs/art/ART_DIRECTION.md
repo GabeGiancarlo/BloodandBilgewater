@@ -21,3 +21,4 @@ Concept and reference images live in `assets/source/references/`. These are not 
 
 - [PALETTE.md](PALETTE.md)
 - [SPRITE_SPECS.md](SPRITE_SPECS.md)
+- [TILE_ASSET_PIPELINE.md](TILE_ASSET_PIPELINE.md)

@@ -22,6 +22,19 @@ Design inspirations:
 
 ---
 
+## Character roles
+
+Characters specialize via **roles** (e.g. Swordsman/Boarder, Gunner/Marksman, Helmsman,
+Navigator), not generic classes. See [docs/systems/ROLES.md](docs/systems/ROLES.md).
+
+- **Characters are persistent** across voyages/worlds (level, role, gear, skill trees, stash).
+- **Roles** define combat, ship-station, and NPC-crew specialization — without blocking basic
+  ship actions (anyone can steer, fire, repair, use supplies).
+- **Captain** and **First Mate** are ship/session authority ranks, not classes.
+- A persistent **home island** is planned as the lobby/prep hub (see [docs/systems/HOME_LOOP.md](docs/systems/HOME_LOOP.md)).
+
+---
+
 ## Architectural philosophy
 
 The codebase is built for a **large commercial-scale sandbox** with long-running persistent worlds and future multiplayer. Architecture emphasizes:
@@ -161,6 +174,40 @@ Blood and Bilgewater keeps **editable source** separate from **runtime exports**
 The `.aseprite` file is the editable master (layers, animation tags, palettes). The PNG is what the game loads for tilemaps. Do not put `.aseprite` files in `assets/tilesets/` or `assets/sprites/`.
 
 Full pipeline: [docs/art/ASSET_PIPELINE.md](docs/art/ASSET_PIPELINE.md). Tileset specs: [docs/art/TILESET_SPECS.md](docs/art/TILESET_SPECS.md). Per-folder instructions: [assets/source/aseprite/tilesets/ocean/README.md](assets/source/aseprite/tilesets/ocean/README.md).
+
+## Asset Pipeline: 64×64 Tile Standard
+
+For world/tilemap/grid assets, Blood and Bilgewater uses a strict runtime tile size of **64×64**.
+
+- `.aseprite` = editable source file (artist-facing master)
+- `.png` = runtime game asset loaded by Bevy
+- Tile sheets are sliced in 64×64 frame units
+
+### Source and runtime paths
+
+- Source art root: `assets/source/aseprite/`
+- Runtime ocean tiles: `assets/tilesets/ocean/basic/`
+- Runtime ocean transitions: `assets/tilesets/ocean/transition/`
+- Runtime beach/cove tiles: `assets/tilesets/beach/`, `assets/tilesets/cove/`
+- Runtime structure tiles: `assets/tilesets/structures/`
+- Runtime ship tiles (grid/tilemap): `assets/tilesets/ships/`
+
+### Contributor workflow (adding a tile)
+
+1. Create or edit the source file in Aseprite under `assets/source/aseprite/`.
+2. Export a 1× PNG sprite sheet.
+3. Confirm every frame is exactly 64×64 (e.g. 4-frame strip = 256×64).
+4. Place the PNG in the correct runtime `assets/tilesets/...` folder.
+5. Run `cargo check`.
+
+**Example**
+
+- Editable source: `assets/source/aseprite/tilesets/ocean/ocean_beach_basic_tileset.aseprite`
+- Runtime export: `assets/tilesets/ocean/basic/ocean_beach_basic_tileset.png`
+
+The `.aseprite` file belongs in source art because it contains editable layers/tags/guides. The PNG belongs in runtime tilesets because that is what the game loads.
+
+See also: [docs/art/TILE_ASSET_PIPELINE.md](docs/art/TILE_ASSET_PIPELINE.md), [docs/art/TILESET_SPECS.md](docs/art/TILESET_SPECS.md), [docs/art/ASSET_PIPELINE.md](docs/art/ASSET_PIPELINE.md).
 
 ---
 

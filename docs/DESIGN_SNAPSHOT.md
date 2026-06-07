@@ -18,11 +18,18 @@ Concise, repo-grounded snapshot of Blood and Bilgewater. For architecture rules 
 2. **Expedition loop** — sail, explore islands, discover POIs
 3. **Conflict loop** — combat on foot and at sea (SNES Zelda-inspired clarity)
 
+## Character roles (high level)
+
+- Persistent characters specialize via **roles**, not generic classes. See [systems/ROLES.md](systems/ROLES.md).
+- **CharacterRole** = specialization; **ShipRank** (Captain/First Mate) = per-session authority; **CrewDuty** = current station.
+- Roles grant bonuses but never block basic ship actions; NPC crew fill missing duties for solo/small-crew play.
+
 ## Technical pillars
 
 - Plugin-first assembly; `main.rs` stays minimal
 - Input → commands → simulation (never keyboard in simulation)
 - Deterministic worldgen and fixed-timestep simulation
+- World/grid tile assets use a strict 64×64 runtime standard
 - Rendering/UI are presentation-only
 - Persistence and networking stubs ready for future implementation
 

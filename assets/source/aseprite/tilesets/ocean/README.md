@@ -8,7 +8,7 @@ This folder stores **editable Aseprite source files** for ocean and shoreline ti
 - They may include layers, animation frames, tags, notes, guides, palettes, and working setup.
 - The game does **not** load `.aseprite` files directly; export PNG (and optional JSON) to `assets/tilesets/` instead.
 
-See also: [docs/art/ASSET_PIPELINE.md](../../../../docs/art/ASSET_PIPELINE.md), [docs/art/TILESET_SPECS.md](../../../../docs/art/TILESET_SPECS.md).
+See also: [docs/art/ASSET_PIPELINE.md](../../../../docs/art/ASSET_PIPELINE.md), [docs/art/TILESET_SPECS.md](../../../../docs/art/TILESET_SPECS.md), [docs/art/TILE_ASSET_PIPELINE.md](../../../../docs/art/TILE_ASSET_PIPELINE.md).
 
 ---
 
@@ -34,9 +34,9 @@ assets/source/aseprite/tilesets/ocean/ocean_beach_basic_tileset.aseprite
 
 | Setting | Value |
 |---------|--------|
-| Canvas size | **512×256** |
-| Tile size | **32×32** |
-| Grid | **32×32** |
+| Canvas size | **512×512** |
+| Tile size | **64×64** |
+| Grid | **64×64** |
 | Color mode | RGBA or Indexed |
 | Background | Transparent, or a dark preview background layer (non-exported) |
 | Scale | Work at **1×** pixel scale |
@@ -44,7 +44,7 @@ assets/source/aseprite/tilesets/ocean/ocean_beach_basic_tileset.aseprite
 
 ---
 
-## Suggested sheet layout (512×256, 32×32 grid)
+## Suggested sheet layout (512×512, 64×64 grid)
 
 | Row | Content |
 |-----|---------|
@@ -57,7 +57,7 @@ assets/source/aseprite/tilesets/ocean/ocean_beach_basic_tileset.aseprite
 | 7 | Detail overlays: small rocks, seaweed, debris, pebbles |
 | 8 | Future expansion (reserved) |
 
-Adjust frame counts within each row as needed; keep every cell on the 32×32 grid.
+Adjust frame counts within each row as needed; keep every cell on the 64×64 grid.
 
 ---
 
@@ -113,11 +113,20 @@ Export JSON when using Aseprite animation tags or when the engine needs frame ti
 ## Export rules
 
 1. In Aseprite: **File → Export Sprite Sheet**.
-2. **Trim: OFF** — preserve exact 32×32 tile boundaries.
-3. Export **PNG** for runtime use into `assets/tilesets/ocean/basic/`.
-4. Export **JSON** if animation tags or frame metadata are needed.
-5. **Do not** manually edit exported runtime PNGs. Edit the `.aseprite` source and re-export.
-6. Re-export after any art change before testing in-game.
+2. **Trim: OFF** — preserve exact 64×64 tile boundaries.
+3. **Scale: 1×** — no upscaling/downscaling at export.
+4. Export **PNG** for runtime use into `assets/tilesets/ocean/basic/`.
+5. Export **JSON** if animation tags or frame metadata are needed.
+6. **Do not** manually edit exported runtime PNGs. Edit the `.aseprite` source and re-export.
+7. Re-export after any art change before testing in-game.
+
+### Animation frame example
+
+- 4-frame ocean animation strip: **256×64** PNG
+- Layout: 4 columns × 1 row, each frame exactly 64×64
+- No padding between frames unless a later atlas pipeline explicitly requires it
+- Base ocean/terrain tiles should usually be fully filled (not transparent)
+- Transparency is intended for overlays/foam/effects/decals unless a base-tile exception is intentional
 
 ---
 
