@@ -1,234 +1,258 @@
+<div align="center">
+
+<img src="assets/ui/titlescreen/title_mock_up.png" width="760" alt="Blood and Bilgewater title screen">
+
 # Blood and Bilgewater
 
-**Blood and Bilgewater** is a procedural seeded open-world pirate sandbox RPG built with Rust and Bevy. It supports solo play and multiplayer in the same world model, with persistent world state, chunk/region streaming, modular tile-based ships, and pixel-art top-down gameplay.
+**A dark, SNES-inspired pirate action-RPG set across a cursed archipelago of blood, wreckage, and haunted tides.**
 
-Design inspirations:
+![Status](https://img.shields.io/badge/status-early%20development-8b0000?style=flat-square)
+![Engine](https://img.shields.io/badge/current%20engine-Bevy%200.14-1a1a1a?style=flat-square)
+![Language](https://img.shields.io/badge/language-Rust-b7410e?style=flat-square)
+![Migration](https://img.shields.io/badge/next-Unity%20migration%20(prep)-2d2d2d?style=flat-square)
+![License](https://img.shields.io/badge/license-MIT-555?style=flat-square)
 
-- **Minecraft** — procedural seeded sandbox, multiplayer persistence
-- **Stardew Valley** — home loop, schedules, cozy progression rhythm
-- **SNES Zelda-style action RPG** — readable combat, exploration clarity
-
----
-
-## Project overview
-
-- **Genre:** Open-world sandbox pirate RPG
-- **Modes:** Solo or multiplayer (same world model)
-- **World:** Procedurally generated from seed; deterministic; chunk/region streaming
-- **Persistence:** Persistent world state (Minecraft-style)
-- **Ships:** Modular tile-based structure with components (hull, cannons, mast, etc.)
-- **Visuals:** Pixel-art, top-down
-- **Time:** 30-minute real-time day/night cycle (day ~16 min, night ~10 min, dawn/dusk ~2 min each)
+</div>
 
 ---
 
-## Character roles
+## Overview
 
-Characters specialize via **roles** (e.g. Swordsman/Boarder, Gunner/Marksman, Helmsman,
-Navigator), not generic classes. See [docs/systems/ROLES.md](docs/systems/ROLES.md).
+**Blood and Bilgewater** is a top-down pirate action-RPG and sandbox built around a cursed, storm-bitten archipelago. You begin in the wreckage and claw your way back to the deck — exploring haunted waters, fighting on foot and at sea, hauling loot, and crewing ships shaped by the roles your characters grow into.
 
-- **Characters are persistent** across voyages/worlds (level, role, gear, skill trees, stash).
-- **Roles** define combat, ship-station, and NPC-crew specialization — without blocking basic
-  ship actions (anyone can steer, fire, repair, use supplies).
-- **Captain** and **First Mate** are ship/session authority ranks, not classes.
-- A persistent **home island** is planned as the lobby/prep hub (see [docs/systems/HOME_LOOP.md](docs/systems/HOME_LOOP.md)).
+The world is designed as a **procedurally seeded, persistent sandbox**: deterministic generation from a seed, chunk/region streaming, modular tile-based ships, and a persistent home island planned as the prep hub between voyages. Characters persist across worlds and specialize through **roles** rather than rigid classes, so anyone can steer, fire, and repair — specialists simply do it better.
 
----
+Visually the project leans into a **gothic, nautical-decay** identity: blood-moon skies, drowned wrecks, lantern-lit docks, and clustered pixel-art rendered with crisp nearest-neighbor scaling.
 
-## Architectural philosophy
-
-The codebase is built for a **large commercial-scale sandbox** with long-running persistent worlds and future multiplayer. Architecture emphasizes:
-
-- **Plugin-first:** All gameplay and core systems are Bevy plugins; no game logic in `main.rs`.
-- **Feature modularity:** Strict separation of domains (world, generation, chunking, persistence, simulation, time, networking, assets, gameplay, events).
-- **ECS-heavy simulation:** Deterministic simulation with fixed timestep; simulation consumes commands/events, not direct input.
-- **Server-authoritative ready:** Design assumes a single authority (server) for world state; clients send inputs/commands.
-- **Persistence and worldgen as first-class:** Deterministic worldgen from seed; versioned save format; no ECS entity IDs in saves (stable UUIDs or coordinates only).
+> **Honest status:** this is an early-development project in the asset and prototype phase. The current reference implementation is a Rust + Bevy codebase; gameplay systems are scaffolded as plugins and are not a finished, shippable game. The repository is now being prepared for a future **Unity migration**.
 
 ---
 
-## Installation
+## Visual Direction
+
+Mood and identity, drawn from existing art in the repository.
+
+| Preview | Description |
+| --- | --- |
+| <img src="assets/ui/titlescreen/default-menu-background.png" width="380" alt="Cursed harbor under a blood moon"> | **Title / menu mood** — blood-moon harbor, ghost ship, and a decaying cliffside keep. |
+| <img src="assets/ui/titlescreen/charater-default-draft.png" width="380" alt="Character select screen mockup"> | **Character select** (UI mockup) — ornate framed roster over the cursed coast. |
+| <img src="assets/source/references/ghost_ship_scene.png" width="380" alt="Ghost ship at sunset near a ruined island keep"> | **Ocean exploration** (concept) — silhouetted galleon, ruined keep, burning horizon. |
+| <img src="assets/source/references/shipwreck_burning.png" width="380" alt="Burning shipwreck beneath a red moon"> | **Conflict at sea** (concept) — a burning wreck adrift under a red moon. |
+
+<div align="center">
+
+<img src="assets/ui/menus/charater-select-banner.png" width="320" alt="Character Select banner">
+
+</div>
+
+---
+
+## Game Pillars
+
+- **Rise from wreckage** — start broken and stranded; rebuild into a captain of the cursed seas.
+- **Earned melee & ranged combat** — readable, SNES-inspired action on foot and across decks.
+- **Haunted ocean exploration** — deterministic, seed-driven waters, wrecks, and hidden coves.
+- **Ships as survival tools** — modular, tile-based vessels with hull, cannons, masts, and stations.
+- **Roles, not hard class locks** — specialization that shapes a crew without gating basic actions.
+- **A home island to grow** — a persistent prep hub for stash, dock, shipyard, and voyage launch *(planned)*.
+- **Gothic pirate tone** — blood, salt, lantern-light, and nautical decay throughout.
+
+*Pillars reflect the design captured in [`docs/`](docs/); several systems are still scaffolding.*
+
+---
+
+## Current Development Status
+
+| Area | State |
+| --- | --- |
+| Project phase | Early development — asset & prototype phase |
+| Reference engine | Rust + Bevy (current source of truth for architecture & data) |
+| Gameplay systems | Plugin scaffolding (world, generation, persistence, simulation, UI, etc.) |
+| Art | Source masters (`.aseprite`) + runtime PNG exports being organized |
+| Unity migration | **Being prepared** — not yet active |
+
+---
+
+## Tech Stack
+
+**Current**
+
+- **Rust** (edition 2021)
+- **Bevy `0.14`** — ECS-style engine, plugin-first architecture
+- **serde** for serialization, **rand** (`small_rng`) for deterministic RNG
+- **Aseprite** source art with a pixel-art runtime export pipeline
+- **Git** for version control; `Cargo.lock` is tracked for reproducible builds
+
+**Future / migration**
+
+- A **Unity** migration is in preparation to leverage Unity's 2D tooling, controller support, and deployment workflow.
+- The Rust/Bevy code remains a **reference** for systems, data models, and architectural separation while assets are cleaned for export.
+
+> Unity is **not** the active engine yet — there is no Unity project committed to this repository.
+
+---
+
+## Roles / Crew Fantasy
+
+Characters specialize through **roles**. Captain and First Mate are **ship/session ranks**, not classes. Full design: [`docs/systems/ROLES.md`](docs/systems/ROLES.md).
+
+| Role | Fantasy |
+| --- | --- |
+| Swordsman / Boarder | Close combat, boarding, deck defense |
+| Gunner / Marksman | Firearms, cannons, ranged pressure |
+| Helmsman | Steering, evasive movement, ship handling |
+| Navigator | Routes, map reading, discovery |
+| Doctor / Surgeon | Healing, injury control, survival |
+| Shipwright | Repairs, hull maintenance, crafting support |
+| Cook / Quartermaster | Supplies, morale, storage |
+| Musician / Bosun | Rhythm, morale, coordination |
+| Historian / Scholar | Relics, ruins, cursed knowledge |
+
+<div align="center">
+
+<img src="assets/sprites/characters/player_default/swordsman/swordsman_charater_select.png" width="120" alt="Swordsman / Boarder">
+&nbsp;&nbsp;
+<img src="assets/sprites/characters/player_default/marksman/marksman_charater_select.png" width="120" alt="Gunner / Marksman">
+&nbsp;&nbsp;
+<img src="assets/sprites/characters/player_default/doctor/doctor_charater_select.png" width="120" alt="Doctor / Surgeon">
+&nbsp;&nbsp;
+<img src="assets/sprites/characters/player_default/shipwright/shipwright_charater_select.png" width="120" alt="Shipwright">
+&nbsp;&nbsp;
+<img src="assets/sprites/characters/player_default/navigator/navigator_charater_select.png" width="120" alt="Navigator">
+
+<sub>Character-select art — Swordsman, Marksman, Doctor, Shipwright, Navigator (work in progress).</sub>
+
+</div>
+
+*Roles are a structural foundation today; abilities, skill trees, and bonuses are not implemented yet.*
+
+---
+
+## Art Pipeline
+
+Blood and Bilgewater keeps **editable source art** separate from **runtime exports**.
+
+- `.aseprite` files are the **source/editing masters** (layers, tags, guides) under `assets/source/aseprite/`.
+- `.png` files are the **runtime assets** the engine loads, under `assets/sprites/`, `assets/tilesets/`, and `assets/ui/`.
+- World/grid tiles follow a strict **64×64** standard; animated sheets are sliced into 64×64 frames.
+- Pixel art is rendered with nearest-neighbor sampling to stay crisp.
+
+No sprite sheets are exported or modified as part of this README. Details: [`docs/art/ASSET_PIPELINE.md`](docs/art/ASSET_PIPELINE.md), [`docs/art/TILE_ASSET_PIPELINE.md`](docs/art/TILE_ASSET_PIPELINE.md), [`docs/art/TILESET_SPECS.md`](docs/art/TILESET_SPECS.md).
+
+---
+
+## Repository Layout
+
+```text
+BloodandBilgewater/
+├── assets/
+│   ├── source/         # Aseprite masters + concept/reference art (not loaded at runtime)
+│   ├── sprites/        # Runtime entity/character sprites
+│   ├── tilesets/       # Runtime tilemap PNGs (ocean, beach, ...)
+│   ├── ui/             # Runtime UI: titlescreen, menus, icons, hud
+│   ├── fonts/          # Pixel display fonts
+│   ├── audio/          # Runtime audio
+│   └── data/           # Runtime data tables
+├── src/                # Rust + Bevy source (plugin-first)
+│   ├── app/  core/  input/  events/  world/  generation/  chunking/
+│   ├── persistence/  simulation/  time/  networking/
+│   ├── gameplay/  rendering/  ui/  lab/
+├── examples/           # Standalone dev harness (the Lab)
+├── docs/               # Architecture rules, ADRs, art specs, system design
+├── Cargo.toml          # Crate manifest
+└── README.md
+```
+
+Deeper structure and ownership rules: [`docs/ARCHITECTURE_RULES.md`](docs/ARCHITECTURE_RULES.md).
+
+---
+
+## Running the Current Bevy Prototype
 
 ### Prerequisites
 
-- **Rust** (latest stable): <https://rustup.rs/>
-- **Cargo** (included with Rust)
-- **Git**
+- [Rust](https://rustup.rs/) (latest stable) and Cargo
+- Git
 
-### Build
+### Build & run
 
 ```bash
 git clone https://github.com/GabeGiancarlo/BloodandBilgewater.git
 cd BloodandBilgewater
-cargo build
-```
-
-This project tracks **`Cargo.lock`** for reproducible executable builds (intentionally not gitignored).
-
-Optional: use `--features headless` when adding a dedicated server build later.
-
----
-
-## Running the project
-
-```bash
 cargo run
 ```
 
-Optional environment:
+Optional world seed:
 
-- **`WORLD_SEED`** — World generation seed (e.g. `WORLD_SEED=12345 cargo run`). If unset, a default seed is used.
+```bash
+WORLD_SEED=12345 cargo run
+```
 
-### Tests
+Run the tests:
 
 ```bash
 cargo test
 ```
 
----
+### The Lab (developer harness)
 
-## Development workflow: adding a new gameplay feature
+A standalone scene for iterating on tiles and rendering, separate from the main game:
 
-1. **Create a feature plugin** under `src/gameplay/<feature>/` with `mod.rs`, `plugin.rs`, `components.rs`, and `systems.rs`.
-2. **Define components and systems locally** in that plugin. Plugins own their ECS types; no orphan components elsewhere.
-3. **Use input commands, not direct keyboard reads.** Simulation and gameplay consume events from `src/input/commands.rs` (`MoveCommand`, `AttackCommand`, etc.); device translation lives in `src/input/`.
-4. **Register the feature plugin** in `GameplayPlugin` (`src/gameplay/mod.rs`). The app builder registers only plugin groups (`GameplayPlugin`, not individual feature plugins).
-5. **Run and test:** `cargo fmt`, `cargo check`, `cargo run`, `cargo test`. Use fixed timestep for simulation logic (`FixedUpdate`).
+```bash
+cargo run --example lab --features lab
+```
 
----
-
-## Plugin-based architecture
-
-- **Core plugins** (registered by the app builder): world, generation, chunking, persistence, simulation, time, networking stubs, assets, events, input, rendering, UI.
-- **Gameplay plugin group:** `GameplayPlugin` registers feature plugins (player, ship, combat, inventory, loot, home, classes). Each feature owns its components and systems.
-- **`main.rs`** only: creates the app, sets logging/window, and calls `BloodAndBilgewaterPlugin`. No gameplay systems or components are registered in `main.rs`.
+*(Command sourced directly from `examples/lab.rs` and the `lab` feature in `Cargo.toml`.)*
 
 ---
 
-## ECS scaling strategy
+## Unity Migration Prep
 
-- **Chunk/region partitioning:** World and simulation are organized by chunks/regions; systems can batch by region.
-- **Fixed timestep for simulation:** Deterministic systems run in the `FixedUpdate` schedule (or a dedicated simulation schedule) so outcome is independent of frame rate.
-- **System sets and run criteria:** Use `SystemSet` and run criteria to control when systems run (e.g. only in `Playing` state, or when a chunk is loaded).
-- **LOD and batching:** As the project grows, keep simulation and chunk loading isolated from rendering; LOD and culling are presentation concerns.
+The Unity migration is being planned so the project can take advantage of Unity's 2D tooling, controller support, deployment workflow, and asset pipeline. The current Rust/Bevy repository remains useful as a **reference** for architecture, gameplay data, and system separation while art and design assets are cleaned for export.
 
----
-
-## Persistence and worldgen philosophy
-
-- **Deterministic from seed:** World generation is pure functions of (seed, chunk/region id). Same seed yields same world.
-- **Chunk streaming:** Chunks are loaded/unloaded around the viewer(s); persistence and generation provide chunk data; gameplay reacts to “chunk ready” data, not raw I/O.
-- **Save format and versioning:** Persistence layer uses a versioned schema; migrations are supported. Persistent data **must not** use Bevy entity IDs (use stable UUIDs or coordinate-based identity).
-- **No rendering in persistence:** Save/load and world serialization do not depend on Bevy render or window types; they operate on data (components, resources) only.
+This is preparation, not a port that exists today — and it is **not** a promise of any specific platform or console release.
 
 ---
 
-## Folder usage
+## Roadmap
 
-| Folder | Responsibility | Must NOT |
-|--------|----------------|----------|
-| **`src/app/`** | Central app builder: states, seed, plugin registration. Submodules: `state.rs`, `seed.rs`, `schedule.rs`. | Gameplay logic. |
-| **`src/core/`** | Shared constants, math helpers, deterministic RNG. | Feature-specific gameplay. |
-| **`src/input/`** | Device → command translation; command event types. | Simulation rules; direct use from rendering. |
-| **`src/events/`** | Cross-plugin domain events (not input commands). | Input commands (see `src/input/`). |
-| **`src/world/`** | World model: chunk/region ids, coordinates, biomes. | Generation, rendering, network serialization. |
-| **`src/generation/`** | Deterministic procedural generation from seed + chunk/region. | Rendering, networking, I/O except pure functions. |
-| **`src/chunking/`** | Chunk load/unload, streaming, cache, chunk-ready events. | Gameplay rules (combat, economy). |
-| **`src/persistence/`** | Save/load, versioning, world serialization. | Rendering, networking transport, gameplay logic. |
-| **`src/simulation/`** | Deterministic simulation; fixed timestep; world clock advance. | Direct input; rendering; frame timing. |
-| **`src/time/`** | Authoritative `WorldClock` resource (30-min cycle). | Frame count or rendering driving time. |
-| **`src/networking/`** | Message stubs, authority model (no transport in v0). | Gameplay logic; driving simulation. |
-| **`src/gameplay/`** | **Plugin group** for player, ship, combat, inventory, loot, home, classes. | Engine-level or world-gen logic. |
-| **`src/rendering/`** | Camera, sprites, animation, tilemaps, visual effects. | Gameplay truth or simulation rules. |
-| **`src/ui/`** | HUD, menus, debug overlays, inventory screens. | Owning authoritative game state. |
-| **`src/assets/`** | Asset loading, handles, Bevy asset pipeline. | Game rules or simulation logic. |
-| **`docs/`** | ADRs, architecture rules, roadmap, art specs, system placeholders. | — |
-| **`assets/source/aseprite/`** | Editable Aseprite masters (layers, tags, guides). Not loaded by the game. | Runtime PNG exports. |
-| **`assets/source/references/`** | Concept/reference art (not runtime-ready). | — |
-| **`assets/tilesets/`** | Exported runtime tilemap PNGs/JSON (ocean, beach, terrain). | Aseprite source files. |
-| **`assets/sprites/`** | Exported runtime entity/object sprites (characters, props, effects). | Terrain tilesets; Aseprite source. |
-| **`assets/ui/`** | Exported runtime UI images (HUD, menus, prompts, icons). | Aseprite source. |
-| **`assets/audio/`**, **`assets/data/`** | Runtime audio and data tables. | Source art. |
+- [x] Clean source and runtime art folders (pre-migration pass)
+- [ ] Build first Unity import test
+- [ ] Import ocean / shoreline tiles
+- [ ] Import one character direction sheet
+- [ ] Create first Unity test scene
+- [ ] Rebuild input, animation, and tilemap systems
+- [ ] Recreate role data as Unity ScriptableObjects
+- [ ] Preserve Bevy architecture docs as reference
+
+**Asset TODOs**
+
+- [ ] Capture live in-engine gameplay screenshots (current previews are mockups + concept art).
+- [ ] Add ship/tilemap previews once runtime ship tiles are finalized.
+
+See also: [`docs/ROADMAP.md`](docs/ROADMAP.md) and [`docs/DESIGN_SNAPSHOT.md`](docs/DESIGN_SNAPSHOT.md).
 
 ---
 
-## Asset workflow (Aseprite → runtime)
+## Development Notes
 
-Blood and Bilgewater keeps **editable source** separate from **runtime exports**:
+- **Plugin-first architecture:** gameplay and core systems are Bevy plugins; `main.rs` stays minimal.
+- **Input → commands → simulation:** simulation consumes commands/events, never raw device input.
+- **Deterministic by design:** worldgen and simulation are seed-driven and fixed-timestep where it matters.
+- **Presentation is separate:** rendering and UI never own authoritative game state.
 
-| Role | Location |
-|------|----------|
-| Editable Aseprite source | `assets/source/aseprite/` |
-| Reference / concept images | `assets/source/references/` |
-| Exported tilesets (tilemaps) | `assets/tilesets/` |
-| Exported sprites (entities, props) | `assets/sprites/` |
-| Exported UI | `assets/ui/` |
-
-**Example — ocean/beach tileset v1:**
-
-| | Path |
-|---|------|
-| Save Aseprite source here | `assets/source/aseprite/tilesets/ocean/ocean_beach_basic_tileset.aseprite` |
-| Export runtime PNG here | `assets/tilesets/ocean/basic/ocean_beach_basic_tileset.png` |
-
-The `.aseprite` file is the editable master (layers, animation tags, palettes). The PNG is what the game loads for tilemaps. Do not put `.aseprite` files in `assets/tilesets/` or `assets/sprites/`.
-
-Full pipeline: [docs/art/ASSET_PIPELINE.md](docs/art/ASSET_PIPELINE.md). Tileset specs: [docs/art/TILESET_SPECS.md](docs/art/TILESET_SPECS.md). Per-folder instructions: [assets/source/aseprite/tilesets/ocean/README.md](assets/source/aseprite/tilesets/ocean/README.md).
-
-## Asset Pipeline: 64×64 Tile Standard
-
-For world/tilemap/grid assets, Blood and Bilgewater uses a strict runtime tile size of **64×64**.
-
-- `.aseprite` = editable source file (artist-facing master)
-- `.png` = runtime game asset loaded by Bevy
-- Tile sheets are sliced in 64×64 frame units
-
-### Source and runtime paths
-
-- Source art root: `assets/source/aseprite/`
-- Runtime ocean tiles: `assets/tilesets/ocean/basic/`
-- Runtime ocean transitions: `assets/tilesets/ocean/transition/`
-- Runtime beach/cove tiles: `assets/tilesets/beach/`, `assets/tilesets/cove/`
-- Runtime structure tiles: `assets/tilesets/structures/`
-- Runtime ship tiles (grid/tilemap): `assets/tilesets/ships/`
-
-### Contributor workflow (adding a tile)
-
-1. Create or edit the source file in Aseprite under `assets/source/aseprite/`.
-2. Export a 1× PNG sprite sheet.
-3. Confirm every frame is exactly 64×64 (e.g. 4-frame strip = 256×64).
-4. Place the PNG in the correct runtime `assets/tilesets/...` folder.
-5. Run `cargo check`.
-
-**Example**
-
-- Editable source: `assets/source/aseprite/tilesets/ocean/ocean_beach_basic_tileset.aseprite`
-- Runtime export: `assets/tilesets/ocean/basic/ocean_beach_basic_tileset.png`
-
-The `.aseprite` file belongs in source art because it contains editable layers/tags/guides. The PNG belongs in runtime tilesets because that is what the game loads.
-
-See also: [docs/art/TILE_ASSET_PIPELINE.md](docs/art/TILE_ASSET_PIPELINE.md), [docs/art/TILESET_SPECS.md](docs/art/TILESET_SPECS.md), [docs/art/ASSET_PIPELINE.md](docs/art/ASSET_PIPELINE.md).
+Contributions should follow [`CONTRIBUTING.md`](CONTRIBUTING.md) and [`docs/ARCHITECTURE_RULES.md`](docs/ARCHITECTURE_RULES.md).
 
 ---
 
-## Example: adding a new world system
+## License & Credits
 
-To add a new **world system** (e.g. a new kind of region or world-level state):
+Licensed under the **MIT License** — see [`LICENSE`](LICENSE).
 
-1. **Define data and queries in `src/world/`.** Add types (e.g. a resource or component) that represent the new world concept. Keep types small and copyable where possible.
-2. **If it affects generation,** add deterministic logic in `src/generation/` keyed by seed + chunk/region id. Do not depend on rendering or I/O.
-3. **If it affects persistence,** add schema and (de)serialization in `src/persistence/` using stable identity (UUIDs or coordinates), never raw entity IDs.
-4. **If simulation must react to it,** add systems in `src/simulation/` (or a dedicated plugin that registers simulation systems) that run in the fixed-timestep schedule and read the new world data.
-5. **Register any new plugin** in the central app builder (`src/app/`). Do not add gameplay or world logic in `main.rs`.
+Design intent and background live in [`DESIGN_DOCUMENT.md`](DESIGN_DOCUMENT.md) and the [`docs/`](docs/) directory. Art assets shown above are work-in-progress and part of this repository.
 
----
+<div align="center">
 
-## License
+<sub>Blood and Bilgewater — the deck is scrubbed, the cannons aligned, and the cursed banner raised.</sub>
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
----
-
-## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for code of conduct and pull request process. All contributions must align with [docs/ARCHITECTURE_RULES.md](docs/ARCHITECTURE_RULES.md).
+</div>
