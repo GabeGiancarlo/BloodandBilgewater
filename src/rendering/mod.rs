@@ -9,4 +9,5 @@ mod plugin;
 mod sprites;
 mod tilemap;
 
+pub use camera::PrimaryCamera;
 pub use plugin::RenderingPlugin;

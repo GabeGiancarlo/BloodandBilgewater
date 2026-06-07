@@ -3,6 +3,7 @@
 //! Use this (or seed-derived instances) instead of thread_rng in any path
 //! that must reproduce the same outcome from the same seed and inputs.
 
+use rand::distributions::uniform::{SampleRange, SampleUniform};
 use rand::rngs::SmallRng;
 use rand::{Rng, SeedableRng};
 
@@ -16,7 +17,11 @@ impl DeterministicRng {
     }
 
     /// Returns a random value in the given range (inclusive start, exclusive end).
-    pub fn gen_range<T: rand::distributions::uniform::SampleRange>(&mut self, range: T) -> T {
+    pub fn gen_range<T, R>(&mut self, range: R) -> T
+    where
+        T: SampleUniform + PartialOrd,
+        R: SampleRange<T>,
+    {
         self.0.gen_range(range)
     }
 }
