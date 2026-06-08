@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="Archive/LegacyRuntimePngExports/assets/ui/titlescreen/title_mock_up.png" width="820" alt="Blood and Bilgewater — title treatment over a blood-moon harbor">
-
 # Blood and Bilgewater
 
 **A dark, gothic, SNES-inspired pirate action-RPG set across a cursed archipelago of blood, wreckage, and haunted tides.**
@@ -34,17 +32,17 @@ The world is a **procedurally seeded, persistent sandbox**: deterministic genera
 
 ## The Cursed Fleet — Sprite Sheet & Spin
 
-Every ship is authored once in Aseprite and rendered across **8 directions**. Here is the default cursed galleon — first as its directional **sprite sheet**, then **spinning** through every heading:
+Every ship is authored once in Aseprite and rendered across **8 directions**. Here is the default galleon, **sails up** — first as its directional **sprite sheet**, then **spinning** through every heading:
 
 <div align="center">
 
-<img src="docs/art/preview/ship_rotation_sheet.png" width="900" alt="Eight-direction rotation sprite sheet of the cursed blue galleon">
+<img src="docs/art/preview/ship_rotation_sheet.png" width="900" alt="Eight-direction rotation sprite sheet of the sails-up galleon">
 
 <sub>8-direction rotation sheet — `docs/art/preview/ship_rotation_sheet.png`</sub>
 
 <br><br>
 
-<img src="docs/art/preview/ship_rotation_spin.gif" width="240" alt="Cursed galleon spinning through all 8 directions">
+<img src="docs/art/preview/ship_rotation_spin.gif" width="240" alt="Sails-up galleon spinning through all 8 directions">
 
 <sub>Looping spin built from the real rotation frames — `docs/art/preview/ship_rotation_spin.gif`</sub>
 
@@ -54,9 +52,33 @@ Every ship is authored once in Aseprite and rendered across **8 directions**. He
 
 ---
 
-## The Crew — Choose Your Cursed
+## Featured Class — The Shipwright
 
-Characters specialize through **roles**, not hard class locks. Captain and First Mate are **ship/session ranks**, not classes. Below is the current character-select art — a roster of weathered, half-drowned souls, each built for a job aboard a dying ship. Full design: [`docs/systems/ROLES.md`](docs/systems/ROLES.md).
+The **Shipwright** is the first fully animated example class in the repo: a hulking repair-brute who keeps a dying hull afloat. Authored in Aseprite with **8 facing directions** (day + night) and a looping **idle** with crackling salvage-energy.
+
+<div align="center">
+
+<img src="docs/art/preview/shipwright_8dir_sheet.png" width="760" alt="Shipwright 8-direction sprite sheet">
+
+<sub>8-direction sheet (day) — `docs/art/preview/shipwright_8dir_sheet.png`</sub>
+
+<br><br>
+
+<img src="docs/art/preview/shipwright_idle.gif" width="120" alt="Shipwright idle animation looping">
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="docs/art/preview/shipwright_8dir_turn.gif" width="120" alt="Shipwright turning through 8 directions">
+
+<sub>Left: looping idle — `shipwright_idle.gif` · Right: 8-direction turn — `shipwright_8dir_turn.gif`</sub>
+
+</div>
+
+Source masters live in `unity/Assets/_Project/Art/Aseprite/Characters/PlayerDefault/shipwright/` (8-direction day/night sheets + idle frames). This is the template every other class follows.
+
+---
+
+## The Crew — Animated Roster
+
+Characters specialize through **roles**, not hard class locks. Captain and First Mate are **ship/session ranks**, not classes. Shown below are the classes that have **animation work done** (8-direction day/night sprites); concept-only roles are omitted until they're animated. Full design: [`docs/systems/ROLES.md`](docs/systems/ROLES.md).
 
 <div align="center">
 
@@ -67,14 +89,10 @@ Characters specialize through **roles**, not hard class locks. Captain and First
 <img src="Archive/LegacyRuntimePngExports/assets/sprites/characters/player_default/doctor/doctor_charater_select.png" height="150" alt="Doctor / Surgeon">
 &nbsp;
 <img src="Archive/LegacyRuntimePngExports/assets/sprites/characters/player_default/shipwright/shipwright_charater_select.png" height="150" alt="Shipwright">
-<br><br>
-<img src="Archive/LegacyRuntimePngExports/assets/sprites/characters/player_default/navigator/navigator_charater_select.png" height="150" alt="Navigator">
 &nbsp;
 <img src="Archive/LegacyRuntimePngExports/assets/sprites/characters/player_default/cook/cook_charater_select.png" height="150" alt="Cook / Quartermaster">
-&nbsp;
-<img src="Archive/LegacyRuntimePngExports/assets/sprites/characters/player_default/archaeologist/archaeologist_charater_select.png" height="150" alt="Historian / Scholar">
 
-<sub>Character-select art (WIP) — Swordsman, Marksman, Surgeon, Shipwright, Navigator, Quartermaster, Historian.</sub>
+<sub>Animated classes (WIP) — Swordsman, Marksman, Surgeon, Shipwright, Quartermaster.</sub>
 
 </div>
 
@@ -84,24 +102,9 @@ Characters specialize through **roles**, not hard class locks. Captain and First
 | **Gunner / Marksman** | Firearms, cannon work, ranged pressure. | Flintlock raised, powder-burned and steady-eyed. |
 | **Doctor / Surgeon** | Healing, injury control, grim battlefield survival. | Cleaver and bone-saw — mercy and butchery in one kit. |
 | **Shipwright** | Repairs, hull maintenance, crafting support. | Hulking bruiser hauling a maul and salvaged ironwork. |
-| **Navigator** | Routes, map-reading, discovery, evasive plotting. | Quick, knife-handed scout who reads the cursed tides. |
 | **Cook / Quartermaster** | Supplies, morale, storage and rationing. | Heavyset keeper of the hold with a blunderbuss for "disputes". |
-| **Historian / Scholar** | Relics, ruins, and cursed knowledge. | Robed gravedigger clutching a glowing relic and a sodden tome. |
 
 *Roles are a structural foundation today; abilities, skill trees, and bonuses are not implemented yet.*
-
----
-
-## The World — Concept & Mood
-
-Reference and concept art that set the tone for exploration and conflict.
-
-| Preview | Description |
-| --- | --- |
-| <img src="Archive/LegacyRuntimePngExports/assets/ui/titlescreen/charater-default-draft.png" width="380" alt="Character select screen mockup over the cursed coast"> | **Character select** (UI mockup) — ornate framed roster over the drowned coast. |
-| <img src="unity/Assets/_Project/Art/References/source/ghost_ship_scene.png" width="380" alt="Ghost ship at sunset near a ruined island keep"> | **Ocean exploration** (concept) — silhouetted galleon, ruined keep, burning horizon. |
-| <img src="unity/Assets/_Project/Art/References/source/shipwreck_burning.png" width="380" alt="Burning shipwreck beneath a red moon"> | **Conflict at sea** (concept) — a burning wreck adrift under a red moon. |
-| <img src="Archive/LegacyRuntimePngExports/assets/ui/menus/charater-select-banner.png" width="380" alt="Character Select banner"> | **UI banner** — the framed "Character Select" header treatment. |
 
 ---
 
