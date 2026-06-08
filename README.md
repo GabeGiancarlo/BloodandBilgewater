@@ -1,49 +1,107 @@
 <div align="center">
 
-<img src="assets/ui/titlescreen/default-menu-background.png" width="760" alt="Blood and Bilgewater — cursed harbor under a blood moon">
+<img src="Archive/LegacyRuntimePngExports/assets/ui/titlescreen/title_mock_up.png" width="820" alt="Blood and Bilgewater — title treatment over a blood-moon harbor">
 
 # Blood and Bilgewater
 
-**A dark, SNES-inspired pirate action-RPG set across a cursed archipelago of blood, wreckage, and haunted tides.**
+**A dark, gothic, SNES-inspired pirate action-RPG set across a cursed archipelago of blood, wreckage, and haunted tides.**
 
 ![Status](https://img.shields.io/badge/status-early%20development-8b0000?style=flat-square)
-![Engine](https://img.shields.io/badge/current%20engine-Bevy%200.14-1a1a1a?style=flat-square)
-![Language](https://img.shields.io/badge/language-Rust-b7410e?style=flat-square)
-![Migration](https://img.shields.io/badge/next-Unity%20migration%20(prep)-2d2d2d?style=flat-square)
+![Engine](https://img.shields.io/badge/engine-Unity%202D-1a1a1a?style=flat-square)
+![Art](https://img.shields.io/badge/art-Aseprite%20source--of--truth-b7410e?style=flat-square)
+![Reference](https://img.shields.io/badge/legacy-Bevy%20(archived)-2d2d2d?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-555?style=flat-square)
+
+<br>
+
+<img src="Archive/LegacyRuntimePngExports/assets/ui/titlescreen/default-menu-background.png" width="760" alt="Cursed harbor under a blood moon — drowned galleon, ruined keep, lantern-lit dock">
 
 </div>
 
 ---
 
-## Overview
+## The Pitch
 
-**Blood and Bilgewater** is a top-down pirate action-RPG and sandbox built around a cursed, storm-bitten archipelago. You begin in the wreckage and claw your way back to the deck — exploring haunted waters, fighting on foot and at sea, hauling loot, and crewing ships shaped by the roles your characters grow into.
+You wake in the wreckage. The moon is the color of a wound, the keep on the headland is long dead, and the only way off this drowned coast is to **claw your way back onto a deck and take the cursed seas for yourself.**
 
-The world is designed as a **procedurally seeded, persistent sandbox**: deterministic generation from a seed, chunk/region streaming, modular tile-based ships, and a persistent home island planned as the prep hub between voyages. Characters persist across worlds and specialize through **roles** rather than rigid classes, so anyone can steer, fire, and repair — specialists simply do it better.
+**Blood and Bilgewater** is a top-down pirate action-RPG built around a haunted, storm-bitten archipelago. Fight on foot and across boarding planks, haul loot out of sunken wrecks, repair and re-rig modular ships, and grow a crew defined by **roles** rather than rigid classes — anyone can steer, fire, and patch a hull; specialists just do it better and bloodier.
 
-Visually the project leans into a **gothic, nautical-decay** identity: blood-moon skies, drowned wrecks, lantern-lit docks, and clustered pixel-art rendered with crisp nearest-neighbor scaling.
+The world is a **procedurally seeded, persistent sandbox**: deterministic generation from a seed, chunk/region streaming, tile-based ships, and a persistent home island planned as the prep hub between voyages. The whole thing wears a single aesthetic — **gothic nautical decay**: blood-moon skies, lantern-lit docks, salt-rotted timber, and crisp nearest-neighbor pixel art.
 
-> **Honest status:** this is an early-development project in the asset and prototype phase. The current reference implementation is a Rust + Bevy codebase; gameplay systems are scaffolded as plugins and are not a finished, shippable game. The repository is now being prepared for a future **Unity migration**.
+> **Honest status:** this is an early-development project in the asset + prototype phase. Art masters exist and the project has just migrated onto **Unity 2D** with **Aseprite as the source of truth**. Gameplay systems are scaffolding, not a finished game.
 
 ---
 
-## Visual Direction
+## The Cursed Fleet — Sprite Sheet & Spin
 
-Mood and identity, drawn from existing art in the repository.
-
-| Preview | Description |
-| --- | --- |
-| <img src="assets/ui/titlescreen/title_mock_up.png" width="380" alt="Blood and Bilgewater title treatment"> | **Title treatment** (WIP) — logo lockup over the cursed harbor *(menu cutout is placeholder)*. |
-| <img src="assets/ui/titlescreen/charater-default-draft.png" width="380" alt="Character select screen mockup"> | **Character select** (UI mockup) — ornate framed roster over the cursed coast. |
-| <img src="assets/source/references/ghost_ship_scene.png" width="380" alt="Ghost ship at sunset near a ruined island keep"> | **Ocean exploration** (concept) — silhouetted galleon, ruined keep, burning horizon. |
-| <img src="assets/source/references/shipwreck_burning.png" width="380" alt="Burning shipwreck beneath a red moon"> | **Conflict at sea** (concept) — a burning wreck adrift under a red moon. |
+Every ship is authored once in Aseprite and rendered across **8 directions**. Here is the default cursed galleon — first as its directional **sprite sheet**, then **spinning** through every heading:
 
 <div align="center">
 
-<img src="assets/ui/menus/charater-select-banner.png" width="320" alt="Character Select banner">
+<img src="docs/art/preview/ship_rotation_sheet.png" width="900" alt="Eight-direction rotation sprite sheet of the cursed blue galleon">
+
+<sub>8-direction rotation sheet — `docs/art/preview/ship_rotation_sheet.png`</sub>
+
+<br><br>
+
+<img src="docs/art/preview/ship_rotation_spin.gif" width="240" alt="Cursed galleon spinning through all 8 directions">
+
+<sub>Looping spin built from the real rotation frames — `docs/art/preview/ship_rotation_spin.gif`</sub>
 
 </div>
+
+> Both previews are generated from the actual game frames by [`tools/build-readme-art.ps1`](tools/build-readme-art.ps1) — no hand-drawn mockups, no AI re-render. Re-run it any time the ship art changes.
+
+---
+
+## The Crew — Choose Your Cursed
+
+Characters specialize through **roles**, not hard class locks. Captain and First Mate are **ship/session ranks**, not classes. Below is the current character-select art — a roster of weathered, half-drowned souls, each built for a job aboard a dying ship. Full design: [`docs/systems/ROLES.md`](docs/systems/ROLES.md).
+
+<div align="center">
+
+<img src="Archive/LegacyRuntimePngExports/assets/sprites/characters/player_default/swordsman/swordsman_charater_select.png" height="150" alt="Swordsman / Boarder">
+&nbsp;
+<img src="Archive/LegacyRuntimePngExports/assets/sprites/characters/player_default/marksman/marksman_charater_select.png" height="150" alt="Gunner / Marksman">
+&nbsp;
+<img src="Archive/LegacyRuntimePngExports/assets/sprites/characters/player_default/doctor/doctor_charater_select.png" height="150" alt="Doctor / Surgeon">
+&nbsp;
+<img src="Archive/LegacyRuntimePngExports/assets/sprites/characters/player_default/shipwright/shipwright_charater_select.png" height="150" alt="Shipwright">
+<br><br>
+<img src="Archive/LegacyRuntimePngExports/assets/sprites/characters/player_default/navigator/navigator_charater_select.png" height="150" alt="Navigator">
+&nbsp;
+<img src="Archive/LegacyRuntimePngExports/assets/sprites/characters/player_default/cook/cook_charater_select.png" height="150" alt="Cook / Quartermaster">
+&nbsp;
+<img src="Archive/LegacyRuntimePngExports/assets/sprites/characters/player_default/archaeologist/archaeologist_charater_select.png" height="150" alt="Historian / Scholar">
+
+<sub>Character-select art (WIP) — Swordsman, Marksman, Surgeon, Shipwright, Navigator, Quartermaster, Historian.</sub>
+
+</div>
+
+| Role | Pitch | Reads From The Art |
+| --- | --- | --- |
+| **Swordsman / Boarder** | Close combat, boarding actions, deck defense. | Lean cutthroat with a notched cutlass, made for the plank. |
+| **Gunner / Marksman** | Firearms, cannon work, ranged pressure. | Flintlock raised, powder-burned and steady-eyed. |
+| **Doctor / Surgeon** | Healing, injury control, grim battlefield survival. | Cleaver and bone-saw — mercy and butchery in one kit. |
+| **Shipwright** | Repairs, hull maintenance, crafting support. | Hulking bruiser hauling a maul and salvaged ironwork. |
+| **Navigator** | Routes, map-reading, discovery, evasive plotting. | Quick, knife-handed scout who reads the cursed tides. |
+| **Cook / Quartermaster** | Supplies, morale, storage and rationing. | Heavyset keeper of the hold with a blunderbuss for "disputes". |
+| **Historian / Scholar** | Relics, ruins, and cursed knowledge. | Robed gravedigger clutching a glowing relic and a sodden tome. |
+
+*Roles are a structural foundation today; abilities, skill trees, and bonuses are not implemented yet.*
+
+---
+
+## The World — Concept & Mood
+
+Reference and concept art that set the tone for exploration and conflict.
+
+| Preview | Description |
+| --- | --- |
+| <img src="Archive/LegacyRuntimePngExports/assets/ui/titlescreen/charater-default-draft.png" width="380" alt="Character select screen mockup over the cursed coast"> | **Character select** (UI mockup) — ornate framed roster over the drowned coast. |
+| <img src="unity/Assets/_Project/Art/References/source/ghost_ship_scene.png" width="380" alt="Ghost ship at sunset near a ruined island keep"> | **Ocean exploration** (concept) — silhouetted galleon, ruined keep, burning horizon. |
+| <img src="unity/Assets/_Project/Art/References/source/shipwreck_burning.png" width="380" alt="Burning shipwreck beneath a red moon"> | **Conflict at sea** (concept) — a burning wreck adrift under a red moon. |
+| <img src="Archive/LegacyRuntimePngExports/assets/ui/menus/charater-select-banner.png" width="380" alt="Character Select banner"> | **UI banner** — the framed "Character Select" header treatment. |
 
 ---
 
@@ -61,83 +119,29 @@ Mood and identity, drawn from existing art in the repository.
 
 ---
 
+## Art Pipeline — Aseprite Is The Source of Truth
+
+The project authors art **once** in Aseprite and lets Unity import it directly — no manual PNG export as the normal workflow.
+
+- `.aseprite` masters live under **`unity/Assets/_Project/Art/Aseprite/`** (Characters, Tilesets, UI, Props, Ships, FX) and are imported by Unity's **2D Aseprite Importer**.
+- World/grid tiles follow a strict **64×64** standard; animated sheets are sliced into 64×64 frames.
+- Pixel art renders with nearest-neighbor sampling to stay crisp.
+- Legacy runtime PNG exports are kept for reference under **`Archive/LegacyRuntimePngExports/`** (this is also where the README previews above are sourced from).
+
+Full workflow: [`docs/ASEPRITE_UNITY_WORKFLOW.md`](docs/ASEPRITE_UNITY_WORKFLOW.md) · pipeline specs: [`docs/art/ASSET_PIPELINE.md`](docs/art/ASSET_PIPELINE.md), [`docs/art/TILESET_SPECS.md`](docs/art/TILESET_SPECS.md).
+
+---
+
 ## Current Development Status
 
 | Area | State |
 | --- | --- |
 | Project phase | Early development — asset & prototype phase |
-| Reference engine | Rust + Bevy (current source of truth for architecture & data) |
-| Gameplay systems | Plugin scaffolding (world, generation, persistence, simulation, UI, etc.) |
-| Art | Source masters (`.aseprite`) + runtime PNG exports being organized |
-| Unity migration | **Being prepared** — not yet active |
-
----
-
-## Tech Stack
-
-**Current**
-
-- **Rust** (edition 2021)
-- **Bevy `0.14`** — ECS-style engine, plugin-first architecture
-- **serde** for serialization, **rand** (`small_rng`) for deterministic RNG
-- **Aseprite** source art with a pixel-art runtime export pipeline
-- **Git** for version control; `Cargo.lock` is tracked for reproducible builds
-
-**Future / migration**
-
-- A **Unity** migration is in preparation to leverage Unity's 2D tooling, controller support, and deployment workflow.
-- The Rust/Bevy code remains a **reference** for systems, data models, and architectural separation while assets are cleaned for export.
-
-> Unity is **not** the active engine yet — there is no Unity project committed to this repository.
-
----
-
-## Roles / Crew Fantasy
-
-Characters specialize through **roles**. Captain and First Mate are **ship/session ranks**, not classes. Full design: [`docs/systems/ROLES.md`](docs/systems/ROLES.md).
-
-| Role | Fantasy |
-| --- | --- |
-| Swordsman / Boarder | Close combat, boarding, deck defense |
-| Gunner / Marksman | Firearms, cannons, ranged pressure |
-| Helmsman | Steering, evasive movement, ship handling |
-| Navigator | Routes, map reading, discovery |
-| Doctor / Surgeon | Healing, injury control, survival |
-| Shipwright | Repairs, hull maintenance, crafting support |
-| Cook / Quartermaster | Supplies, morale, storage |
-| Musician / Bosun | Rhythm, morale, coordination |
-| Historian / Scholar | Relics, ruins, cursed knowledge |
-
-<div align="center">
-
-<img src="assets/sprites/characters/player_default/swordsman/swordsman_charater_select.png" width="120" alt="Swordsman / Boarder">
-&nbsp;&nbsp;
-<img src="assets/sprites/characters/player_default/marksman/marksman_charater_select.png" width="120" alt="Gunner / Marksman">
-&nbsp;&nbsp;
-<img src="assets/sprites/characters/player_default/doctor/doctor_charater_select.png" width="120" alt="Doctor / Surgeon">
-&nbsp;&nbsp;
-<img src="assets/sprites/characters/player_default/shipwright/shipwright_charater_select.png" width="120" alt="Shipwright">
-&nbsp;&nbsp;
-<img src="assets/sprites/characters/player_default/navigator/navigator_charater_select.png" width="120" alt="Navigator">
-
-<sub>Character-select art — Swordsman, Marksman, Doctor, Shipwright, Navigator (work in progress).</sub>
-
-</div>
-
-*Roles are a structural foundation today; abilities, skill trees, and bonuses are not implemented yet.*
-
----
-
-## Art Pipeline
-
-Blood and Bilgewater keeps **editable source art** separate from **runtime exports**.
-
-- `.aseprite` files are the **source/editing masters** (layers, tags, guides) under `assets/source/aseprite/`.
-- `.png` files are the **runtime assets** the engine loads, under `assets/sprites/`, `assets/tilesets/`, and `assets/ui/`.
-- World/grid tiles follow a strict **64×64** standard; animated sheets are sliced into 64×64 frames.
-- Pixel art is rendered with nearest-neighbor sampling to stay crisp.
-
-No sprite sheets are exported or modified as part of this README. Details: [`docs/art/ASSET_PIPELINE.md`](docs/art/ASSET_PIPELINE.md), [`docs/art/TILE_ASSET_PIPELINE.md`](docs/art/TILE_ASSET_PIPELINE.md), [`docs/art/TILESET_SPECS.md`](docs/art/TILESET_SPECS.md).
+| Active engine | **Unity 2D** (project under `unity/`) |
+| Art source of truth | **Aseprite** masters under `unity/Assets/_Project/Art/Aseprite/` |
+| Legacy reference | Rust + Bevy, archived under `Archive/BevyReference/` |
+| Gameplay systems | Re-scaffolding in Unity; Bevy code kept as architecture reference |
+| First flow target | `MainMenu → CharacterSelect → TestIsland` |
 
 ---
 
@@ -145,103 +149,58 @@ No sprite sheets are exported or modified as part of this README. Details: [`doc
 
 ```text
 BloodandBilgewater/
-├── assets/
-│   ├── source/         # Aseprite masters + concept/reference art (not loaded at runtime)
-│   ├── sprites/        # Runtime entity/character sprites
-│   ├── tilesets/       # Runtime tilemap PNGs (ocean, beach, ...)
-│   ├── ui/             # Runtime UI: titlescreen, menus, icons, hud
-│   ├── fonts/          # Pixel display fonts
-│   ├── audio/          # Runtime audio
-│   └── data/           # Runtime data tables
-├── src/                # Rust + Bevy source (plugin-first)
-│   ├── app/  core/  input/  events/  world/  generation/  chunking/
-│   ├── persistence/  simulation/  time/  networking/
-│   ├── gameplay/  rendering/  ui/  lab/
-├── examples/           # Standalone dev harness (the Lab)
-├── docs/               # Architecture rules, ADRs, art specs, system design
-├── Cargo.toml          # Crate manifest
+├── unity/                       # Unity 2D project (active)
+│   └── Assets/_Project/
+│       ├── Art/Aseprite/        # SOURCE OF TRUTH: .aseprite masters (imported by Unity)
+│       │   ├── Characters/  Tilesets/  UI/  Props/  Ships/  FX/
+│       ├── Art/References/       # concept + reference art
+│       ├── Scripts/              # C# (Core, Player, Camera, UI, Data, Gameplay/...)
+│       ├── Scenes/  Prefabs/  ScriptableObjects/  Data/  Audio/  Tilemaps/
+│       └── ...
+├── Archive/
+│   ├── BevyReference/            # archived Rust + Bevy source (reference only)
+│   └── LegacyRuntimePngExports/  # old runtime PNG exports (README previews source)
+├── docs/                         # design, architecture, art specs, migration docs
+│   └── art/preview/              # generated README art (sprite sheet + spin GIF)
+├── tools/                        # migration + art-build PowerShell scripts
 └── README.md
 ```
 
-Deeper structure and ownership rules: [`docs/ARCHITECTURE_RULES.md`](docs/ARCHITECTURE_RULES.md).
+Deeper structure and rules: [`docs/ARCHITECTURE_RULES.md`](docs/ARCHITECTURE_RULES.md) · migration detail: [`docs/UNITY_MIGRATION.md`](docs/UNITY_MIGRATION.md).
 
 ---
 
-## Running the Current Bevy Prototype
+## Getting Started (Unity)
 
-### Prerequisites
+1. Open the project at **`unity/`** in the Unity Editor.
+2. Install the **2D Aseprite Importer** (+ 2D Sprite, 2D Tilemap, Cinemachine) via **Window → Package Manager**.
+3. Confirm `Assets/_Project/Art/Aseprite/` appears and `.aseprite` files import as sprites.
+4. Follow the first-playable checklist in [`docs/UNITY_MIGRATION.md`](docs/UNITY_MIGRATION.md): build `MainMenu → CharacterSelect → TestIsland`.
 
-- [Rust](https://rustup.rs/) (latest stable) and Cargo
-- Git
+**Rebuild README previews** (sprite sheet + spinning GIF) any time the ship art changes:
 
-### Build & run
-
-```bash
-git clone https://github.com/GabeGiancarlo/BloodandBilgewater.git
-cd BloodandBilgewater
-cargo run
+```powershell
+powershell -ExecutionPolicy Bypass -File .\tools\build-readme-art.ps1
 ```
 
-Optional world seed:
+### Legacy Bevy prototype (reference)
 
-```bash
-WORLD_SEED=12345 cargo run
-```
-
-Run the tests:
-
-```bash
-cargo test
-```
-
-### The Lab (developer harness)
-
-A standalone scene for iterating on tiles and rendering, separate from the main game:
-
-```bash
-cargo run --example lab --features lab
-```
-
-*(Command sourced directly from `examples/lab.rs` and the `lab` feature in `Cargo.toml`.)*
-
----
-
-## Unity Migration Prep
-
-The Unity migration is being planned so the project can take advantage of Unity's 2D tooling, controller support, deployment workflow, and asset pipeline. The current Rust/Bevy repository remains useful as a **reference** for architecture, gameplay data, and system separation while art and design assets are cleaned for export.
-
-This is preparation, not a port that exists today — and it is **not** a promise of any specific platform or console release.
+The original Rust/Bevy build is preserved under `Archive/BevyReference/` for architecture and data reference. It is **not** the active engine.
 
 ---
 
 ## Roadmap
 
-- [x] Clean source and runtime art folders (pre-migration pass)
-- [ ] Build first Unity import test
-- [ ] Import ocean / shoreline tiles
-- [ ] Import one character direction sheet
-- [ ] Create first Unity test scene
-- [ ] Rebuild input, animation, and tilemap systems
+- [x] Migrate repository onto a Unity 2D project structure
+- [x] Move Aseprite masters into Unity as the source of truth
+- [x] Archive legacy Bevy source and runtime PNG exports
+- [ ] Install the 2D Aseprite Importer and verify direct import
+- [ ] Import ocean / shoreline tiles and one character direction sheet
+- [ ] Build `MainMenu → CharacterSelect → TestIsland`
 - [ ] Recreate role data as Unity ScriptableObjects
-- [ ] Preserve Bevy architecture docs as reference
-
-**Asset TODOs**
-
-- [ ] Capture live in-engine gameplay screenshots (current previews are mockups + concept art).
-- [ ] Add ship/tilemap previews once runtime ship tiles are finalized.
+- [ ] Capture live in-engine gameplay screenshots (current previews are art + mockups)
 
 See also: [`docs/ROADMAP.md`](docs/ROADMAP.md) and [`docs/DESIGN_SNAPSHOT.md`](docs/DESIGN_SNAPSHOT.md).
-
----
-
-## Development Notes
-
-- **Plugin-first architecture:** gameplay and core systems are Bevy plugins; `main.rs` stays minimal.
-- **Input → commands → simulation:** simulation consumes commands/events, never raw device input.
-- **Deterministic by design:** worldgen and simulation are seed-driven and fixed-timestep where it matters.
-- **Presentation is separate:** rendering and UI never own authoritative game state.
-
-Contributions should follow [`CONTRIBUTING.md`](CONTRIBUTING.md) and [`docs/ARCHITECTURE_RULES.md`](docs/ARCHITECTURE_RULES.md).
 
 ---
 
@@ -249,7 +208,7 @@ Contributions should follow [`CONTRIBUTING.md`](CONTRIBUTING.md) and [`docs/ARCH
 
 Licensed under the **MIT License** — see [`LICENSE`](LICENSE).
 
-Design intent and background live in [`DESIGN_DOCUMENT.md`](DESIGN_DOCUMENT.md) and the [`docs/`](docs/) directory. Art assets shown above are work-in-progress and part of this repository.
+Design intent and background live in [`DESIGN_DOCUMENT.md`](DESIGN_DOCUMENT.md) and the [`docs/`](docs/) directory. All art shown is work-in-progress and part of this repository.
 
 <div align="center">
 
