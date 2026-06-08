@@ -28,3 +28,37 @@ Thumbs.db
 # Environment variables
 .env
 .env.local 
+# Unity generated files
+unity/Library/
+unity/Temp/
+unity/Obj/
+unity/Logs/
+unity/UserSettings/
+unity/MemoryCaptures/
+unity/Recordings/
+unity/Build/
+unity/Builds/
+
+# Unity generated project files
+unity/*.csproj
+unity/*.sln
+unity/*.suo
+unity/*.user
+unity/*.userprefs
+unity/*.pidb
+unity/*.booproj
+unity/*.svd
+unity/*.pdb
+unity/*.mdb
+unity/*.opendb
+unity/*.VC.db
+
+# Rust build output
+target/
+
+# IDE / OS
+.vs/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
