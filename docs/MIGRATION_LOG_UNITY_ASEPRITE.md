@@ -1,0 +1,212 @@
+﻿# Migration Log -- Unity 2D + Aseprite Workflow
+
+**Mode:** APPLY
+**Run at:** 2026-06-08 02:38:21
+**Repo:** C:\Users\ganeg\BloodandBilgewater
+
+> Changes WERE applied.
+
+## Operations
+- **header** -- Blood and Bilgewater -> Unity 2D + Aseprite migration (APPLY)
+- **info** -- Repo root: C:\Users\ganeg\BloodandBilgewater
+- **header** -- PHASE 0 -- Safety guards
+- **warn** -- Nested git repo detected at unity/BloodandBildgewater/.git -- it will NOT be modified by this script. Resolve it manually (see audit).
+- **header** -- PHASE 3 -- Create Unity + Archive structure
+- **mkdir** -- MKDIR unity/Assets/_Project/Art/Aseprite/Characters/PlayerDefault
+- **mkdir** -- MKDIR unity/Assets/_Project/Art/Aseprite/Characters/NPCs
+- **mkdir** -- MKDIR unity/Assets/_Project/Art/Aseprite/Characters/Enemies
+- **mkdir** -- MKDIR unity/Assets/_Project/Art/Aseprite/Tilesets/Ocean
+- **mkdir** -- MKDIR unity/Assets/_Project/Art/Aseprite/Tilesets/ShallowWater
+- **mkdir** -- MKDIR unity/Assets/_Project/Art/Aseprite/Tilesets/Beach
+- **mkdir** -- MKDIR unity/Assets/_Project/Art/Aseprite/Tilesets/Cove
+- **mkdir** -- MKDIR unity/Assets/_Project/Art/Aseprite/Tilesets/Ships
+- **mkdir** -- MKDIR unity/Assets/_Project/Art/Aseprite/Tilesets/Structures
+- **mkdir** -- MKDIR unity/Assets/_Project/Art/Aseprite/UI/Menus
+- **mkdir** -- MKDIR unity/Assets/_Project/Art/Aseprite/UI/HUD
+- **mkdir** -- MKDIR unity/Assets/_Project/Art/Aseprite/UI/Icons
+- **mkdir** -- MKDIR unity/Assets/_Project/Art/Aseprite/UI/TitleScreen
+- **mkdir** -- MKDIR unity/Assets/_Project/Art/Aseprite/Props
+- **mkdir** -- MKDIR unity/Assets/_Project/Art/Aseprite/Ships
+- **mkdir** -- MKDIR unity/Assets/_Project/Art/Aseprite/FX
+- **mkdir** -- MKDIR unity/Assets/_Project/Art/References
+- **mkdir** -- MKDIR unity/Assets/_Project/Art/LegacyPngOnlyReview
+- **mkdir** -- MKDIR unity/Assets/_Project/Animations
+- **mkdir** -- MKDIR unity/Assets/_Project/Audio/Music
+- **mkdir** -- MKDIR unity/Assets/_Project/Audio/SFX
+- **mkdir** -- MKDIR unity/Assets/_Project/Audio/Ambience
+- **mkdir** -- MKDIR unity/Assets/_Project/Data/Characters
+- **mkdir** -- MKDIR unity/Assets/_Project/Data/Roles
+- **mkdir** -- MKDIR unity/Assets/_Project/Data/Items
+- **mkdir** -- MKDIR unity/Assets/_Project/Data/Ships
+- **mkdir** -- MKDIR unity/Assets/_Project/Data/World
+- **mkdir** -- MKDIR unity/Assets/_Project/Data/LegacyJson
+- **mkdir** -- MKDIR unity/Assets/_Project/Materials
+- **mkdir** -- MKDIR unity/Assets/_Project/Prefabs/Player
+- **mkdir** -- MKDIR unity/Assets/_Project/Prefabs/UI
+- **mkdir** -- MKDIR unity/Assets/_Project/Prefabs/Tiles
+- **mkdir** -- MKDIR unity/Assets/_Project/Prefabs/Ships
+- **mkdir** -- MKDIR unity/Assets/_Project/Scenes
+- **mkdir** -- MKDIR unity/Assets/_Project/Scripts/Scenes
+- **mkdir** -- MKDIR unity/Assets/_Project/Scripts/Gameplay/Combat
+- **mkdir** -- MKDIR unity/Assets/_Project/Scripts/Gameplay/Inventory
+- **mkdir** -- MKDIR unity/Assets/_Project/Scripts/Gameplay/Roles
+- **mkdir** -- MKDIR unity/Assets/_Project/Scripts/Gameplay/Ship
+- **mkdir** -- MKDIR unity/Assets/_Project/Scripts/Gameplay/Home
+- **mkdir** -- MKDIR unity/Assets/_Project/ScriptableObjects/Characters
+- **mkdir** -- MKDIR unity/Assets/_Project/ScriptableObjects/Roles
+- **mkdir** -- MKDIR unity/Assets/_Project/ScriptableObjects/Items
+- **mkdir** -- MKDIR unity/Assets/_Project/Settings
+- **mkdir** -- MKDIR unity/Assets/_Project/Tilemaps
+- **mkdir** -- MKDIR unity/Assets/_Project/Editor
+- **mkdir** -- MKDIR unity/Assets/_Project/UI/Fonts
+- **mkdir** -- MKDIR Archive/BevyReference
+- **mkdir** -- MKDIR Archive/LegacyRuntimePngExports
+- **mkdir** -- MKDIR Archive/UnityTemplateArtifacts
+- **mkdir** -- MKDIR Archive/MigrationReports
+- **header** -- PHASE 4 -- Move Aseprite source files into Unity
+- **mkdir** -- MKDIR unity\Assets\_Project\Art\Aseprite\Characters\PlayerDefault\archaeologist
+- **move** -- MOVE [git] assets/source/aseprite/characters/player_default/archaeologist/archaeologist_charater_select.aseprite -> unity/Assets/_Project/Art/Aseprite/Characters/PlayerDefault/archaeologist/archaeologist_charater_select.aseprite
+- **mkdir** -- MKDIR unity\Assets\_Project\Art\Aseprite\Characters\PlayerDefault\cook
+- **move** -- MOVE [git] assets/source/aseprite/characters/player_default/cook/8_direction_day.aseprite -> unity/Assets/_Project/Art/Aseprite/Characters/PlayerDefault/cook/8_direction_day.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/characters/player_default/cook/8_direction_night.aseprite -> unity/Assets/_Project/Art/Aseprite/Characters/PlayerDefault/cook/8_direction_night.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/characters/player_default/cook/cook_charater_select.aseprite -> unity/Assets/_Project/Art/Aseprite/Characters/PlayerDefault/cook/cook_charater_select.aseprite
+- **mkdir** -- MKDIR unity\Assets\_Project\Art\Aseprite\Characters\PlayerDefault\doctor
+- **move** -- MOVE [git] assets/source/aseprite/characters/player_default/doctor/8_direction_day.aseprite -> unity/Assets/_Project/Art/Aseprite/Characters/PlayerDefault/doctor/8_direction_day.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/characters/player_default/doctor/8_direction_night.aseprite -> unity/Assets/_Project/Art/Aseprite/Characters/PlayerDefault/doctor/8_direction_night.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/characters/player_default/doctor/doctor_charater_select.aseprite -> unity/Assets/_Project/Art/Aseprite/Characters/PlayerDefault/doctor/doctor_charater_select.aseprite
+- **mkdir** -- MKDIR unity\Assets\_Project\Art\Aseprite\Characters\PlayerDefault\helmsman
+- **move** -- MOVE [git] assets/source/aseprite/characters/player_default/helmsman/8_direction_day.aseprite -> unity/Assets/_Project/Art/Aseprite/Characters/PlayerDefault/helmsman/8_direction_day.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/characters/player_default/helmsman/8_direction_night.aseprite -> unity/Assets/_Project/Art/Aseprite/Characters/PlayerDefault/helmsman/8_direction_night.aseprite
+- **mkdir** -- MKDIR unity\Assets\_Project\Art\Aseprite\Characters\PlayerDefault\marksman
+- **move** -- MOVE [git] assets/source/aseprite/characters/player_default/marksman/8_direction_day.aseprite -> unity/Assets/_Project/Art/Aseprite/Characters/PlayerDefault/marksman/8_direction_day.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/characters/player_default/marksman/8_direction_night.aseprite -> unity/Assets/_Project/Art/Aseprite/Characters/PlayerDefault/marksman/8_direction_night.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/characters/player_default/marksman/swordsman_charater_select.aseprite -> unity/Assets/_Project/Art/Aseprite/Characters/PlayerDefault/marksman/swordsman_charater_select.aseprite
+- **mkdir** -- MKDIR unity\Assets\_Project\Art\Aseprite\Characters\PlayerDefault\musicain
+- **move** -- MOVE [git] assets/source/aseprite/characters/player_default/musicain/8_direction_day.aseprite -> unity/Assets/_Project/Art/Aseprite/Characters/PlayerDefault/musicain/8_direction_day.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/characters/player_default/musicain/8_direction_night.aseprite -> unity/Assets/_Project/Art/Aseprite/Characters/PlayerDefault/musicain/8_direction_night.aseprite
+- **mkdir** -- MKDIR unity\Assets\_Project\Art\Aseprite\Characters\PlayerDefault\navigator
+- **move** -- MOVE [git] assets/source/aseprite/characters/player_default/navigator/navigator_charater_select.aseprite -> unity/Assets/_Project/Art/Aseprite/Characters/PlayerDefault/navigator/navigator_charater_select.aseprite
+- **mkdir** -- MKDIR unity\Assets\_Project\Art\Aseprite\Characters\PlayerDefault\shipwright
+- **move** -- MOVE [git] assets/source/aseprite/characters/player_default/shipwright/8_direction_day.aseprite -> unity/Assets/_Project/Art/Aseprite/Characters/PlayerDefault/shipwright/8_direction_day.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/characters/player_default/shipwright/8_direction_night.aseprite -> unity/Assets/_Project/Art/Aseprite/Characters/PlayerDefault/shipwright/8_direction_night.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/characters/player_default/shipwright/idle_east.aseprite -> unity/Assets/_Project/Art/Aseprite/Characters/PlayerDefault/shipwright/idle_east.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/characters/player_default/shipwright/Idle_north.aseprite -> unity/Assets/_Project/Art/Aseprite/Characters/PlayerDefault/shipwright/Idle_north.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/characters/player_default/shipwright/idle_north_east.aseprite -> unity/Assets/_Project/Art/Aseprite/Characters/PlayerDefault/shipwright/idle_north_east.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/characters/player_default/shipwright/idle_south.aseprite -> unity/Assets/_Project/Art/Aseprite/Characters/PlayerDefault/shipwright/idle_south.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/characters/player_default/shipwright/idle_south_east.aseprite -> unity/Assets/_Project/Art/Aseprite/Characters/PlayerDefault/shipwright/idle_south_east.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/characters/player_default/shipwright/shipwright_charater_select.aseprite -> unity/Assets/_Project/Art/Aseprite/Characters/PlayerDefault/shipwright/shipwright_charater_select.aseprite
+- **mkdir** -- MKDIR unity\Assets\_Project\Art\Aseprite\Characters\PlayerDefault\swordsman
+- **move** -- MOVE [git] assets/source/aseprite/characters/player_default/swordsman/8_direction_day.aseprite -> unity/Assets/_Project/Art/Aseprite/Characters/PlayerDefault/swordsman/8_direction_day.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/characters/player_default/swordsman/8_direction_night.aseprite -> unity/Assets/_Project/Art/Aseprite/Characters/PlayerDefault/swordsman/8_direction_night.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/characters/player_default/swordsman/swordsman_charater_select.aseprite -> unity/Assets/_Project/Art/Aseprite/Characters/PlayerDefault/swordsman/swordsman_charater_select.aseprite
+- **mkdir** -- MKDIR unity\Assets\_Project\Art\Aseprite\Ships\default_3_sails
+- **move** -- MOVE [fs] assets/source/aseprite/sprites/ships/default_3_sails/8_direction_boost.aseprite -> unity/Assets/_Project/Art/Aseprite/Ships/default_3_sails/8_direction_boost.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/sprites/ships/default_3_sails/8_direction_sails_down_full.aseprite -> unity/Assets/_Project/Art/Aseprite/Ships/default_3_sails/8_direction_sails_down_full.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/sprites/ships/default_3_sails/8_direction_sails_up.aseprite -> unity/Assets/_Project/Art/Aseprite/Ships/default_3_sails/8_direction_sails_up.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/shallow/shallow_loop_base_01.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/ShallowWater/shallow_loop_base_01.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/shallow/shallow_loop_base_02.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/ShallowWater/shallow_loop_base_02.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/shallow/shallow_loop_base_03.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/ShallowWater/shallow_loop_base_03.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/shallow/shallow_loop_base_04.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/ShallowWater/shallow_loop_base_04.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/shallow/shallow_loop_base_05.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/ShallowWater/shallow_loop_base_05.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/shallow/shallow_loop_base_06.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/ShallowWater/shallow_loop_base_06.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/shallow/shallow_loop_base_07.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/ShallowWater/shallow_loop_base_07.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/shallow/shallow_loop_base_08.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/ShallowWater/shallow_loop_base_08.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/shallow/shallow_loop_base_09.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/ShallowWater/shallow_loop_base_09.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/shallow/shallow_loop_base_10.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/ShallowWater/shallow_loop_base_10.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/shallow/shallow_loop_base_11.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/ShallowWater/shallow_loop_base_11.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/shallow/shallow_loop_base_12.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/ShallowWater/shallow_loop_base_12.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/shallow/shallow_tileset_test.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/ShallowWater/shallow_tileset_test.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/shallow/shallow_water_accent_01.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/ShallowWater/shallow_water_accent_01.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/shallow/shallow_water_accent_02.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/ShallowWater/shallow_water_accent_02.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/shallow/shallow_water_accent_03.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/ShallowWater/shallow_water_accent_03.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/shallow/shallow_water_accent_04.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/ShallowWater/shallow_water_accent_04.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/shallow/shallow_water_cove_in_right.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/ShallowWater/shallow_water_cove_in_right.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/shallow/shallow_water_cove_out_left.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/ShallowWater/shallow_water_cove_out_left.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/shallow/shallow_water_cove_out_right.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/ShallowWater/shallow_water_cove_out_right.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/shallow/shallow_water_to_sand_edge_e.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/ShallowWater/shallow_water_to_sand_edge_e.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/shallow/shallow_water_to_sand_edge_n.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/ShallowWater/shallow_water_to_sand_edge_n.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/shallow/shallow_water_to_sand_edge_s.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/ShallowWater/shallow_water_to_sand_edge_s.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/shallow/shallow_water_to_sand_edge_w.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/ShallowWater/shallow_water_to_sand_edge_w.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/shallow/shallow_water_to_sand_inner_ne.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/ShallowWater/shallow_water_to_sand_inner_ne.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/shallow/shallow_water_to_sand_inner_nw.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/ShallowWater/shallow_water_to_sand_inner_nw.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/shallow/shallow_water_to_sand_inner_se.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/ShallowWater/shallow_water_to_sand_inner_se.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/shallow/shallow_water_to_sand_inner_sw.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/ShallowWater/shallow_water_to_sand_inner_sw.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/shallow/shallow_water_to_sand_outer_ne.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/ShallowWater/shallow_water_to_sand_outer_ne.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/shallow/shallow_water_to_sand_outer_nw.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/ShallowWater/shallow_water_to_sand_outer_nw.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/shallow/shallow_water_to_sand_outer_se.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/ShallowWater/shallow_water_to_sand_outer_se.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/shallow/shallow_water_to_sand_outer_sw.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/ShallowWater/shallow_water_to_sand_outer_sw.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/deep_loop.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/Ocean/deep_loop.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/deep_sea_Loop2.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/Ocean/deep_sea_Loop2.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/tilesets/ocean/sea_loop.aseprite -> unity/Assets/_Project/Art/Aseprite/Tilesets/Ocean/sea_loop.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/ui/icons/anchor-icon.aseprite -> unity/Assets/_Project/Art/Aseprite/UI/Icons/anchor-icon.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/ui/icons/arrow-icon.aseprite -> unity/Assets/_Project/Art/Aseprite/UI/Icons/arrow-icon.aseprite
+- **move** -- MOVE [fs] assets/source/aseprite/ui/icons/Class icon.aseprite -> unity/Assets/_Project/Art/Aseprite/UI/Icons/Class icon.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/ui/icons/Sprite-0036.aseprite -> unity/Assets/_Project/Art/Aseprite/UI/Icons/Sprite-0036.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/ui/menus/charater-default-draft.aseprite -> unity/Assets/_Project/Art/Aseprite/UI/Menus/charater-default-draft.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/ui/menus/charater-select-banner.aseprite -> unity/Assets/_Project/Art/Aseprite/UI/Menus/charater-select-banner.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/ui/menus/charater-select-button.aseprite -> unity/Assets/_Project/Art/Aseprite/UI/Menus/charater-select-button.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/ui/menus/charater_platform.aseprite -> unity/Assets/_Project/Art/Aseprite/UI/Menus/charater_platform.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/ui/menus/charater_select_mockup.aseprite -> unity/Assets/_Project/Art/Aseprite/UI/Menus/charater_select_mockup.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/ui/menus/default-menu-background.aseprite -> unity/Assets/_Project/Art/Aseprite/UI/Menus/default-menu-background.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/ui/menus/empty-charater-select.aseprite -> unity/Assets/_Project/Art/Aseprite/UI/Menus/empty-charater-select.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/ui/menus/full-diff-skull.aseprite -> unity/Assets/_Project/Art/Aseprite/UI/Menus/full-diff-skull.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/ui/menus/info-ui.aseprite -> unity/Assets/_Project/Art/Aseprite/UI/Menus/info-ui.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/ui/menus/left-arrow.aseprite -> unity/Assets/_Project/Art/Aseprite/UI/Menus/left-arrow.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/ui/menus/menu-button-1.aseprite -> unity/Assets/_Project/Art/Aseprite/UI/Menus/menu-button-1.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/ui/menus/Menu-Button-2.aseprite -> unity/Assets/_Project/Art/Aseprite/UI/Menus/Menu-Button-2.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/ui/menus/Menu-Button-3.aseprite -> unity/Assets/_Project/Art/Aseprite/UI/Menus/Menu-Button-3.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/ui/menus/menu-button-4.aseprite -> unity/Assets/_Project/Art/Aseprite/UI/Menus/menu-button-4.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/ui/menus/menu-button-5.aseprite -> unity/Assets/_Project/Art/Aseprite/UI/Menus/menu-button-5.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/ui/menus/Menu-Button-Active.aseprite -> unity/Assets/_Project/Art/Aseprite/UI/Menus/Menu-Button-Active.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/ui/menus/page-break.aseprite -> unity/Assets/_Project/Art/Aseprite/UI/Menus/page-break.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/ui/menus/right-arrow.aseprite -> unity/Assets/_Project/Art/Aseprite/UI/Menus/right-arrow.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/ui/menus/skull-n-crossbones.aseprite -> unity/Assets/_Project/Art/Aseprite/UI/Menus/skull-n-crossbones.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/ui/menus/Sprite-0008.aseprite -> unity/Assets/_Project/Art/Aseprite/UI/Menus/Sprite-0008.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/ui/menus/Title-Button_holder.aseprite -> unity/Assets/_Project/Art/Aseprite/UI/Menus/Title-Button_holder.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/ui/menus/title_mock_up.aseprite -> unity/Assets/_Project/Art/Aseprite/UI/Menus/title_mock_up.aseprite
+- **move** -- MOVE [fs] assets/source/aseprite/ui/menus/title_text.aseprite -> unity/Assets/_Project/Art/Aseprite/UI/Menus/title_text.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/ui/menus/unfull-diff-skull.aseprite -> unity/Assets/_Project/Art/Aseprite/UI/Menus/unfull-diff-skull.aseprite
+- **move** -- MOVE [git] assets/source/aseprite/ui/empty-chararter-select.aseprite -> unity/Assets/_Project/Art/Aseprite/UI/Menus/empty-chararter-select.aseprite
+- **move** -- MOVE [git] assets/sprites/characters/player_default/cook/8_direction_day-Sheet.aseprite -> unity/Assets/_Project/Art/Aseprite/Characters/PlayerDefault/cook/8_direction_day-Sheet.aseprite
+- **move** -- MOVE [git] assets/sprites/characters/player_default/cook/8_direction_night-Sheet.aseprite -> unity/Assets/_Project/Art/Aseprite/Characters/PlayerDefault/cook/8_direction_night-Sheet.aseprite
+- **move** -- MOVE [git] assets/sprites/characters/player_default/doctor/8_direction_day-Sheet.aseprite -> unity/Assets/_Project/Art/Aseprite/Characters/PlayerDefault/doctor/8_direction_day-Sheet.aseprite
+- **move** -- MOVE [git] assets/sprites/characters/player_default/doctor/8_direction_night-Sheet.aseprite -> unity/Assets/_Project/Art/Aseprite/Characters/PlayerDefault/doctor/8_direction_night-Sheet.aseprite
+- **move** -- MOVE [git] assets/sprites/characters/player_default/swordsman/8_direction_day-Sheet.aseprite -> unity/Assets/_Project/Art/Aseprite/Characters/PlayerDefault/swordsman/8_direction_day-Sheet.aseprite
+- **move** -- MOVE [git] assets/ui/titlescreen/title_mock_up.aseprite -> unity/Assets/_Project/Art/Aseprite/UI/TitleScreen/title_mock_up.aseprite
+- **info** -- Aseprite files processed: 99
+- **header** -- PHASE 5 -- Move references, fonts, audio, data
+- **move** -- MOVE [git] assets/source/references -> unity/Assets/_Project/Art/References/source
+- **move** -- MOVE [git] assets/fonts -> unity/Assets/_Project/UI/Fonts/legacy
+- **move** -- MOVE [git] assets/audio -> unity/Assets/_Project/Audio/legacy
+- **move** -- MOVE [git] assets/data -> unity/Assets/_Project/Data/LegacyJson/data
+- **header** -- PHASE 6 -- Archive legacy PNG / runtime exports
+- **info** -- Note: .aseprite files were already extracted in PHASE 4.
+- **mkdir** -- MKDIR Archive\LegacyRuntimePngExports\assets
+- **move** -- MOVE [git] assets/sprites -> Archive/LegacyRuntimePngExports/assets/sprites
+- **move** -- MOVE [git] assets/tilesets -> Archive/LegacyRuntimePngExports/assets/tilesets
+- **move** -- MOVE [git] assets/ui -> Archive/LegacyRuntimePngExports/assets/ui
+- **header** -- PHASE 7 -- Archive Rust/Bevy reference, delete target/
+- **move** -- MOVE [git] src -> Archive/BevyReference/src
+- **move** -- MOVE [git] examples -> Archive/BevyReference/examples
+- **move** -- MOVE [git] Cargo.toml -> Archive/BevyReference/Cargo.toml
+- **move** -- MOVE [git] Cargo.lock -> Archive/BevyReference/Cargo.lock
+- **delete** -- DELETE (generated) target
+- **header** -- PHASE 8 -- Archive Unity template artifacts
+- **move** -- MOVE [git] unity/Assets/TutorialInfo -> Archive/UnityTemplateArtifacts/TutorialInfo
+- **move** -- MOVE [git] unity/Assets/TutorialInfo.meta -> Archive/UnityTemplateArtifacts/TutorialInfo.meta
+- **move** -- MOVE [git] unity/Assets/Readme.asset -> Archive/UnityTemplateArtifacts/Readme.asset
+- **move** -- MOVE [git] unity/Assets/Readme.asset.meta -> Archive/UnityTemplateArtifacts/Readme.asset.meta
+- **move** -- MOVE [git] unity/Assets/_Recovery -> Archive/UnityTemplateArtifacts/_Recovery
+- **move** -- MOVE [git] unity/Assets/_Recovery.meta -> Archive/UnityTemplateArtifacts/_Recovery.meta
+- **info** -- Leaving unity/Assets/Scenes/SampleScene.unity in place (rename after Unity opens).
+- **header** -- PHASE 9 -- Update root .gitignore
+- **update** -- UPDATE append block 'Unity / Rust migration (managed block)' -> .gitignore
+- **header** -- PHASE 10 -- Root .gitattributes + Git LFS
+- **update** -- CREATE root .gitattributes
+- **info** -- Git LFS detected.
+- **warn** -- Nested unity\BloodandBildgewater\.gitattributes uses [attr] macros and lives inside a nested repo -- resolve with the nested project, not here.
+- **header** -- Writing migration log
+
+## Warnings
+- Nested git repo detected at unity/BloodandBildgewater/.git -- it will NOT be modified by this script. Resolve it manually (see audit).
+- Nested unity\BloodandBildgewater\.gitattributes uses [attr] macros and lives inside a nested repo -- resolve with the nested project, not here.
