@@ -1,0 +1,1 @@
+//! Combat feature placeholder components.
