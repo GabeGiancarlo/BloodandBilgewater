@@ -1,35 +1,36 @@
-﻿# === Blood and Bilgewater root .gitattributes (single top-level file) ===
+﻿# === Blood and Bilgewater root .gitattributes ===
+# Binary art/audio/font files are marked `binary` (no LFS).
+# Git LFS is intentionally NOT used here for the migrated art (see
+# docs/migration/bevy_restoration_audit.md "Git LFS status").
 
 # Aseprite / source art
-*.ase filter=lfs diff=lfs merge=lfs -text
-*.aseprite filter=lfs diff=lfs merge=lfs -text
+*.ase      binary
+*.aseprite binary
 
 # Raster art and references
-*.png filter=lfs diff=lfs merge=lfs -text
-*.jpg filter=lfs diff=lfs merge=lfs -text
-*.jpeg filter=lfs diff=lfs merge=lfs -text
-*.webp filter=lfs diff=lfs merge=lfs -text
-*.psd filter=lfs diff=lfs merge=lfs -text
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.webp binary
+*.psd  binary
 
 # Fonts
-*.ttf filter=lfs diff=lfs merge=lfs -text
-*.otf filter=lfs diff=lfs merge=lfs -text
+*.ttf binary
+*.otf binary
 
 # Audio
-*.wav filter=lfs diff=lfs merge=lfs -text
-*.mp3 filter=lfs diff=lfs merge=lfs -text
-*.ogg filter=lfs diff=lfs merge=lfs -text
+*.wav binary
+*.ogg binary
+*.mp3 binary
 
-# Unity YAML assets
-*.unity merge=unityyamlmerge eol=lf
-*.prefab merge=unityyamlmerge eol=lf
-*.asset merge=unityyamlmerge eol=lf
-*.mat merge=unityyamlmerge eol=lf
-*.controller merge=unityyamlmerge eol=lf
-*.anim merge=unityyamlmerge eol=lf
-*.meta eol=lf
+# Text normalization
+*.rs   text eol=lf
+*.toml text eol=lf
+*.ron  text eol=lf
+*.json text eol=lf
+*.md   text eol=lf
 
-# Code and docs
-*.cs eol=lf
-*.json eol=lf
-*.md eol=lf
+# Unity reference files (archived) keep LF
+*.cs   text eol=lf
+*.meta text eol=lf
