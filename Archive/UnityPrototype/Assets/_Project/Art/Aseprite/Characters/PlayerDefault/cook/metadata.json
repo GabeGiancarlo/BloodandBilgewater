@@ -1,0 +1,1570 @@
+{
+  "groups": [
+    {
+      "group_id": "14df6239-6b73-4324-94ab-f983f52a960e",
+      "folder": "characters/Nothing_in_hands",
+      "states": [
+        {
+          "character": {
+            "id": "22aec1f2-3fbc-43d5-8e7d-52d3ff5f3a1e",
+            "name": "Nothing in hands",
+            "prompt": "A huge undead pirate cook / quartermaster with a heavy fat body, thick arms, and a brutal ship-galley look. He has a pale scarred belly exposed under a torn open vest, dirty bloodstained apron cloth, ragged trousers, one heavy boot and one bare wrapped foot. His face is grim and sea-rotted, with a dark beard, hollow eyes, red bandana, and weathered undead skin.\n\nHe carries a large bloodstained cleaver as his main weapon and has a metal ladle hanging as a secondary tool. Around his belt are seasoning bottles, spice pouches, ration bags, hooks, jars, rope, and small supply tools. His silhouette should read as a big dangerous pirate cook: bulky, greasy, cursed, practical, and built for feeding a crew or butchering enemies.\n\nStyle: gritty dark gothic pirate pixel art, late-SNES inspired, deep maroon, tarnished gold, moonlit teal shadows, bone-white skin highlights, worn leather browns, black background, strong readable sprite silhouette.",
+            "size": {
+              "width": 100,
+              "height": 100
+            },
+            "template_id": "mannequin",
+            "directions": 8,
+            "view": "high top-down",
+            "created_at": "2026-06-10T19:02:17.898763+00:00"
+          },
+          "folder": "characters/Nothing_in_hands/Nothing_in_hands",
+          "frames": {
+            "rotations": {
+              "south": "characters/Nothing_in_hands/Nothing_in_hands/rotations/south.png",
+              "south-east": "characters/Nothing_in_hands/Nothing_in_hands/rotations/south-east.png",
+              "east": "characters/Nothing_in_hands/Nothing_in_hands/rotations/east.png",
+              "north-east": "characters/Nothing_in_hands/Nothing_in_hands/rotations/north-east.png",
+              "north": "characters/Nothing_in_hands/Nothing_in_hands/rotations/north.png",
+              "north-west": "characters/Nothing_in_hands/Nothing_in_hands/rotations/north-west.png",
+              "west": "characters/Nothing_in_hands/Nothing_in_hands/rotations/west.png",
+              "south-west": "characters/Nothing_in_hands/Nothing_in_hands/rotations/south-west.png"
+            },
+            "animations": {
+              "The_butcher_stands_in_a_stable_grounded_stance_his": {
+                "north-east": [
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north-east/frame_000.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north-east/frame_001.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north-east/frame_002.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north-east/frame_003.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north-east/frame_004.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north-east/frame_005.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north-east/frame_006.png"
+                ],
+                "north-west": [
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north-west/frame_000.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north-west/frame_001.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north-west/frame_002.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north-west/frame_003.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north-west/frame_004.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north-west/frame_005.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north-west/frame_006.png"
+                ],
+                "north": [
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north/frame_000.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north/frame_001.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north/frame_002.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north/frame_003.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north/frame_004.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north/frame_005.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north/frame_006.png"
+                ],
+                "south-east": [
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south-east/frame_000.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south-east/frame_001.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south-east/frame_002.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south-east/frame_003.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south-east/frame_004.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south-east/frame_005.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south-east/frame_006.png"
+                ],
+                "east": [
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/east/frame_000.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/east/frame_001.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/east/frame_002.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/east/frame_003.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/east/frame_004.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/east/frame_005.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/east/frame_006.png"
+                ],
+                "west": [
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/west/frame_000.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/west/frame_001.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/west/frame_002.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/west/frame_003.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/west/frame_004.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/west/frame_005.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/west/frame_006.png"
+                ],
+                "south": [
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south/frame_000.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south/frame_001.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south/frame_002.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south/frame_003.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south/frame_004.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south/frame_005.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south/frame_006.png"
+                ],
+                "south-west": [
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south-west/frame_000.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south-west/frame_001.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south-west/frame_002.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south-west/frame_003.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south-west/frame_004.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south-west/frame_005.png",
+                  "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south-west/frame_006.png"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "character": {
+            "id": "343fce15-b810-4a17-91c2-c772a24a3fa4",
+            "name": "mid walk",
+            "prompt": "A huge undead pirate cook / quartermaster with a heavy fat body, thick arms, and a brutal ship-galley look. He has a pale scarred belly exposed under a torn open vest, dirty bloodstained apron cloth, ragged trousers, one heavy boot and one bare wrapped foot. His face is grim and sea-rotted, with a dark beard, hollow eyes, red bandana, and weathered undead skin.\n\nHe carries a large bloodstained cleaver as his main weapon and has a metal ladle hanging as a secondary tool. Around his belt are seasoning bottles, spice pouches, ration bags, hooks, jars, rope, and small supply tools. His silhouette should read as a big dangerous pirate cook: bulky, greasy, cursed, practical, and built for feeding a crew or butchering enemies.\n\nStyle: gritty dark gothic pirate pixel art, late-SNES inspired, deep maroon, tarnished gold, moonlit teal shadows, bone-white skin highlights, worn leather browns, black background, strong readable sprite silhouette.",
+            "size": {
+              "width": 100,
+              "height": 100
+            },
+            "template_id": "mannequin",
+            "directions": 8,
+            "view": "high top-down",
+            "created_at": "2026-06-10T19:08:50.265981+00:00"
+          },
+          "folder": "characters/Nothing_in_hands/mid_walk",
+          "frames": {
+            "rotations": {
+              "south": "characters/Nothing_in_hands/mid_walk/rotations/south.png",
+              "south-east": "characters/Nothing_in_hands/mid_walk/rotations/south-east.png",
+              "east": "characters/Nothing_in_hands/mid_walk/rotations/east.png",
+              "north-east": "characters/Nothing_in_hands/mid_walk/rotations/north-east.png",
+              "north": "characters/Nothing_in_hands/mid_walk/rotations/north.png",
+              "north-west": "characters/Nothing_in_hands/mid_walk/rotations/north-west.png",
+              "west": "characters/Nothing_in_hands/mid_walk/rotations/west.png",
+              "south-west": "characters/Nothing_in_hands/mid_walk/rotations/south-west.png"
+            },
+            "animations": {
+              "The_man_walks_forward_with_a_heavy_rhythmic_gait_h": {
+                "north-east": [
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-east/frame_000.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-east/frame_001.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-east/frame_002.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-east/frame_003.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-east/frame_004.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-east/frame_005.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-east/frame_006.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-east/frame_007.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-east/frame_008.png"
+                ],
+                "south-west": [
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-west/frame_000.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-west/frame_001.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-west/frame_002.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-west/frame_003.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-west/frame_004.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-west/frame_005.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-west/frame_006.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-west/frame_007.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-west/frame_008.png"
+                ],
+                "north-west": [
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-west/frame_000.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-west/frame_001.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-west/frame_002.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-west/frame_003.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-west/frame_004.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-west/frame_005.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-west/frame_006.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-west/frame_007.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-west/frame_008.png"
+                ],
+                "east": [
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/east/frame_000.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/east/frame_001.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/east/frame_002.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/east/frame_003.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/east/frame_004.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/east/frame_005.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/east/frame_006.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/east/frame_007.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/east/frame_008.png"
+                ],
+                "west": [
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/west/frame_000.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/west/frame_001.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/west/frame_002.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/west/frame_003.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/west/frame_004.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/west/frame_005.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/west/frame_006.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/west/frame_007.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/west/frame_008.png"
+                ],
+                "south-east": [
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-east/frame_000.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-east/frame_001.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-east/frame_002.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-east/frame_003.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-east/frame_004.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-east/frame_005.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-east/frame_006.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-east/frame_007.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-east/frame_008.png"
+                ],
+                "south": [
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south/frame_000.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south/frame_001.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south/frame_002.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south/frame_003.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south/frame_004.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south/frame_005.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south/frame_006.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south/frame_007.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south/frame_008.png"
+                ],
+                "north": [
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north/frame_000.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north/frame_001.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north/frame_002.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north/frame_003.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north/frame_004.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north/frame_005.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north/frame_006.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north/frame_007.png",
+                  "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north/frame_008.png"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "character": {
+            "id": "ca4bb8fe-edcf-4509-a6a7-d397fe4d1271",
+            "name": "wind run",
+            "prompt": "A huge undead pirate cook / quartermaster with a heavy fat body, thick arms, and a brutal ship-galley look. He has a pale scarred belly exposed under a torn open vest, dirty bloodstained apron cloth, ragged trousers, one heavy boot and one bare wrapped foot. His face is grim and sea-rotted, with a dark beard, hollow eyes, red bandana, and weathered undead skin.\n\nHe carries a large bloodstained cleaver as his main weapon and has a metal ladle hanging as a secondary tool. Around his belt are seasoning bottles, spice pouches, ration bags, hooks, jars, rope, and small supply tools. His silhouette should read as a big dangerous pirate cook: bulky, greasy, cursed, practical, and built for feeding a crew or butchering enemies.\n\nStyle: gritty dark gothic pirate pixel art, late-SNES inspired, deep maroon, tarnished gold, moonlit teal shadows, bone-white skin highlights, worn leather browns, black background, strong readable sprite silhouette.",
+            "size": {
+              "width": 100,
+              "height": 100
+            },
+            "template_id": "mannequin",
+            "directions": 8,
+            "view": "high top-down",
+            "created_at": "2026-06-10T19:08:56.592614+00:00"
+          },
+          "folder": "characters/Nothing_in_hands/wind_run",
+          "frames": {
+            "rotations": {
+              "south": "characters/Nothing_in_hands/wind_run/rotations/south.png",
+              "south-east": "characters/Nothing_in_hands/wind_run/rotations/south-east.png",
+              "east": "characters/Nothing_in_hands/wind_run/rotations/east.png",
+              "north-east": "characters/Nothing_in_hands/wind_run/rotations/north-east.png",
+              "north": "characters/Nothing_in_hands/wind_run/rotations/north.png",
+              "north-west": "characters/Nothing_in_hands/wind_run/rotations/north-west.png",
+              "west": "characters/Nothing_in_hands/wind_run/rotations/west.png",
+              "south-west": "characters/Nothing_in_hands/wind_run/rotations/south-west.png"
+            },
+            "animations": {
+              "The_character_leans_slightly_forward_rhythmically": {
+                "south": [
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south/frame_000.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south/frame_001.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south/frame_002.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south/frame_003.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south/frame_004.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south/frame_005.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south/frame_006.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south/frame_007.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south/frame_008.png"
+                ],
+                "north": [
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north/frame_000.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north/frame_001.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north/frame_002.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north/frame_003.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north/frame_004.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north/frame_005.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north/frame_006.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north/frame_007.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north/frame_008.png"
+                ],
+                "north-east": [
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_000.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_001.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_002.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_003.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_004.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_005.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_006.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_007.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_008.png"
+                ],
+                "north-west": [
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_000.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_001.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_002.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_003.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_004.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_005.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_006.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_007.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_008.png"
+                ],
+                "west": [
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/west/frame_000.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/west/frame_001.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/west/frame_002.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/west/frame_003.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/west/frame_004.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/west/frame_005.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/west/frame_006.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/west/frame_007.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/west/frame_008.png"
+                ],
+                "south-west": [
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_000.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_001.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_002.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_003.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_004.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_005.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_006.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_007.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_008.png"
+                ],
+                "east": [
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/east/frame_000.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/east/frame_001.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/east/frame_002.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/east/frame_003.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/east/frame_004.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/east/frame_005.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/east/frame_006.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/east/frame_007.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/east/frame_008.png"
+                ],
+                "south-east": [
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_000.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_001.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_002.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_003.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_004.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_005.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_006.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_007.png",
+                  "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_008.png"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "character": {
+            "id": "f12b2e24-7191-4750-bca0-4ebb2fd32a34",
+            "name": "with just knife mid",
+            "prompt": "A huge undead pirate cook / quartermaster with a heavy fat body, thick arms, and a brutal ship-galley look. He has a pale scarred belly exposed under a torn open vest, dirty bloodstained apron cloth, ragged trousers, one heavy boot and one bare wrapped foot. His face is grim and sea-rotted, with a dark beard, hollow eyes, red bandana, and weathered undead skin.\n\nHe carries a large bloodstained cleaver as his main weapon and has a metal ladle hanging as a secondary tool. Around his belt are seasoning bottles, spice pouches, ration bags, hooks, jars, rope, and small supply tools. His silhouette should read as a big dangerous pirate cook: bulky, greasy, cursed, practical, and built for feeding a crew or butchering enemies.\n\nStyle: gritty dark gothic pirate pixel art, late-SNES inspired, deep maroon, tarnished gold, moonlit teal shadows, bone-white skin highlights, worn leather browns, black background, strong readable sprite silhouette.",
+            "size": {
+              "width": 100,
+              "height": 100
+            },
+            "template_id": "mannequin",
+            "directions": 8,
+            "view": "high top-down",
+            "created_at": "2026-06-10T21:19:39.950212+00:00"
+          },
+          "folder": "characters/Nothing_in_hands/with_just_knife_mid",
+          "frames": {
+            "rotations": {
+              "south": "characters/Nothing_in_hands/with_just_knife_mid/rotations/south.png",
+              "south-east": "characters/Nothing_in_hands/with_just_knife_mid/rotations/south-east.png",
+              "east": "characters/Nothing_in_hands/with_just_knife_mid/rotations/east.png",
+              "north-east": "characters/Nothing_in_hands/with_just_knife_mid/rotations/north-east.png",
+              "north": "characters/Nothing_in_hands/with_just_knife_mid/rotations/north.png",
+              "north-west": "characters/Nothing_in_hands/with_just_knife_mid/rotations/north-west.png",
+              "west": "characters/Nothing_in_hands/with_just_knife_mid/rotations/west.png",
+              "south-west": "characters/Nothing_in_hands/with_just_knife_mid/rotations/south-west.png"
+            },
+            "animations": {
+              "The_character_leans_slightly_forward_rhythmically": {
+                "north": [
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north/frame_000.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north/frame_001.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north/frame_002.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north/frame_003.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north/frame_004.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north/frame_005.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north/frame_006.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north/frame_007.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north/frame_008.png"
+                ],
+                "south-west": [
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_000.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_001.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_002.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_003.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_004.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_005.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_006.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_007.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_008.png"
+                ],
+                "north-east": [
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_000.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_001.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_002.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_003.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_004.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_005.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_006.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_007.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_008.png"
+                ],
+                "east": [
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/east/frame_000.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/east/frame_001.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/east/frame_002.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/east/frame_003.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/east/frame_004.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/east/frame_005.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/east/frame_006.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/east/frame_007.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/east/frame_008.png"
+                ],
+                "north-west": [
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_000.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_001.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_002.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_003.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_004.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_005.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_006.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_007.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_008.png"
+                ],
+                "south-east": [
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_000.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_001.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_002.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_003.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_004.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_005.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_006.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_007.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_008.png"
+                ],
+                "west": [
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/west/frame_000.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/west/frame_001.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/west/frame_002.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/west/frame_003.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/west/frame_004.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/west/frame_005.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/west/frame_006.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/west/frame_007.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/west/frame_008.png"
+                ],
+                "south": [
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south/frame_000.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south/frame_001.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south/frame_002.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south/frame_003.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south/frame_004.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south/frame_005.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south/frame_006.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south/frame_007.png",
+                  "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south/frame_008.png"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "character": {
+            "id": "47da7ed9-d0f9-4b59-be32-073cddd5b370",
+            "name": "with stew and ladle",
+            "prompt": "A huge undead pirate cook / quartermaster with a heavy fat body, thick arms, and a brutal ship-galley look. He has a pale scarred belly exposed under a torn open vest, dirty bloodstained apron cloth, ragged trousers, one heavy boot and one bare wrapped foot. His face is grim and sea-rotted, with a dark beard, hollow eyes, red bandana, and weathered undead skin.\n\nHe carries a large bloodstained cleaver as his main weapon and has a metal ladle hanging as a secondary tool. Around his belt are seasoning bottles, spice pouches, ration bags, hooks, jars, rope, and small supply tools. His silhouette should read as a big dangerous pirate cook: bulky, greasy, cursed, practical, and built for feeding a crew or butchering enemies.\n\nStyle: gritty dark gothic pirate pixel art, late-SNES inspired, deep maroon, tarnished gold, moonlit teal shadows, bone-white skin highlights, worn leather browns, black background, strong readable sprite silhouette.",
+            "size": {
+              "width": 100,
+              "height": 100
+            },
+            "template_id": "mannequin",
+            "directions": 8,
+            "view": "high top-down",
+            "created_at": "2026-06-10T21:21:16.661485+00:00"
+          },
+          "folder": "characters/Nothing_in_hands/with_stew_and_ladle",
+          "frames": {
+            "rotations": {
+              "south": "characters/Nothing_in_hands/with_stew_and_ladle/rotations/south.png",
+              "south-east": "characters/Nothing_in_hands/with_stew_and_ladle/rotations/south-east.png",
+              "east": "characters/Nothing_in_hands/with_stew_and_ladle/rotations/east.png",
+              "north-east": "characters/Nothing_in_hands/with_stew_and_ladle/rotations/north-east.png",
+              "north": "characters/Nothing_in_hands/with_stew_and_ladle/rotations/north.png",
+              "north-west": "characters/Nothing_in_hands/with_stew_and_ladle/rotations/north-west.png",
+              "west": "characters/Nothing_in_hands/with_stew_and_ladle/rotations/west.png",
+              "south-west": "characters/Nothing_in_hands/with_stew_and_ladle/rotations/south-west.png"
+            },
+            "animations": {
+              "The_chef_stands_firmly_in_place_rhythmically_stirr": {
+                "south-east": [
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-east/frame_000.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-east/frame_001.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-east/frame_002.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-east/frame_003.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-east/frame_004.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-east/frame_005.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-east/frame_006.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-east/frame_007.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-east/frame_008.png"
+                ],
+                "west": [
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/west/frame_000.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/west/frame_001.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/west/frame_002.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/west/frame_003.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/west/frame_004.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/west/frame_005.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/west/frame_006.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/west/frame_007.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/west/frame_008.png"
+                ],
+                "south-west": [
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-west/frame_000.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-west/frame_001.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-west/frame_002.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-west/frame_003.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-west/frame_004.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-west/frame_005.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-west/frame_006.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-west/frame_007.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-west/frame_008.png"
+                ],
+                "north": [
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north/frame_000.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north/frame_001.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north/frame_002.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north/frame_003.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north/frame_004.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north/frame_005.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north/frame_006.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north/frame_007.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north/frame_008.png"
+                ],
+                "east": [
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/east/frame_000.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/east/frame_001.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/east/frame_002.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/east/frame_003.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/east/frame_004.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/east/frame_005.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/east/frame_006.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/east/frame_007.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/east/frame_008.png"
+                ],
+                "north-west": [
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-west/frame_000.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-west/frame_001.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-west/frame_002.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-west/frame_003.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-west/frame_004.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-west/frame_005.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-west/frame_006.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-west/frame_007.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-west/frame_008.png"
+                ],
+                "north-east": [
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-east/frame_000.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-east/frame_001.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-east/frame_002.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-east/frame_003.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-east/frame_004.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-east/frame_005.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-east/frame_006.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-east/frame_007.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-east/frame_008.png"
+                ],
+                "south": [
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south/frame_000.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south/frame_001.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south/frame_002.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south/frame_003.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south/frame_004.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south/frame_005.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south/frame_006.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south/frame_007.png",
+                  "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south/frame_008.png"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "character": {
+            "id": "47078258-994f-4b27-bcb5-fbef3e152f9d",
+            "name": "mid walk",
+            "prompt": "A huge undead pirate cook / quartermaster with a heavy fat body, thick arms, and a brutal ship-galley look. He has a pale scarred belly exposed under a torn open vest, dirty bloodstained apron cloth, ragged trousers, one heavy boot and one bare wrapped foot. His face is grim and sea-rotted, with a dark beard, hollow eyes, red bandana, and weathered undead skin.\n\nHe carries a large bloodstained cleaver as his main weapon and has a metal ladle hanging as a secondary tool. Around his belt are seasoning bottles, spice pouches, ration bags, hooks, jars, rope, and small supply tools. His silhouette should read as a big dangerous pirate cook: bulky, greasy, cursed, practical, and built for feeding a crew or butchering enemies.\n\nStyle: gritty dark gothic pirate pixel art, late-SNES inspired, deep maroon, tarnished gold, moonlit teal shadows, bone-white skin highlights, worn leather browns, black background, strong readable sprite silhouette.",
+            "size": {
+              "width": 100,
+              "height": 100
+            },
+            "template_id": "mannequin",
+            "directions": 8,
+            "view": "high top-down",
+            "created_at": "2026-06-10T21:24:31.880055+00:00"
+          },
+          "folder": "characters/Nothing_in_hands/mid_walk_2",
+          "frames": {
+            "rotations": {
+              "south": "characters/Nothing_in_hands/mid_walk_2/rotations/south.png",
+              "south-east": "characters/Nothing_in_hands/mid_walk_2/rotations/south-east.png",
+              "east": "characters/Nothing_in_hands/mid_walk_2/rotations/east.png",
+              "north-east": "characters/Nothing_in_hands/mid_walk_2/rotations/north-east.png",
+              "north": "characters/Nothing_in_hands/mid_walk_2/rotations/north.png",
+              "north-west": "characters/Nothing_in_hands/mid_walk_2/rotations/north-west.png",
+              "west": "characters/Nothing_in_hands/mid_walk_2/rotations/west.png",
+              "south-west": "characters/Nothing_in_hands/mid_walk_2/rotations/south-west.png"
+            },
+            "animations": {
+              "The_character_walks_forward_with_a_rhythmic_heavy": {
+                "north-east": [
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-east/frame_000.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-east/frame_001.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-east/frame_002.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-east/frame_003.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-east/frame_004.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-east/frame_005.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-east/frame_006.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-east/frame_007.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-east/frame_008.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-east/frame_009.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-east/frame_010.png"
+                ],
+                "north": [
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north/frame_000.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north/frame_001.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north/frame_002.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north/frame_003.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north/frame_004.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north/frame_005.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north/frame_006.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north/frame_007.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north/frame_008.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north/frame_009.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north/frame_010.png"
+                ],
+                "south-west": [
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-west/frame_000.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-west/frame_001.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-west/frame_002.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-west/frame_003.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-west/frame_004.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-west/frame_005.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-west/frame_006.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-west/frame_007.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-west/frame_008.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-west/frame_009.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-west/frame_010.png"
+                ],
+                "west": [
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/west/frame_000.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/west/frame_001.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/west/frame_002.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/west/frame_003.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/west/frame_004.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/west/frame_005.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/west/frame_006.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/west/frame_007.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/west/frame_008.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/west/frame_009.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/west/frame_010.png"
+                ],
+                "east": [
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/east/frame_000.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/east/frame_001.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/east/frame_002.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/east/frame_003.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/east/frame_004.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/east/frame_005.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/east/frame_006.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/east/frame_007.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/east/frame_008.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/east/frame_009.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/east/frame_010.png"
+                ],
+                "south-east": [
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-east/frame_000.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-east/frame_001.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-east/frame_002.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-east/frame_003.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-east/frame_004.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-east/frame_005.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-east/frame_006.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-east/frame_007.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-east/frame_008.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-east/frame_009.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-east/frame_010.png"
+                ],
+                "south": [
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south/frame_000.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south/frame_001.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south/frame_002.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south/frame_003.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south/frame_004.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south/frame_005.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south/frame_006.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south/frame_007.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south/frame_008.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south/frame_009.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south/frame_010.png"
+                ],
+                "north-west": [
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-west/frame_000.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-west/frame_001.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-west/frame_002.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-west/frame_003.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-west/frame_004.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-west/frame_005.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-west/frame_006.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-west/frame_007.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-west/frame_008.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-west/frame_009.png",
+                  "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-west/frame_010.png"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "character": {
+            "id": "7f5f8ede-48e5-4b04-93cd-93fb8d7d47b1",
+            "name": "mid walk",
+            "prompt": "A huge undead pirate cook / quartermaster with a heavy fat body, thick arms, and a brutal ship-galley look. He has a pale scarred belly exposed under a torn open vest, dirty bloodstained apron cloth, ragged trousers, one heavy boot and one bare wrapped foot. His face is grim and sea-rotted, with a dark beard, hollow eyes, red bandana, and weathered undead skin.\n\nHe carries a large bloodstained cleaver as his main weapon and has a metal ladle hanging as a secondary tool. Around his belt are seasoning bottles, spice pouches, ration bags, hooks, jars, rope, and small supply tools. His silhouette should read as a big dangerous pirate cook: bulky, greasy, cursed, practical, and built for feeding a crew or butchering enemies.\n\nStyle: gritty dark gothic pirate pixel art, late-SNES inspired, deep maroon, tarnished gold, moonlit teal shadows, bone-white skin highlights, worn leather browns, black background, strong readable sprite silhouette.",
+            "size": {
+              "width": 100,
+              "height": 100
+            },
+            "template_id": "mannequin",
+            "directions": 8,
+            "view": "high top-down",
+            "created_at": "2026-06-10T21:43:54.73525+00:00"
+          },
+          "folder": "characters/Nothing_in_hands/mid_walk_3",
+          "frames": {
+            "rotations": {
+              "south": "characters/Nothing_in_hands/mid_walk_3/rotations/south.png",
+              "south-east": "characters/Nothing_in_hands/mid_walk_3/rotations/south-east.png",
+              "east": "characters/Nothing_in_hands/mid_walk_3/rotations/east.png",
+              "north-east": "characters/Nothing_in_hands/mid_walk_3/rotations/north-east.png",
+              "north": "characters/Nothing_in_hands/mid_walk_3/rotations/north.png",
+              "north-west": "characters/Nothing_in_hands/mid_walk_3/rotations/north-west.png",
+              "west": "characters/Nothing_in_hands/mid_walk_3/rotations/west.png",
+              "south-west": "characters/Nothing_in_hands/mid_walk_3/rotations/south-west.png"
+            },
+            "animations": {}
+          }
+        },
+        {
+          "character": {
+            "id": "5584d35b-4d08-4839-862d-b128a6dd8e3c",
+            "name": "standing still",
+            "prompt": "A huge undead pirate cook / quartermaster with a heavy fat body, thick arms, and a brutal ship-galley look. He has a pale scarred belly exposed under a torn open vest, dirty bloodstained apron cloth, ragged trousers, one heavy boot and one bare wrapped foot. His face is grim and sea-rotted, with a dark beard, hollow eyes, red bandana, and weathered undead skin.\n\nHe carries a large bloodstained cleaver as his main weapon and has a metal ladle hanging as a secondary tool. Around his belt are seasoning bottles, spice pouches, ration bags, hooks, jars, rope, and small supply tools. His silhouette should read as a big dangerous pirate cook: bulky, greasy, cursed, practical, and built for feeding a crew or butchering enemies.\n\nStyle: gritty dark gothic pirate pixel art, late-SNES inspired, deep maroon, tarnished gold, moonlit teal shadows, bone-white skin highlights, worn leather browns, black background, strong readable sprite silhouette.",
+            "size": {
+              "width": 100,
+              "height": 100
+            },
+            "template_id": "mannequin",
+            "directions": 8,
+            "view": "high top-down",
+            "created_at": "2026-06-10T21:46:25.197362+00:00"
+          },
+          "folder": "characters/Nothing_in_hands/standing_still",
+          "frames": {
+            "rotations": {
+              "south": "characters/Nothing_in_hands/standing_still/rotations/south.png",
+              "south-east": "characters/Nothing_in_hands/standing_still/rotations/south-east.png",
+              "east": "characters/Nothing_in_hands/standing_still/rotations/east.png",
+              "north-east": "characters/Nothing_in_hands/standing_still/rotations/north-east.png",
+              "north": "characters/Nothing_in_hands/standing_still/rotations/north.png",
+              "north-west": "characters/Nothing_in_hands/standing_still/rotations/north-west.png",
+              "west": "characters/Nothing_in_hands/standing_still/rotations/west.png",
+              "south-west": "characters/Nothing_in_hands/standing_still/rotations/south-west.png"
+            },
+            "animations": {}
+          }
+        }
+      ]
+    }
+  ],
+  "states": [
+    {
+      "character": {
+        "id": "22aec1f2-3fbc-43d5-8e7d-52d3ff5f3a1e",
+        "name": "Nothing in hands",
+        "prompt": "A huge undead pirate cook / quartermaster with a heavy fat body, thick arms, and a brutal ship-galley look. He has a pale scarred belly exposed under a torn open vest, dirty bloodstained apron cloth, ragged trousers, one heavy boot and one bare wrapped foot. His face is grim and sea-rotted, with a dark beard, hollow eyes, red bandana, and weathered undead skin.\n\nHe carries a large bloodstained cleaver as his main weapon and has a metal ladle hanging as a secondary tool. Around his belt are seasoning bottles, spice pouches, ration bags, hooks, jars, rope, and small supply tools. His silhouette should read as a big dangerous pirate cook: bulky, greasy, cursed, practical, and built for feeding a crew or butchering enemies.\n\nStyle: gritty dark gothic pirate pixel art, late-SNES inspired, deep maroon, tarnished gold, moonlit teal shadows, bone-white skin highlights, worn leather browns, black background, strong readable sprite silhouette.",
+        "size": {
+          "width": 100,
+          "height": 100
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "high top-down",
+        "created_at": "2026-06-10T19:02:17.898763+00:00"
+      },
+      "folder": "characters/Nothing_in_hands/Nothing_in_hands",
+      "frames": {
+        "rotations": {
+          "south": "characters/Nothing_in_hands/Nothing_in_hands/rotations/south.png",
+          "south-east": "characters/Nothing_in_hands/Nothing_in_hands/rotations/south-east.png",
+          "east": "characters/Nothing_in_hands/Nothing_in_hands/rotations/east.png",
+          "north-east": "characters/Nothing_in_hands/Nothing_in_hands/rotations/north-east.png",
+          "north": "characters/Nothing_in_hands/Nothing_in_hands/rotations/north.png",
+          "north-west": "characters/Nothing_in_hands/Nothing_in_hands/rotations/north-west.png",
+          "west": "characters/Nothing_in_hands/Nothing_in_hands/rotations/west.png",
+          "south-west": "characters/Nothing_in_hands/Nothing_in_hands/rotations/south-west.png"
+        },
+        "animations": {
+          "The_butcher_stands_in_a_stable_grounded_stance_his": {
+            "north-east": [
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north-east/frame_000.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north-east/frame_001.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north-east/frame_002.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north-east/frame_003.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north-east/frame_004.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north-east/frame_005.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north-east/frame_006.png"
+            ],
+            "north-west": [
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north-west/frame_000.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north-west/frame_001.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north-west/frame_002.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north-west/frame_003.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north-west/frame_004.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north-west/frame_005.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north-west/frame_006.png"
+            ],
+            "north": [
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north/frame_000.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north/frame_001.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north/frame_002.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north/frame_003.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north/frame_004.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north/frame_005.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/north/frame_006.png"
+            ],
+            "south-east": [
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south-east/frame_000.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south-east/frame_001.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south-east/frame_002.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south-east/frame_003.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south-east/frame_004.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south-east/frame_005.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south-east/frame_006.png"
+            ],
+            "east": [
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/east/frame_000.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/east/frame_001.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/east/frame_002.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/east/frame_003.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/east/frame_004.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/east/frame_005.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/east/frame_006.png"
+            ],
+            "west": [
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/west/frame_000.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/west/frame_001.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/west/frame_002.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/west/frame_003.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/west/frame_004.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/west/frame_005.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/west/frame_006.png"
+            ],
+            "south": [
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south/frame_000.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south/frame_001.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south/frame_002.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south/frame_003.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south/frame_004.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south/frame_005.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south/frame_006.png"
+            ],
+            "south-west": [
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south-west/frame_000.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south-west/frame_001.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south-west/frame_002.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south-west/frame_003.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south-west/frame_004.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south-west/frame_005.png",
+              "characters/Nothing_in_hands/Nothing_in_hands/animations/The_butcher_stands_in_a_stable_grounded_stance_his/south-west/frame_006.png"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "character": {
+        "id": "343fce15-b810-4a17-91c2-c772a24a3fa4",
+        "name": "mid walk",
+        "prompt": "A huge undead pirate cook / quartermaster with a heavy fat body, thick arms, and a brutal ship-galley look. He has a pale scarred belly exposed under a torn open vest, dirty bloodstained apron cloth, ragged trousers, one heavy boot and one bare wrapped foot. His face is grim and sea-rotted, with a dark beard, hollow eyes, red bandana, and weathered undead skin.\n\nHe carries a large bloodstained cleaver as his main weapon and has a metal ladle hanging as a secondary tool. Around his belt are seasoning bottles, spice pouches, ration bags, hooks, jars, rope, and small supply tools. His silhouette should read as a big dangerous pirate cook: bulky, greasy, cursed, practical, and built for feeding a crew or butchering enemies.\n\nStyle: gritty dark gothic pirate pixel art, late-SNES inspired, deep maroon, tarnished gold, moonlit teal shadows, bone-white skin highlights, worn leather browns, black background, strong readable sprite silhouette.",
+        "size": {
+          "width": 100,
+          "height": 100
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "high top-down",
+        "created_at": "2026-06-10T19:08:50.265981+00:00"
+      },
+      "folder": "characters/Nothing_in_hands/mid_walk",
+      "frames": {
+        "rotations": {
+          "south": "characters/Nothing_in_hands/mid_walk/rotations/south.png",
+          "south-east": "characters/Nothing_in_hands/mid_walk/rotations/south-east.png",
+          "east": "characters/Nothing_in_hands/mid_walk/rotations/east.png",
+          "north-east": "characters/Nothing_in_hands/mid_walk/rotations/north-east.png",
+          "north": "characters/Nothing_in_hands/mid_walk/rotations/north.png",
+          "north-west": "characters/Nothing_in_hands/mid_walk/rotations/north-west.png",
+          "west": "characters/Nothing_in_hands/mid_walk/rotations/west.png",
+          "south-west": "characters/Nothing_in_hands/mid_walk/rotations/south-west.png"
+        },
+        "animations": {
+          "The_man_walks_forward_with_a_heavy_rhythmic_gait_h": {
+            "north-east": [
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-east/frame_000.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-east/frame_001.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-east/frame_002.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-east/frame_003.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-east/frame_004.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-east/frame_005.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-east/frame_006.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-east/frame_007.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-east/frame_008.png"
+            ],
+            "south-west": [
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-west/frame_000.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-west/frame_001.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-west/frame_002.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-west/frame_003.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-west/frame_004.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-west/frame_005.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-west/frame_006.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-west/frame_007.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-west/frame_008.png"
+            ],
+            "north-west": [
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-west/frame_000.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-west/frame_001.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-west/frame_002.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-west/frame_003.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-west/frame_004.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-west/frame_005.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-west/frame_006.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-west/frame_007.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north-west/frame_008.png"
+            ],
+            "east": [
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/east/frame_000.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/east/frame_001.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/east/frame_002.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/east/frame_003.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/east/frame_004.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/east/frame_005.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/east/frame_006.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/east/frame_007.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/east/frame_008.png"
+            ],
+            "west": [
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/west/frame_000.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/west/frame_001.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/west/frame_002.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/west/frame_003.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/west/frame_004.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/west/frame_005.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/west/frame_006.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/west/frame_007.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/west/frame_008.png"
+            ],
+            "south-east": [
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-east/frame_000.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-east/frame_001.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-east/frame_002.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-east/frame_003.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-east/frame_004.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-east/frame_005.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-east/frame_006.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-east/frame_007.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south-east/frame_008.png"
+            ],
+            "south": [
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south/frame_000.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south/frame_001.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south/frame_002.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south/frame_003.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south/frame_004.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south/frame_005.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south/frame_006.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south/frame_007.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/south/frame_008.png"
+            ],
+            "north": [
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north/frame_000.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north/frame_001.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north/frame_002.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north/frame_003.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north/frame_004.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north/frame_005.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north/frame_006.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north/frame_007.png",
+              "characters/Nothing_in_hands/mid_walk/animations/The_man_walks_forward_with_a_heavy_rhythmic_gait_h/north/frame_008.png"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "character": {
+        "id": "ca4bb8fe-edcf-4509-a6a7-d397fe4d1271",
+        "name": "wind run",
+        "prompt": "A huge undead pirate cook / quartermaster with a heavy fat body, thick arms, and a brutal ship-galley look. He has a pale scarred belly exposed under a torn open vest, dirty bloodstained apron cloth, ragged trousers, one heavy boot and one bare wrapped foot. His face is grim and sea-rotted, with a dark beard, hollow eyes, red bandana, and weathered undead skin.\n\nHe carries a large bloodstained cleaver as his main weapon and has a metal ladle hanging as a secondary tool. Around his belt are seasoning bottles, spice pouches, ration bags, hooks, jars, rope, and small supply tools. His silhouette should read as a big dangerous pirate cook: bulky, greasy, cursed, practical, and built for feeding a crew or butchering enemies.\n\nStyle: gritty dark gothic pirate pixel art, late-SNES inspired, deep maroon, tarnished gold, moonlit teal shadows, bone-white skin highlights, worn leather browns, black background, strong readable sprite silhouette.",
+        "size": {
+          "width": 100,
+          "height": 100
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "high top-down",
+        "created_at": "2026-06-10T19:08:56.592614+00:00"
+      },
+      "folder": "characters/Nothing_in_hands/wind_run",
+      "frames": {
+        "rotations": {
+          "south": "characters/Nothing_in_hands/wind_run/rotations/south.png",
+          "south-east": "characters/Nothing_in_hands/wind_run/rotations/south-east.png",
+          "east": "characters/Nothing_in_hands/wind_run/rotations/east.png",
+          "north-east": "characters/Nothing_in_hands/wind_run/rotations/north-east.png",
+          "north": "characters/Nothing_in_hands/wind_run/rotations/north.png",
+          "north-west": "characters/Nothing_in_hands/wind_run/rotations/north-west.png",
+          "west": "characters/Nothing_in_hands/wind_run/rotations/west.png",
+          "south-west": "characters/Nothing_in_hands/wind_run/rotations/south-west.png"
+        },
+        "animations": {
+          "The_character_leans_slightly_forward_rhythmically": {
+            "south": [
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south/frame_000.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south/frame_001.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south/frame_002.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south/frame_003.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south/frame_004.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south/frame_005.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south/frame_006.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south/frame_007.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south/frame_008.png"
+            ],
+            "north": [
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north/frame_000.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north/frame_001.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north/frame_002.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north/frame_003.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north/frame_004.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north/frame_005.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north/frame_006.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north/frame_007.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north/frame_008.png"
+            ],
+            "north-east": [
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_000.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_001.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_002.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_003.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_004.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_005.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_006.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_007.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_008.png"
+            ],
+            "north-west": [
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_000.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_001.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_002.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_003.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_004.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_005.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_006.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_007.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_008.png"
+            ],
+            "west": [
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/west/frame_000.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/west/frame_001.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/west/frame_002.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/west/frame_003.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/west/frame_004.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/west/frame_005.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/west/frame_006.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/west/frame_007.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/west/frame_008.png"
+            ],
+            "south-west": [
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_000.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_001.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_002.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_003.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_004.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_005.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_006.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_007.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_008.png"
+            ],
+            "east": [
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/east/frame_000.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/east/frame_001.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/east/frame_002.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/east/frame_003.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/east/frame_004.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/east/frame_005.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/east/frame_006.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/east/frame_007.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/east/frame_008.png"
+            ],
+            "south-east": [
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_000.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_001.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_002.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_003.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_004.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_005.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_006.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_007.png",
+              "characters/Nothing_in_hands/wind_run/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_008.png"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "character": {
+        "id": "f12b2e24-7191-4750-bca0-4ebb2fd32a34",
+        "name": "with just knife mid",
+        "prompt": "A huge undead pirate cook / quartermaster with a heavy fat body, thick arms, and a brutal ship-galley look. He has a pale scarred belly exposed under a torn open vest, dirty bloodstained apron cloth, ragged trousers, one heavy boot and one bare wrapped foot. His face is grim and sea-rotted, with a dark beard, hollow eyes, red bandana, and weathered undead skin.\n\nHe carries a large bloodstained cleaver as his main weapon and has a metal ladle hanging as a secondary tool. Around his belt are seasoning bottles, spice pouches, ration bags, hooks, jars, rope, and small supply tools. His silhouette should read as a big dangerous pirate cook: bulky, greasy, cursed, practical, and built for feeding a crew or butchering enemies.\n\nStyle: gritty dark gothic pirate pixel art, late-SNES inspired, deep maroon, tarnished gold, moonlit teal shadows, bone-white skin highlights, worn leather browns, black background, strong readable sprite silhouette.",
+        "size": {
+          "width": 100,
+          "height": 100
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "high top-down",
+        "created_at": "2026-06-10T21:19:39.950212+00:00"
+      },
+      "folder": "characters/Nothing_in_hands/with_just_knife_mid",
+      "frames": {
+        "rotations": {
+          "south": "characters/Nothing_in_hands/with_just_knife_mid/rotations/south.png",
+          "south-east": "characters/Nothing_in_hands/with_just_knife_mid/rotations/south-east.png",
+          "east": "characters/Nothing_in_hands/with_just_knife_mid/rotations/east.png",
+          "north-east": "characters/Nothing_in_hands/with_just_knife_mid/rotations/north-east.png",
+          "north": "characters/Nothing_in_hands/with_just_knife_mid/rotations/north.png",
+          "north-west": "characters/Nothing_in_hands/with_just_knife_mid/rotations/north-west.png",
+          "west": "characters/Nothing_in_hands/with_just_knife_mid/rotations/west.png",
+          "south-west": "characters/Nothing_in_hands/with_just_knife_mid/rotations/south-west.png"
+        },
+        "animations": {
+          "The_character_leans_slightly_forward_rhythmically": {
+            "north": [
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north/frame_000.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north/frame_001.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north/frame_002.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north/frame_003.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north/frame_004.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north/frame_005.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north/frame_006.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north/frame_007.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north/frame_008.png"
+            ],
+            "south-west": [
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_000.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_001.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_002.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_003.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_004.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_005.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_006.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_007.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-west/frame_008.png"
+            ],
+            "north-east": [
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_000.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_001.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_002.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_003.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_004.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_005.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_006.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_007.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-east/frame_008.png"
+            ],
+            "east": [
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/east/frame_000.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/east/frame_001.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/east/frame_002.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/east/frame_003.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/east/frame_004.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/east/frame_005.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/east/frame_006.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/east/frame_007.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/east/frame_008.png"
+            ],
+            "north-west": [
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_000.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_001.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_002.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_003.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_004.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_005.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_006.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_007.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/north-west/frame_008.png"
+            ],
+            "south-east": [
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_000.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_001.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_002.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_003.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_004.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_005.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_006.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_007.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south-east/frame_008.png"
+            ],
+            "west": [
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/west/frame_000.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/west/frame_001.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/west/frame_002.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/west/frame_003.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/west/frame_004.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/west/frame_005.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/west/frame_006.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/west/frame_007.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/west/frame_008.png"
+            ],
+            "south": [
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south/frame_000.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south/frame_001.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south/frame_002.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south/frame_003.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south/frame_004.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south/frame_005.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south/frame_006.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south/frame_007.png",
+              "characters/Nothing_in_hands/with_just_knife_mid/animations/The_character_leans_slightly_forward_rhythmically/south/frame_008.png"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "character": {
+        "id": "47da7ed9-d0f9-4b59-be32-073cddd5b370",
+        "name": "with stew and ladle",
+        "prompt": "A huge undead pirate cook / quartermaster with a heavy fat body, thick arms, and a brutal ship-galley look. He has a pale scarred belly exposed under a torn open vest, dirty bloodstained apron cloth, ragged trousers, one heavy boot and one bare wrapped foot. His face is grim and sea-rotted, with a dark beard, hollow eyes, red bandana, and weathered undead skin.\n\nHe carries a large bloodstained cleaver as his main weapon and has a metal ladle hanging as a secondary tool. Around his belt are seasoning bottles, spice pouches, ration bags, hooks, jars, rope, and small supply tools. His silhouette should read as a big dangerous pirate cook: bulky, greasy, cursed, practical, and built for feeding a crew or butchering enemies.\n\nStyle: gritty dark gothic pirate pixel art, late-SNES inspired, deep maroon, tarnished gold, moonlit teal shadows, bone-white skin highlights, worn leather browns, black background, strong readable sprite silhouette.",
+        "size": {
+          "width": 100,
+          "height": 100
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "high top-down",
+        "created_at": "2026-06-10T21:21:16.661485+00:00"
+      },
+      "folder": "characters/Nothing_in_hands/with_stew_and_ladle",
+      "frames": {
+        "rotations": {
+          "south": "characters/Nothing_in_hands/with_stew_and_ladle/rotations/south.png",
+          "south-east": "characters/Nothing_in_hands/with_stew_and_ladle/rotations/south-east.png",
+          "east": "characters/Nothing_in_hands/with_stew_and_ladle/rotations/east.png",
+          "north-east": "characters/Nothing_in_hands/with_stew_and_ladle/rotations/north-east.png",
+          "north": "characters/Nothing_in_hands/with_stew_and_ladle/rotations/north.png",
+          "north-west": "characters/Nothing_in_hands/with_stew_and_ladle/rotations/north-west.png",
+          "west": "characters/Nothing_in_hands/with_stew_and_ladle/rotations/west.png",
+          "south-west": "characters/Nothing_in_hands/with_stew_and_ladle/rotations/south-west.png"
+        },
+        "animations": {
+          "The_chef_stands_firmly_in_place_rhythmically_stirr": {
+            "south-east": [
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-east/frame_000.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-east/frame_001.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-east/frame_002.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-east/frame_003.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-east/frame_004.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-east/frame_005.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-east/frame_006.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-east/frame_007.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-east/frame_008.png"
+            ],
+            "west": [
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/west/frame_000.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/west/frame_001.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/west/frame_002.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/west/frame_003.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/west/frame_004.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/west/frame_005.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/west/frame_006.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/west/frame_007.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/west/frame_008.png"
+            ],
+            "south-west": [
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-west/frame_000.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-west/frame_001.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-west/frame_002.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-west/frame_003.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-west/frame_004.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-west/frame_005.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-west/frame_006.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-west/frame_007.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south-west/frame_008.png"
+            ],
+            "north": [
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north/frame_000.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north/frame_001.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north/frame_002.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north/frame_003.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north/frame_004.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north/frame_005.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north/frame_006.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north/frame_007.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north/frame_008.png"
+            ],
+            "east": [
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/east/frame_000.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/east/frame_001.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/east/frame_002.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/east/frame_003.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/east/frame_004.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/east/frame_005.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/east/frame_006.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/east/frame_007.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/east/frame_008.png"
+            ],
+            "north-west": [
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-west/frame_000.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-west/frame_001.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-west/frame_002.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-west/frame_003.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-west/frame_004.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-west/frame_005.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-west/frame_006.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-west/frame_007.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-west/frame_008.png"
+            ],
+            "north-east": [
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-east/frame_000.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-east/frame_001.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-east/frame_002.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-east/frame_003.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-east/frame_004.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-east/frame_005.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-east/frame_006.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-east/frame_007.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/north-east/frame_008.png"
+            ],
+            "south": [
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south/frame_000.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south/frame_001.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south/frame_002.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south/frame_003.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south/frame_004.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south/frame_005.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south/frame_006.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south/frame_007.png",
+              "characters/Nothing_in_hands/with_stew_and_ladle/animations/The_chef_stands_firmly_in_place_rhythmically_stirr/south/frame_008.png"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "character": {
+        "id": "47078258-994f-4b27-bcb5-fbef3e152f9d",
+        "name": "mid walk",
+        "prompt": "A huge undead pirate cook / quartermaster with a heavy fat body, thick arms, and a brutal ship-galley look. He has a pale scarred belly exposed under a torn open vest, dirty bloodstained apron cloth, ragged trousers, one heavy boot and one bare wrapped foot. His face is grim and sea-rotted, with a dark beard, hollow eyes, red bandana, and weathered undead skin.\n\nHe carries a large bloodstained cleaver as his main weapon and has a metal ladle hanging as a secondary tool. Around his belt are seasoning bottles, spice pouches, ration bags, hooks, jars, rope, and small supply tools. His silhouette should read as a big dangerous pirate cook: bulky, greasy, cursed, practical, and built for feeding a crew or butchering enemies.\n\nStyle: gritty dark gothic pirate pixel art, late-SNES inspired, deep maroon, tarnished gold, moonlit teal shadows, bone-white skin highlights, worn leather browns, black background, strong readable sprite silhouette.",
+        "size": {
+          "width": 100,
+          "height": 100
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "high top-down",
+        "created_at": "2026-06-10T21:24:31.880055+00:00"
+      },
+      "folder": "characters/Nothing_in_hands/mid_walk_2",
+      "frames": {
+        "rotations": {
+          "south": "characters/Nothing_in_hands/mid_walk_2/rotations/south.png",
+          "south-east": "characters/Nothing_in_hands/mid_walk_2/rotations/south-east.png",
+          "east": "characters/Nothing_in_hands/mid_walk_2/rotations/east.png",
+          "north-east": "characters/Nothing_in_hands/mid_walk_2/rotations/north-east.png",
+          "north": "characters/Nothing_in_hands/mid_walk_2/rotations/north.png",
+          "north-west": "characters/Nothing_in_hands/mid_walk_2/rotations/north-west.png",
+          "west": "characters/Nothing_in_hands/mid_walk_2/rotations/west.png",
+          "south-west": "characters/Nothing_in_hands/mid_walk_2/rotations/south-west.png"
+        },
+        "animations": {
+          "The_character_walks_forward_with_a_rhythmic_heavy": {
+            "north-east": [
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-east/frame_000.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-east/frame_001.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-east/frame_002.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-east/frame_003.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-east/frame_004.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-east/frame_005.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-east/frame_006.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-east/frame_007.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-east/frame_008.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-east/frame_009.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-east/frame_010.png"
+            ],
+            "north": [
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north/frame_000.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north/frame_001.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north/frame_002.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north/frame_003.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north/frame_004.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north/frame_005.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north/frame_006.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north/frame_007.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north/frame_008.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north/frame_009.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north/frame_010.png"
+            ],
+            "south-west": [
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-west/frame_000.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-west/frame_001.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-west/frame_002.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-west/frame_003.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-west/frame_004.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-west/frame_005.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-west/frame_006.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-west/frame_007.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-west/frame_008.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-west/frame_009.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-west/frame_010.png"
+            ],
+            "west": [
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/west/frame_000.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/west/frame_001.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/west/frame_002.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/west/frame_003.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/west/frame_004.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/west/frame_005.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/west/frame_006.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/west/frame_007.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/west/frame_008.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/west/frame_009.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/west/frame_010.png"
+            ],
+            "east": [
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/east/frame_000.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/east/frame_001.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/east/frame_002.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/east/frame_003.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/east/frame_004.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/east/frame_005.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/east/frame_006.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/east/frame_007.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/east/frame_008.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/east/frame_009.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/east/frame_010.png"
+            ],
+            "south-east": [
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-east/frame_000.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-east/frame_001.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-east/frame_002.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-east/frame_003.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-east/frame_004.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-east/frame_005.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-east/frame_006.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-east/frame_007.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-east/frame_008.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-east/frame_009.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south-east/frame_010.png"
+            ],
+            "south": [
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south/frame_000.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south/frame_001.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south/frame_002.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south/frame_003.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south/frame_004.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south/frame_005.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south/frame_006.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south/frame_007.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south/frame_008.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south/frame_009.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/south/frame_010.png"
+            ],
+            "north-west": [
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-west/frame_000.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-west/frame_001.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-west/frame_002.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-west/frame_003.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-west/frame_004.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-west/frame_005.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-west/frame_006.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-west/frame_007.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-west/frame_008.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-west/frame_009.png",
+              "characters/Nothing_in_hands/mid_walk_2/animations/The_character_walks_forward_with_a_rhythmic_heavy/north-west/frame_010.png"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "character": {
+        "id": "7f5f8ede-48e5-4b04-93cd-93fb8d7d47b1",
+        "name": "mid walk",
+        "prompt": "A huge undead pirate cook / quartermaster with a heavy fat body, thick arms, and a brutal ship-galley look. He has a pale scarred belly exposed under a torn open vest, dirty bloodstained apron cloth, ragged trousers, one heavy boot and one bare wrapped foot. His face is grim and sea-rotted, with a dark beard, hollow eyes, red bandana, and weathered undead skin.\n\nHe carries a large bloodstained cleaver as his main weapon and has a metal ladle hanging as a secondary tool. Around his belt are seasoning bottles, spice pouches, ration bags, hooks, jars, rope, and small supply tools. His silhouette should read as a big dangerous pirate cook: bulky, greasy, cursed, practical, and built for feeding a crew or butchering enemies.\n\nStyle: gritty dark gothic pirate pixel art, late-SNES inspired, deep maroon, tarnished gold, moonlit teal shadows, bone-white skin highlights, worn leather browns, black background, strong readable sprite silhouette.",
+        "size": {
+          "width": 100,
+          "height": 100
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "high top-down",
+        "created_at": "2026-06-10T21:43:54.73525+00:00"
+      },
+      "folder": "characters/Nothing_in_hands/mid_walk_3",
+      "frames": {
+        "rotations": {
+          "south": "characters/Nothing_in_hands/mid_walk_3/rotations/south.png",
+          "south-east": "characters/Nothing_in_hands/mid_walk_3/rotations/south-east.png",
+          "east": "characters/Nothing_in_hands/mid_walk_3/rotations/east.png",
+          "north-east": "characters/Nothing_in_hands/mid_walk_3/rotations/north-east.png",
+          "north": "characters/Nothing_in_hands/mid_walk_3/rotations/north.png",
+          "north-west": "characters/Nothing_in_hands/mid_walk_3/rotations/north-west.png",
+          "west": "characters/Nothing_in_hands/mid_walk_3/rotations/west.png",
+          "south-west": "characters/Nothing_in_hands/mid_walk_3/rotations/south-west.png"
+        },
+        "animations": {}
+      }
+    },
+    {
+      "character": {
+        "id": "5584d35b-4d08-4839-862d-b128a6dd8e3c",
+        "name": "standing still",
+        "prompt": "A huge undead pirate cook / quartermaster with a heavy fat body, thick arms, and a brutal ship-galley look. He has a pale scarred belly exposed under a torn open vest, dirty bloodstained apron cloth, ragged trousers, one heavy boot and one bare wrapped foot. His face is grim and sea-rotted, with a dark beard, hollow eyes, red bandana, and weathered undead skin.\n\nHe carries a large bloodstained cleaver as his main weapon and has a metal ladle hanging as a secondary tool. Around his belt are seasoning bottles, spice pouches, ration bags, hooks, jars, rope, and small supply tools. His silhouette should read as a big dangerous pirate cook: bulky, greasy, cursed, practical, and built for feeding a crew or butchering enemies.\n\nStyle: gritty dark gothic pirate pixel art, late-SNES inspired, deep maroon, tarnished gold, moonlit teal shadows, bone-white skin highlights, worn leather browns, black background, strong readable sprite silhouette.",
+        "size": {
+          "width": 100,
+          "height": 100
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "high top-down",
+        "created_at": "2026-06-10T21:46:25.197362+00:00"
+      },
+      "folder": "characters/Nothing_in_hands/standing_still",
+      "frames": {
+        "rotations": {
+          "south": "characters/Nothing_in_hands/standing_still/rotations/south.png",
+          "south-east": "characters/Nothing_in_hands/standing_still/rotations/south-east.png",
+          "east": "characters/Nothing_in_hands/standing_still/rotations/east.png",
+          "north-east": "characters/Nothing_in_hands/standing_still/rotations/north-east.png",
+          "north": "characters/Nothing_in_hands/standing_still/rotations/north.png",
+          "north-west": "characters/Nothing_in_hands/standing_still/rotations/north-west.png",
+          "west": "characters/Nothing_in_hands/standing_still/rotations/west.png",
+          "south-west": "characters/Nothing_in_hands/standing_still/rotations/south-west.png"
+        },
+        "animations": {}
+      }
+    }
+  ],
+  "export_version": "3.0",
+  "export_date": "2026-06-11T05:17:43.678910"
+}
