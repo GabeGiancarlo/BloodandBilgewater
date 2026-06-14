@@ -1,0 +1,1742 @@
+{
+  "groups": [
+    {
+      "group_id": "e0b9ea6e-95f9-43a8-9889-cc663fe8d064",
+      "folder": "characters/instead_of_a_blue_li",
+      "states": [
+        {
+          "character": {
+            "id": "4fc6be0a-42e8-48dc-8af8-1688486e5912",
+            "name": "instead of a blue li",
+            "prompt": "A weathered female archaeologist in a sleeveless torn expedition shirt and dark trousers, standing in a wide, balanced stance. She carries a reinforced grave shovel, with a compact relic pistol holstered at her hip. Adorned with leather belts holding bone charms, rusted iron chisels, and glowing teal relic fragments. Deep maroon cloth wraps, worn boots, and salt-stained textures, capturing a gritty, gothic silhouette.",
+            "size": {
+              "width": 112,
+              "height": 112
+            },
+            "template_id": "mannequin",
+            "directions": 8,
+            "view": "high top-down",
+            "created_at": "2026-06-10T20:11:08.351336+00:00"
+          },
+          "folder": "characters/instead_of_a_blue_li/instead_of_a_blue_li",
+          "frames": {
+            "rotations": {
+              "south": "characters/instead_of_a_blue_li/instead_of_a_blue_li/rotations/south.png",
+              "south-east": "characters/instead_of_a_blue_li/instead_of_a_blue_li/rotations/south-east.png",
+              "east": "characters/instead_of_a_blue_li/instead_of_a_blue_li/rotations/east.png",
+              "north-east": "characters/instead_of_a_blue_li/instead_of_a_blue_li/rotations/north-east.png",
+              "north": "characters/instead_of_a_blue_li/instead_of_a_blue_li/rotations/north.png",
+              "north-west": "characters/instead_of_a_blue_li/instead_of_a_blue_li/rotations/north-west.png",
+              "west": "characters/instead_of_a_blue_li/instead_of_a_blue_li/rotations/west.png",
+              "south-west": "characters/instead_of_a_blue_li/instead_of_a_blue_li/rotations/south-west.png"
+            },
+            "animations": {
+              "The_character_stands_firmly_in_place_with_her_feet": {
+                "west": [
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/west/frame_000.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/west/frame_001.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/west/frame_002.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/west/frame_003.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/west/frame_004.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/west/frame_005.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/west/frame_006.png"
+                ],
+                "south-east": [
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south-east/frame_000.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south-east/frame_001.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south-east/frame_002.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south-east/frame_003.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south-east/frame_004.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south-east/frame_005.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south-east/frame_006.png"
+                ],
+                "east-4f6c4d25": [
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/east-4f6c4d25/frame_000.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/east-4f6c4d25/frame_001.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/east-4f6c4d25/frame_002.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/east-4f6c4d25/frame_003.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/east-4f6c4d25/frame_004.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/east-4f6c4d25/frame_005.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/east-4f6c4d25/frame_006.png"
+                ],
+                "north": [
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north/frame_000.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north/frame_001.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north/frame_002.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north/frame_003.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north/frame_004.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north/frame_005.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north/frame_006.png"
+                ],
+                "north-west": [
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north-west/frame_000.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north-west/frame_001.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north-west/frame_002.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north-west/frame_003.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north-west/frame_004.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north-west/frame_005.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north-west/frame_006.png"
+                ],
+                "east-8c5b8e2c": [
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/east-8c5b8e2c/frame_000.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/east-8c5b8e2c/frame_001.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/east-8c5b8e2c/frame_002.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/east-8c5b8e2c/frame_003.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/east-8c5b8e2c/frame_004.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/east-8c5b8e2c/frame_005.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/east-8c5b8e2c/frame_006.png"
+                ],
+                "south-west": [
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south-west/frame_000.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south-west/frame_001.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south-west/frame_002.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south-west/frame_003.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south-west/frame_004.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south-west/frame_005.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south-west/frame_006.png"
+                ],
+                "south": [
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south/frame_000.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south/frame_001.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south/frame_002.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south/frame_003.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south/frame_004.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south/frame_005.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south/frame_006.png"
+                ],
+                "north-east": [
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north-east/frame_000.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north-east/frame_001.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north-east/frame_002.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north-east/frame_003.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north-east/frame_004.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north-east/frame_005.png",
+                  "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north-east/frame_006.png"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "character": {
+            "id": "e2be9550-4b25-4a70-a6c9-e34bcda698fa",
+            "name": "appear transformed b",
+            "prompt": "A weathered female archaeologist in a sleeveless torn expedition shirt and dark trousers, standing in a wide, balanced stance. She carries a reinforced grave shovel, with a compact relic pistol holstered at her hip. Adorned with leather belts holding bone charms, rusted iron chisels, and glowing teal relic fragments. Deep maroon cloth wraps, worn boots, and salt-stained textures, capturing a gritty, gothic silhouette.",
+            "size": {
+              "width": 112,
+              "height": 112
+            },
+            "template_id": "mannequin",
+            "directions": 8,
+            "view": "high top-down",
+            "created_at": "2026-06-10T20:32:16.491587+00:00"
+          },
+          "folder": "characters/instead_of_a_blue_li/appear_transformed_b",
+          "frames": {
+            "rotations": {
+              "south": "characters/instead_of_a_blue_li/appear_transformed_b/rotations/south.png",
+              "south-east": "characters/instead_of_a_blue_li/appear_transformed_b/rotations/south-east.png",
+              "east": "characters/instead_of_a_blue_li/appear_transformed_b/rotations/east.png",
+              "north-east": "characters/instead_of_a_blue_li/appear_transformed_b/rotations/north-east.png",
+              "north": "characters/instead_of_a_blue_li/appear_transformed_b/rotations/north.png",
+              "north-west": "characters/instead_of_a_blue_li/appear_transformed_b/rotations/north-west.png",
+              "west": "characters/instead_of_a_blue_li/appear_transformed_b/rotations/west.png",
+              "south-west": "characters/instead_of_a_blue_li/appear_transformed_b/rotations/south-west.png"
+            },
+            "animations": {}
+          }
+        },
+        {
+          "character": {
+            "id": "13a31a11-8634-4b19-bc61-ef65b0a51217",
+            "name": "mid walk",
+            "prompt": "A weathered female archaeologist in a sleeveless torn expedition shirt and dark trousers, standing in a wide, balanced stance. She carries a reinforced grave shovel, with a compact relic pistol holstered at her hip. Adorned with leather belts holding bone charms, rusted iron chisels, and glowing teal relic fragments. Deep maroon cloth wraps, worn boots, and salt-stained textures, capturing a gritty, gothic silhouette.",
+            "size": {
+              "width": 112,
+              "height": 112
+            },
+            "template_id": "mannequin",
+            "directions": 8,
+            "view": "high top-down",
+            "created_at": "2026-06-10T21:35:08.861965+00:00"
+          },
+          "folder": "characters/instead_of_a_blue_li/mid_walk",
+          "frames": {
+            "rotations": {
+              "south": "characters/instead_of_a_blue_li/mid_walk/rotations/south.png",
+              "south-east": "characters/instead_of_a_blue_li/mid_walk/rotations/south-east.png",
+              "east": "characters/instead_of_a_blue_li/mid_walk/rotations/east.png",
+              "north-east": "characters/instead_of_a_blue_li/mid_walk/rotations/north-east.png",
+              "north": "characters/instead_of_a_blue_li/mid_walk/rotations/north.png",
+              "north-west": "characters/instead_of_a_blue_li/mid_walk/rotations/north-west.png",
+              "west": "characters/instead_of_a_blue_li/mid_walk/rotations/west.png",
+              "south-west": "characters/instead_of_a_blue_li/mid_walk/rotations/south-west.png"
+            },
+            "animations": {
+              "walking_loop": {
+                "south-west": [
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-west/frame_000.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-west/frame_001.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-west/frame_002.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-west/frame_003.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-west/frame_004.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-west/frame_005.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-west/frame_006.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-west/frame_007.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-west/frame_008.png"
+                ],
+                "north": [
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north/frame_000.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north/frame_001.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north/frame_002.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north/frame_003.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north/frame_004.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north/frame_005.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north/frame_006.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north/frame_007.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north/frame_008.png"
+                ],
+                "west": [
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/west/frame_000.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/west/frame_001.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/west/frame_002.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/west/frame_003.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/west/frame_004.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/west/frame_005.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/west/frame_006.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/west/frame_007.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/west/frame_008.png"
+                ],
+                "south": [
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south/frame_000.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south/frame_001.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south/frame_002.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south/frame_003.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south/frame_004.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south/frame_005.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south/frame_006.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south/frame_007.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south/frame_008.png"
+                ],
+                "north-west": [
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-west/frame_000.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-west/frame_001.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-west/frame_002.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-west/frame_003.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-west/frame_004.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-west/frame_005.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-west/frame_006.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-west/frame_007.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-west/frame_008.png"
+                ],
+                "south-east": [
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-east/frame_000.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-east/frame_001.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-east/frame_002.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-east/frame_003.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-east/frame_004.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-east/frame_005.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-east/frame_006.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-east/frame_007.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-east/frame_008.png"
+                ],
+                "east": [
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/east/frame_000.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/east/frame_001.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/east/frame_002.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/east/frame_003.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/east/frame_004.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/east/frame_005.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/east/frame_006.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/east/frame_007.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/east/frame_008.png"
+                ],
+                "north-east": [
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-east/frame_000.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-east/frame_001.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-east/frame_002.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-east/frame_003.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-east/frame_004.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-east/frame_005.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-east/frame_006.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-east/frame_007.png",
+                  "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-east/frame_008.png"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "character": {
+            "id": "a706bd33-f76a-45cf-8348-9c0f90897ab4",
+            "name": "mid run",
+            "prompt": "A weathered female archaeologist in a sleeveless torn expedition shirt and dark trousers, standing in a wide, balanced stance. She carries a reinforced grave shovel, with a compact relic pistol holstered at her hip. Adorned with leather belts holding bone charms, rusted iron chisels, and glowing teal relic fragments. Deep maroon cloth wraps, worn boots, and salt-stained textures, capturing a gritty, gothic silhouette.",
+            "size": {
+              "width": 112,
+              "height": 112
+            },
+            "template_id": "mannequin",
+            "directions": 8,
+            "view": "high top-down",
+            "created_at": "2026-06-10T21:35:14.006516+00:00"
+          },
+          "folder": "characters/instead_of_a_blue_li/mid_run",
+          "frames": {
+            "rotations": {
+              "south": "characters/instead_of_a_blue_li/mid_run/rotations/south.png",
+              "south-east": "characters/instead_of_a_blue_li/mid_run/rotations/south-east.png",
+              "east": "characters/instead_of_a_blue_li/mid_run/rotations/east.png",
+              "north-east": "characters/instead_of_a_blue_li/mid_run/rotations/north-east.png",
+              "north": "characters/instead_of_a_blue_li/mid_run/rotations/north.png",
+              "north-west": "characters/instead_of_a_blue_li/mid_run/rotations/north-west.png",
+              "west": "characters/instead_of_a_blue_li/mid_run/rotations/west.png",
+              "south-west": "characters/instead_of_a_blue_li/mid_run/rotations/south-west.png"
+            },
+            "animations": {
+              "The_character_leans_slightly_forward_and_adopts_a": {
+                "north": [
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north/frame_000.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north/frame_001.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north/frame_002.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north/frame_003.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north/frame_004.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north/frame_005.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north/frame_006.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north/frame_007.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north/frame_008.png"
+                ],
+                "south-west": [
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-west/frame_000.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-west/frame_001.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-west/frame_002.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-west/frame_003.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-west/frame_004.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-west/frame_005.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-west/frame_006.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-west/frame_007.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-west/frame_008.png"
+                ],
+                "south": [
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south/frame_000.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south/frame_001.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south/frame_002.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south/frame_003.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south/frame_004.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south/frame_005.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south/frame_006.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south/frame_007.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south/frame_008.png"
+                ],
+                "east": [
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/east/frame_000.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/east/frame_001.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/east/frame_002.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/east/frame_003.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/east/frame_004.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/east/frame_005.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/east/frame_006.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/east/frame_007.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/east/frame_008.png"
+                ],
+                "north-west": [
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-west/frame_000.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-west/frame_001.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-west/frame_002.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-west/frame_003.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-west/frame_004.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-west/frame_005.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-west/frame_006.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-west/frame_007.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-west/frame_008.png"
+                ],
+                "north-east": [
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-east/frame_000.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-east/frame_001.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-east/frame_002.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-east/frame_003.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-east/frame_004.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-east/frame_005.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-east/frame_006.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-east/frame_007.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-east/frame_008.png"
+                ],
+                "west": [
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/west/frame_000.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/west/frame_001.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/west/frame_002.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/west/frame_003.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/west/frame_004.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/west/frame_005.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/west/frame_006.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/west/frame_007.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/west/frame_008.png"
+                ],
+                "south-east": [
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-east/frame_000.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-east/frame_001.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-east/frame_002.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-east/frame_003.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-east/frame_004.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-east/frame_005.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-east/frame_006.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-east/frame_007.png",
+                  "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-east/frame_008.png"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "character": {
+            "id": "09e635cf-0a0a-48be-b0b0-8e0688e34295",
+            "name": "mid dig",
+            "prompt": "A weathered female archaeologist in a sleeveless torn expedition shirt and dark trousers, standing in a wide, balanced stance. She carries a reinforced grave shovel, with a compact relic pistol holstered at her hip. Adorned with leather belts holding bone charms, rusted iron chisels, and glowing teal relic fragments. Deep maroon cloth wraps, worn boots, and salt-stained textures, capturing a gritty, gothic silhouette.",
+            "size": {
+              "width": 112,
+              "height": 112
+            },
+            "template_id": "mannequin",
+            "directions": 8,
+            "view": "high top-down",
+            "created_at": "2026-06-11T02:14:43.62311+00:00"
+          },
+          "folder": "characters/instead_of_a_blue_li/mid_dig",
+          "frames": {
+            "rotations": {
+              "south": "characters/instead_of_a_blue_li/mid_dig/rotations/south.png",
+              "south-east": "characters/instead_of_a_blue_li/mid_dig/rotations/south-east.png",
+              "east": "characters/instead_of_a_blue_li/mid_dig/rotations/east.png",
+              "north-east": "characters/instead_of_a_blue_li/mid_dig/rotations/north-east.png",
+              "north": "characters/instead_of_a_blue_li/mid_dig/rotations/north.png",
+              "north-west": "characters/instead_of_a_blue_li/mid_dig/rotations/north-west.png",
+              "west": "characters/instead_of_a_blue_li/mid_dig/rotations/west.png",
+              "south-west": "characters/instead_of_a_blue_li/mid_dig/rotations/south-west.png"
+            },
+            "animations": {
+              "The_character_rhythmically_drives_the_shovel_into": {
+                "north": [
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north/frame_000.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north/frame_001.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north/frame_002.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north/frame_003.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north/frame_004.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north/frame_005.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north/frame_006.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north/frame_007.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north/frame_008.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north/frame_009.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north/frame_010.png"
+                ],
+                "east": [
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/east/frame_000.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/east/frame_001.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/east/frame_002.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/east/frame_003.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/east/frame_004.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/east/frame_005.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/east/frame_006.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/east/frame_007.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/east/frame_008.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/east/frame_009.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/east/frame_010.png"
+                ],
+                "west": [
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/west/frame_000.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/west/frame_001.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/west/frame_002.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/west/frame_003.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/west/frame_004.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/west/frame_005.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/west/frame_006.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/west/frame_007.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/west/frame_008.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/west/frame_009.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/west/frame_010.png"
+                ],
+                "south-west": [
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-west/frame_000.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-west/frame_001.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-west/frame_002.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-west/frame_003.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-west/frame_004.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-west/frame_005.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-west/frame_006.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-west/frame_007.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-west/frame_008.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-west/frame_009.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-west/frame_010.png"
+                ],
+                "south-east": [
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-east/frame_000.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-east/frame_001.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-east/frame_002.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-east/frame_003.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-east/frame_004.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-east/frame_005.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-east/frame_006.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-east/frame_007.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-east/frame_008.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-east/frame_009.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-east/frame_010.png"
+                ],
+                "north-west": [
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-west/frame_000.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-west/frame_001.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-west/frame_002.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-west/frame_003.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-west/frame_004.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-west/frame_005.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-west/frame_006.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-west/frame_007.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-west/frame_008.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-west/frame_009.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-west/frame_010.png"
+                ],
+                "south": [
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south/frame_000.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south/frame_001.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south/frame_002.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south/frame_003.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south/frame_004.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south/frame_005.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south/frame_006.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south/frame_007.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south/frame_008.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south/frame_009.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south/frame_010.png"
+                ],
+                "north-east": [
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-east/frame_000.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-east/frame_001.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-east/frame_002.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-east/frame_003.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-east/frame_004.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-east/frame_005.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-east/frame_006.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-east/frame_007.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-east/frame_008.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-east/frame_009.png",
+                  "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-east/frame_010.png"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "character": {
+            "id": "520aed15-3a3d-472f-8b1d-6c623709639e",
+            "name": "holding pickaxe in b",
+            "prompt": "A weathered female archaeologist in a sleeveless torn expedition shirt and dark trousers, standing in a wide, balanced stance. She carries a reinforced grave shovel, with a compact relic pistol holstered at her hip. Adorned with leather belts holding bone charms, rusted iron chisels, and glowing teal relic fragments. Deep maroon cloth wraps, worn boots, and salt-stained textures, capturing a gritty, gothic silhouette.",
+            "size": {
+              "width": 112,
+              "height": 112
+            },
+            "template_id": "mannequin",
+            "directions": 8,
+            "view": "high top-down",
+            "created_at": "2026-06-11T02:43:17.668997+00:00"
+          },
+          "folder": "characters/instead_of_a_blue_li/holding_pickaxe_in_b",
+          "frames": {
+            "rotations": {
+              "south": "characters/instead_of_a_blue_li/holding_pickaxe_in_b/rotations/south.png",
+              "south-east": "characters/instead_of_a_blue_li/holding_pickaxe_in_b/rotations/south-east.png",
+              "east": "characters/instead_of_a_blue_li/holding_pickaxe_in_b/rotations/east.png",
+              "north-east": "characters/instead_of_a_blue_li/holding_pickaxe_in_b/rotations/north-east.png",
+              "north": "characters/instead_of_a_blue_li/holding_pickaxe_in_b/rotations/north.png",
+              "north-west": "characters/instead_of_a_blue_li/holding_pickaxe_in_b/rotations/north-west.png",
+              "west": "characters/instead_of_a_blue_li/holding_pickaxe_in_b/rotations/west.png",
+              "south-west": "characters/instead_of_a_blue_li/holding_pickaxe_in_b/rotations/south-west.png"
+            },
+            "animations": {
+              "The_character_raises_the_pickaxe_high_above_their": {
+                "south-east": [
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-east/frame_000.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-east/frame_001.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-east/frame_002.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-east/frame_003.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-east/frame_004.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-east/frame_005.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-east/frame_006.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-east/frame_007.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-east/frame_008.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-east/frame_009.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-east/frame_010.png"
+                ],
+                "north-east": [
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-east/frame_000.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-east/frame_001.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-east/frame_002.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-east/frame_003.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-east/frame_004.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-east/frame_005.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-east/frame_006.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-east/frame_007.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-east/frame_008.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-east/frame_009.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-east/frame_010.png"
+                ],
+                "south": [
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south/frame_000.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south/frame_001.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south/frame_002.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south/frame_003.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south/frame_004.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south/frame_005.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south/frame_006.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south/frame_007.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south/frame_008.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south/frame_009.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south/frame_010.png"
+                ],
+                "north-west": [
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-west/frame_000.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-west/frame_001.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-west/frame_002.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-west/frame_003.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-west/frame_004.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-west/frame_005.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-west/frame_006.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-west/frame_007.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-west/frame_008.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-west/frame_009.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-west/frame_010.png"
+                ],
+                "north": [
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north/frame_000.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north/frame_001.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north/frame_002.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north/frame_003.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north/frame_004.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north/frame_005.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north/frame_006.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north/frame_007.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north/frame_008.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north/frame_009.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north/frame_010.png"
+                ],
+                "east": [
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/east/frame_000.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/east/frame_001.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/east/frame_002.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/east/frame_003.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/east/frame_004.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/east/frame_005.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/east/frame_006.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/east/frame_007.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/east/frame_008.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/east/frame_009.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/east/frame_010.png"
+                ],
+                "west": [
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/west/frame_000.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/west/frame_001.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/west/frame_002.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/west/frame_003.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/west/frame_004.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/west/frame_005.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/west/frame_006.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/west/frame_007.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/west/frame_008.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/west/frame_009.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/west/frame_010.png"
+                ],
+                "south-west": [
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-west/frame_000.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-west/frame_001.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-west/frame_002.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-west/frame_003.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-west/frame_004.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-west/frame_005.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-west/frame_006.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-west/frame_007.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-west/frame_008.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-west/frame_009.png",
+                  "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-west/frame_010.png"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "character": {
+            "id": "cf8c8986-cfbb-42ed-97f3-d69a794d142e",
+            "name": "only amulet no shove",
+            "prompt": "A weathered female archaeologist in a sleeveless torn expedition shirt and dark trousers, standing in a wide, balanced stance. She carries a reinforced grave shovel, with a compact relic pistol holstered at her hip. Adorned with leather belts holding bone charms, rusted iron chisels, and glowing teal relic fragments. Deep maroon cloth wraps, worn boots, and salt-stained textures, capturing a gritty, gothic silhouette.",
+            "size": {
+              "width": 112,
+              "height": 112
+            },
+            "template_id": "mannequin",
+            "directions": 8,
+            "view": "high top-down",
+            "created_at": "2026-06-11T02:58:54.519313+00:00"
+          },
+          "folder": "characters/instead_of_a_blue_li/only_amulet_no_shove",
+          "frames": {
+            "rotations": {
+              "south": "characters/instead_of_a_blue_li/only_amulet_no_shove/rotations/south.png",
+              "south-east": "characters/instead_of_a_blue_li/only_amulet_no_shove/rotations/south-east.png",
+              "east": "characters/instead_of_a_blue_li/only_amulet_no_shove/rotations/east.png",
+              "north-east": "characters/instead_of_a_blue_li/only_amulet_no_shove/rotations/north-east.png",
+              "north": "characters/instead_of_a_blue_li/only_amulet_no_shove/rotations/north.png",
+              "north-west": "characters/instead_of_a_blue_li/only_amulet_no_shove/rotations/north-west.png",
+              "west": "characters/instead_of_a_blue_li/only_amulet_no_shove/rotations/west.png",
+              "south-west": "characters/instead_of_a_blue_li/only_amulet_no_shove/rotations/south-west.png"
+            },
+            "animations": {
+              "The_character_holds_her_arm_out_causing_the_amulet": {
+                "west": [
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/west/frame_000.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/west/frame_001.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/west/frame_002.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/west/frame_003.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/west/frame_004.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/west/frame_005.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/west/frame_006.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/west/frame_007.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/west/frame_008.png"
+                ],
+                "north": [
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north/frame_000.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north/frame_001.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north/frame_002.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north/frame_003.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north/frame_004.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north/frame_005.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north/frame_006.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north/frame_007.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north/frame_008.png"
+                ],
+                "east": [
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/east/frame_000.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/east/frame_001.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/east/frame_002.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/east/frame_003.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/east/frame_004.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/east/frame_005.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/east/frame_006.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/east/frame_007.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/east/frame_008.png"
+                ],
+                "north-west": [
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-west/frame_000.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-west/frame_001.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-west/frame_002.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-west/frame_003.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-west/frame_004.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-west/frame_005.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-west/frame_006.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-west/frame_007.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-west/frame_008.png"
+                ],
+                "south-east": [
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-east/frame_000.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-east/frame_001.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-east/frame_002.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-east/frame_003.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-east/frame_004.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-east/frame_005.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-east/frame_006.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-east/frame_007.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-east/frame_008.png"
+                ],
+                "south-west": [
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-west/frame_000.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-west/frame_001.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-west/frame_002.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-west/frame_003.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-west/frame_004.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-west/frame_005.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-west/frame_006.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-west/frame_007.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-west/frame_008.png"
+                ],
+                "north-east": [
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-east/frame_000.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-east/frame_001.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-east/frame_002.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-east/frame_003.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-east/frame_004.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-east/frame_005.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-east/frame_006.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-east/frame_007.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-east/frame_008.png"
+                ],
+                "south": [
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south/frame_000.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south/frame_001.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south/frame_002.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south/frame_003.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south/frame_004.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south/frame_005.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south/frame_006.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south/frame_007.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south/frame_008.png"
+                ]
+              },
+              "The_character_lifts_their_left_hand_holding_the_gl": {
+                "north-west": [
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-west/frame_000.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-west/frame_001.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-west/frame_002.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-west/frame_003.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-west/frame_004.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-west/frame_005.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-west/frame_006.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-west/frame_007.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-west/frame_008.png"
+                ],
+                "south-west": [
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-west/frame_000.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-west/frame_001.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-west/frame_002.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-west/frame_003.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-west/frame_004.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-west/frame_005.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-west/frame_006.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-west/frame_007.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-west/frame_008.png"
+                ],
+                "south": [
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south/frame_000.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south/frame_001.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south/frame_002.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south/frame_003.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south/frame_004.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south/frame_005.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south/frame_006.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south/frame_007.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south/frame_008.png"
+                ],
+                "north": [
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north/frame_000.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north/frame_001.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north/frame_002.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north/frame_003.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north/frame_004.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north/frame_005.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north/frame_006.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north/frame_007.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north/frame_008.png"
+                ],
+                "south-east": [
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-east/frame_000.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-east/frame_001.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-east/frame_002.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-east/frame_003.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-east/frame_004.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-east/frame_005.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-east/frame_006.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-east/frame_007.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-east/frame_008.png"
+                ],
+                "west": [
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/west/frame_000.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/west/frame_001.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/west/frame_002.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/west/frame_003.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/west/frame_004.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/west/frame_005.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/west/frame_006.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/west/frame_007.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/west/frame_008.png"
+                ],
+                "north-east": [
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-east/frame_000.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-east/frame_001.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-east/frame_002.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-east/frame_003.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-east/frame_004.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-east/frame_005.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-east/frame_006.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-east/frame_007.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-east/frame_008.png"
+                ],
+                "east": [
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/east/frame_000.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/east/frame_001.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/east/frame_002.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/east/frame_003.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/east/frame_004.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/east/frame_005.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/east/frame_006.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/east/frame_007.png",
+                  "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/east/frame_008.png"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "states": [
+    {
+      "character": {
+        "id": "4fc6be0a-42e8-48dc-8af8-1688486e5912",
+        "name": "instead of a blue li",
+        "prompt": "A weathered female archaeologist in a sleeveless torn expedition shirt and dark trousers, standing in a wide, balanced stance. She carries a reinforced grave shovel, with a compact relic pistol holstered at her hip. Adorned with leather belts holding bone charms, rusted iron chisels, and glowing teal relic fragments. Deep maroon cloth wraps, worn boots, and salt-stained textures, capturing a gritty, gothic silhouette.",
+        "size": {
+          "width": 112,
+          "height": 112
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "high top-down",
+        "created_at": "2026-06-10T20:11:08.351336+00:00"
+      },
+      "folder": "characters/instead_of_a_blue_li/instead_of_a_blue_li",
+      "frames": {
+        "rotations": {
+          "south": "characters/instead_of_a_blue_li/instead_of_a_blue_li/rotations/south.png",
+          "south-east": "characters/instead_of_a_blue_li/instead_of_a_blue_li/rotations/south-east.png",
+          "east": "characters/instead_of_a_blue_li/instead_of_a_blue_li/rotations/east.png",
+          "north-east": "characters/instead_of_a_blue_li/instead_of_a_blue_li/rotations/north-east.png",
+          "north": "characters/instead_of_a_blue_li/instead_of_a_blue_li/rotations/north.png",
+          "north-west": "characters/instead_of_a_blue_li/instead_of_a_blue_li/rotations/north-west.png",
+          "west": "characters/instead_of_a_blue_li/instead_of_a_blue_li/rotations/west.png",
+          "south-west": "characters/instead_of_a_blue_li/instead_of_a_blue_li/rotations/south-west.png"
+        },
+        "animations": {
+          "The_character_stands_firmly_in_place_with_her_feet": {
+            "west": [
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/west/frame_000.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/west/frame_001.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/west/frame_002.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/west/frame_003.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/west/frame_004.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/west/frame_005.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/west/frame_006.png"
+            ],
+            "south-east": [
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south-east/frame_000.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south-east/frame_001.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south-east/frame_002.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south-east/frame_003.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south-east/frame_004.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south-east/frame_005.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south-east/frame_006.png"
+            ],
+            "east-4f6c4d25": [
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/east-4f6c4d25/frame_000.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/east-4f6c4d25/frame_001.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/east-4f6c4d25/frame_002.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/east-4f6c4d25/frame_003.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/east-4f6c4d25/frame_004.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/east-4f6c4d25/frame_005.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/east-4f6c4d25/frame_006.png"
+            ],
+            "north": [
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north/frame_000.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north/frame_001.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north/frame_002.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north/frame_003.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north/frame_004.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north/frame_005.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north/frame_006.png"
+            ],
+            "north-west": [
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north-west/frame_000.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north-west/frame_001.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north-west/frame_002.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north-west/frame_003.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north-west/frame_004.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north-west/frame_005.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north-west/frame_006.png"
+            ],
+            "east-8c5b8e2c": [
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/east-8c5b8e2c/frame_000.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/east-8c5b8e2c/frame_001.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/east-8c5b8e2c/frame_002.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/east-8c5b8e2c/frame_003.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/east-8c5b8e2c/frame_004.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/east-8c5b8e2c/frame_005.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/east-8c5b8e2c/frame_006.png"
+            ],
+            "south-west": [
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south-west/frame_000.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south-west/frame_001.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south-west/frame_002.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south-west/frame_003.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south-west/frame_004.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south-west/frame_005.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south-west/frame_006.png"
+            ],
+            "south": [
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south/frame_000.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south/frame_001.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south/frame_002.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south/frame_003.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south/frame_004.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south/frame_005.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/south/frame_006.png"
+            ],
+            "north-east": [
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north-east/frame_000.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north-east/frame_001.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north-east/frame_002.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north-east/frame_003.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north-east/frame_004.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north-east/frame_005.png",
+              "characters/instead_of_a_blue_li/instead_of_a_blue_li/animations/The_character_stands_firmly_in_place_with_her_feet/north-east/frame_006.png"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "character": {
+        "id": "e2be9550-4b25-4a70-a6c9-e34bcda698fa",
+        "name": "appear transformed b",
+        "prompt": "A weathered female archaeologist in a sleeveless torn expedition shirt and dark trousers, standing in a wide, balanced stance. She carries a reinforced grave shovel, with a compact relic pistol holstered at her hip. Adorned with leather belts holding bone charms, rusted iron chisels, and glowing teal relic fragments. Deep maroon cloth wraps, worn boots, and salt-stained textures, capturing a gritty, gothic silhouette.",
+        "size": {
+          "width": 112,
+          "height": 112
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "high top-down",
+        "created_at": "2026-06-10T20:32:16.491587+00:00"
+      },
+      "folder": "characters/instead_of_a_blue_li/appear_transformed_b",
+      "frames": {
+        "rotations": {
+          "south": "characters/instead_of_a_blue_li/appear_transformed_b/rotations/south.png",
+          "south-east": "characters/instead_of_a_blue_li/appear_transformed_b/rotations/south-east.png",
+          "east": "characters/instead_of_a_blue_li/appear_transformed_b/rotations/east.png",
+          "north-east": "characters/instead_of_a_blue_li/appear_transformed_b/rotations/north-east.png",
+          "north": "characters/instead_of_a_blue_li/appear_transformed_b/rotations/north.png",
+          "north-west": "characters/instead_of_a_blue_li/appear_transformed_b/rotations/north-west.png",
+          "west": "characters/instead_of_a_blue_li/appear_transformed_b/rotations/west.png",
+          "south-west": "characters/instead_of_a_blue_li/appear_transformed_b/rotations/south-west.png"
+        },
+        "animations": {}
+      }
+    },
+    {
+      "character": {
+        "id": "13a31a11-8634-4b19-bc61-ef65b0a51217",
+        "name": "mid walk",
+        "prompt": "A weathered female archaeologist in a sleeveless torn expedition shirt and dark trousers, standing in a wide, balanced stance. She carries a reinforced grave shovel, with a compact relic pistol holstered at her hip. Adorned with leather belts holding bone charms, rusted iron chisels, and glowing teal relic fragments. Deep maroon cloth wraps, worn boots, and salt-stained textures, capturing a gritty, gothic silhouette.",
+        "size": {
+          "width": 112,
+          "height": 112
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "high top-down",
+        "created_at": "2026-06-10T21:35:08.861965+00:00"
+      },
+      "folder": "characters/instead_of_a_blue_li/mid_walk",
+      "frames": {
+        "rotations": {
+          "south": "characters/instead_of_a_blue_li/mid_walk/rotations/south.png",
+          "south-east": "characters/instead_of_a_blue_li/mid_walk/rotations/south-east.png",
+          "east": "characters/instead_of_a_blue_li/mid_walk/rotations/east.png",
+          "north-east": "characters/instead_of_a_blue_li/mid_walk/rotations/north-east.png",
+          "north": "characters/instead_of_a_blue_li/mid_walk/rotations/north.png",
+          "north-west": "characters/instead_of_a_blue_li/mid_walk/rotations/north-west.png",
+          "west": "characters/instead_of_a_blue_li/mid_walk/rotations/west.png",
+          "south-west": "characters/instead_of_a_blue_li/mid_walk/rotations/south-west.png"
+        },
+        "animations": {
+          "walking_loop": {
+            "south-west": [
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-west/frame_000.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-west/frame_001.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-west/frame_002.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-west/frame_003.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-west/frame_004.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-west/frame_005.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-west/frame_006.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-west/frame_007.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-west/frame_008.png"
+            ],
+            "north": [
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north/frame_000.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north/frame_001.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north/frame_002.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north/frame_003.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north/frame_004.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north/frame_005.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north/frame_006.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north/frame_007.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north/frame_008.png"
+            ],
+            "west": [
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/west/frame_000.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/west/frame_001.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/west/frame_002.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/west/frame_003.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/west/frame_004.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/west/frame_005.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/west/frame_006.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/west/frame_007.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/west/frame_008.png"
+            ],
+            "south": [
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south/frame_000.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south/frame_001.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south/frame_002.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south/frame_003.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south/frame_004.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south/frame_005.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south/frame_006.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south/frame_007.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south/frame_008.png"
+            ],
+            "north-west": [
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-west/frame_000.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-west/frame_001.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-west/frame_002.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-west/frame_003.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-west/frame_004.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-west/frame_005.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-west/frame_006.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-west/frame_007.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-west/frame_008.png"
+            ],
+            "south-east": [
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-east/frame_000.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-east/frame_001.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-east/frame_002.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-east/frame_003.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-east/frame_004.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-east/frame_005.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-east/frame_006.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-east/frame_007.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/south-east/frame_008.png"
+            ],
+            "east": [
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/east/frame_000.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/east/frame_001.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/east/frame_002.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/east/frame_003.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/east/frame_004.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/east/frame_005.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/east/frame_006.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/east/frame_007.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/east/frame_008.png"
+            ],
+            "north-east": [
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-east/frame_000.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-east/frame_001.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-east/frame_002.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-east/frame_003.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-east/frame_004.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-east/frame_005.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-east/frame_006.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-east/frame_007.png",
+              "characters/instead_of_a_blue_li/mid_walk/animations/walking_loop/north-east/frame_008.png"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "character": {
+        "id": "a706bd33-f76a-45cf-8348-9c0f90897ab4",
+        "name": "mid run",
+        "prompt": "A weathered female archaeologist in a sleeveless torn expedition shirt and dark trousers, standing in a wide, balanced stance. She carries a reinforced grave shovel, with a compact relic pistol holstered at her hip. Adorned with leather belts holding bone charms, rusted iron chisels, and glowing teal relic fragments. Deep maroon cloth wraps, worn boots, and salt-stained textures, capturing a gritty, gothic silhouette.",
+        "size": {
+          "width": 112,
+          "height": 112
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "high top-down",
+        "created_at": "2026-06-10T21:35:14.006516+00:00"
+      },
+      "folder": "characters/instead_of_a_blue_li/mid_run",
+      "frames": {
+        "rotations": {
+          "south": "characters/instead_of_a_blue_li/mid_run/rotations/south.png",
+          "south-east": "characters/instead_of_a_blue_li/mid_run/rotations/south-east.png",
+          "east": "characters/instead_of_a_blue_li/mid_run/rotations/east.png",
+          "north-east": "characters/instead_of_a_blue_li/mid_run/rotations/north-east.png",
+          "north": "characters/instead_of_a_blue_li/mid_run/rotations/north.png",
+          "north-west": "characters/instead_of_a_blue_li/mid_run/rotations/north-west.png",
+          "west": "characters/instead_of_a_blue_li/mid_run/rotations/west.png",
+          "south-west": "characters/instead_of_a_blue_li/mid_run/rotations/south-west.png"
+        },
+        "animations": {
+          "The_character_leans_slightly_forward_and_adopts_a": {
+            "north": [
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north/frame_000.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north/frame_001.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north/frame_002.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north/frame_003.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north/frame_004.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north/frame_005.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north/frame_006.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north/frame_007.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north/frame_008.png"
+            ],
+            "south-west": [
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-west/frame_000.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-west/frame_001.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-west/frame_002.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-west/frame_003.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-west/frame_004.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-west/frame_005.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-west/frame_006.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-west/frame_007.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-west/frame_008.png"
+            ],
+            "south": [
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south/frame_000.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south/frame_001.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south/frame_002.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south/frame_003.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south/frame_004.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south/frame_005.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south/frame_006.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south/frame_007.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south/frame_008.png"
+            ],
+            "east": [
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/east/frame_000.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/east/frame_001.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/east/frame_002.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/east/frame_003.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/east/frame_004.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/east/frame_005.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/east/frame_006.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/east/frame_007.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/east/frame_008.png"
+            ],
+            "north-west": [
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-west/frame_000.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-west/frame_001.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-west/frame_002.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-west/frame_003.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-west/frame_004.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-west/frame_005.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-west/frame_006.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-west/frame_007.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-west/frame_008.png"
+            ],
+            "north-east": [
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-east/frame_000.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-east/frame_001.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-east/frame_002.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-east/frame_003.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-east/frame_004.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-east/frame_005.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-east/frame_006.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-east/frame_007.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/north-east/frame_008.png"
+            ],
+            "west": [
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/west/frame_000.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/west/frame_001.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/west/frame_002.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/west/frame_003.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/west/frame_004.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/west/frame_005.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/west/frame_006.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/west/frame_007.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/west/frame_008.png"
+            ],
+            "south-east": [
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-east/frame_000.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-east/frame_001.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-east/frame_002.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-east/frame_003.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-east/frame_004.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-east/frame_005.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-east/frame_006.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-east/frame_007.png",
+              "characters/instead_of_a_blue_li/mid_run/animations/The_character_leans_slightly_forward_and_adopts_a/south-east/frame_008.png"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "character": {
+        "id": "09e635cf-0a0a-48be-b0b0-8e0688e34295",
+        "name": "mid dig",
+        "prompt": "A weathered female archaeologist in a sleeveless torn expedition shirt and dark trousers, standing in a wide, balanced stance. She carries a reinforced grave shovel, with a compact relic pistol holstered at her hip. Adorned with leather belts holding bone charms, rusted iron chisels, and glowing teal relic fragments. Deep maroon cloth wraps, worn boots, and salt-stained textures, capturing a gritty, gothic silhouette.",
+        "size": {
+          "width": 112,
+          "height": 112
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "high top-down",
+        "created_at": "2026-06-11T02:14:43.62311+00:00"
+      },
+      "folder": "characters/instead_of_a_blue_li/mid_dig",
+      "frames": {
+        "rotations": {
+          "south": "characters/instead_of_a_blue_li/mid_dig/rotations/south.png",
+          "south-east": "characters/instead_of_a_blue_li/mid_dig/rotations/south-east.png",
+          "east": "characters/instead_of_a_blue_li/mid_dig/rotations/east.png",
+          "north-east": "characters/instead_of_a_blue_li/mid_dig/rotations/north-east.png",
+          "north": "characters/instead_of_a_blue_li/mid_dig/rotations/north.png",
+          "north-west": "characters/instead_of_a_blue_li/mid_dig/rotations/north-west.png",
+          "west": "characters/instead_of_a_blue_li/mid_dig/rotations/west.png",
+          "south-west": "characters/instead_of_a_blue_li/mid_dig/rotations/south-west.png"
+        },
+        "animations": {
+          "The_character_rhythmically_drives_the_shovel_into": {
+            "north": [
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north/frame_000.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north/frame_001.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north/frame_002.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north/frame_003.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north/frame_004.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north/frame_005.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north/frame_006.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north/frame_007.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north/frame_008.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north/frame_009.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north/frame_010.png"
+            ],
+            "east": [
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/east/frame_000.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/east/frame_001.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/east/frame_002.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/east/frame_003.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/east/frame_004.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/east/frame_005.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/east/frame_006.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/east/frame_007.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/east/frame_008.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/east/frame_009.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/east/frame_010.png"
+            ],
+            "west": [
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/west/frame_000.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/west/frame_001.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/west/frame_002.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/west/frame_003.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/west/frame_004.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/west/frame_005.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/west/frame_006.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/west/frame_007.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/west/frame_008.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/west/frame_009.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/west/frame_010.png"
+            ],
+            "south-west": [
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-west/frame_000.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-west/frame_001.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-west/frame_002.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-west/frame_003.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-west/frame_004.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-west/frame_005.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-west/frame_006.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-west/frame_007.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-west/frame_008.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-west/frame_009.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-west/frame_010.png"
+            ],
+            "south-east": [
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-east/frame_000.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-east/frame_001.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-east/frame_002.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-east/frame_003.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-east/frame_004.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-east/frame_005.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-east/frame_006.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-east/frame_007.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-east/frame_008.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-east/frame_009.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south-east/frame_010.png"
+            ],
+            "north-west": [
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-west/frame_000.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-west/frame_001.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-west/frame_002.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-west/frame_003.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-west/frame_004.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-west/frame_005.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-west/frame_006.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-west/frame_007.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-west/frame_008.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-west/frame_009.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-west/frame_010.png"
+            ],
+            "south": [
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south/frame_000.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south/frame_001.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south/frame_002.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south/frame_003.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south/frame_004.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south/frame_005.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south/frame_006.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south/frame_007.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south/frame_008.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south/frame_009.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/south/frame_010.png"
+            ],
+            "north-east": [
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-east/frame_000.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-east/frame_001.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-east/frame_002.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-east/frame_003.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-east/frame_004.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-east/frame_005.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-east/frame_006.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-east/frame_007.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-east/frame_008.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-east/frame_009.png",
+              "characters/instead_of_a_blue_li/mid_dig/animations/The_character_rhythmically_drives_the_shovel_into/north-east/frame_010.png"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "character": {
+        "id": "520aed15-3a3d-472f-8b1d-6c623709639e",
+        "name": "holding pickaxe in b",
+        "prompt": "A weathered female archaeologist in a sleeveless torn expedition shirt and dark trousers, standing in a wide, balanced stance. She carries a reinforced grave shovel, with a compact relic pistol holstered at her hip. Adorned with leather belts holding bone charms, rusted iron chisels, and glowing teal relic fragments. Deep maroon cloth wraps, worn boots, and salt-stained textures, capturing a gritty, gothic silhouette.",
+        "size": {
+          "width": 112,
+          "height": 112
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "high top-down",
+        "created_at": "2026-06-11T02:43:17.668997+00:00"
+      },
+      "folder": "characters/instead_of_a_blue_li/holding_pickaxe_in_b",
+      "frames": {
+        "rotations": {
+          "south": "characters/instead_of_a_blue_li/holding_pickaxe_in_b/rotations/south.png",
+          "south-east": "characters/instead_of_a_blue_li/holding_pickaxe_in_b/rotations/south-east.png",
+          "east": "characters/instead_of_a_blue_li/holding_pickaxe_in_b/rotations/east.png",
+          "north-east": "characters/instead_of_a_blue_li/holding_pickaxe_in_b/rotations/north-east.png",
+          "north": "characters/instead_of_a_blue_li/holding_pickaxe_in_b/rotations/north.png",
+          "north-west": "characters/instead_of_a_blue_li/holding_pickaxe_in_b/rotations/north-west.png",
+          "west": "characters/instead_of_a_blue_li/holding_pickaxe_in_b/rotations/west.png",
+          "south-west": "characters/instead_of_a_blue_li/holding_pickaxe_in_b/rotations/south-west.png"
+        },
+        "animations": {
+          "The_character_raises_the_pickaxe_high_above_their": {
+            "south-east": [
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-east/frame_000.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-east/frame_001.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-east/frame_002.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-east/frame_003.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-east/frame_004.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-east/frame_005.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-east/frame_006.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-east/frame_007.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-east/frame_008.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-east/frame_009.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-east/frame_010.png"
+            ],
+            "north-east": [
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-east/frame_000.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-east/frame_001.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-east/frame_002.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-east/frame_003.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-east/frame_004.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-east/frame_005.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-east/frame_006.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-east/frame_007.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-east/frame_008.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-east/frame_009.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-east/frame_010.png"
+            ],
+            "south": [
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south/frame_000.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south/frame_001.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south/frame_002.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south/frame_003.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south/frame_004.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south/frame_005.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south/frame_006.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south/frame_007.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south/frame_008.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south/frame_009.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south/frame_010.png"
+            ],
+            "north-west": [
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-west/frame_000.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-west/frame_001.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-west/frame_002.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-west/frame_003.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-west/frame_004.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-west/frame_005.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-west/frame_006.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-west/frame_007.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-west/frame_008.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-west/frame_009.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north-west/frame_010.png"
+            ],
+            "north": [
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north/frame_000.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north/frame_001.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north/frame_002.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north/frame_003.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north/frame_004.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north/frame_005.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north/frame_006.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north/frame_007.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north/frame_008.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north/frame_009.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/north/frame_010.png"
+            ],
+            "east": [
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/east/frame_000.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/east/frame_001.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/east/frame_002.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/east/frame_003.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/east/frame_004.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/east/frame_005.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/east/frame_006.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/east/frame_007.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/east/frame_008.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/east/frame_009.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/east/frame_010.png"
+            ],
+            "west": [
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/west/frame_000.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/west/frame_001.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/west/frame_002.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/west/frame_003.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/west/frame_004.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/west/frame_005.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/west/frame_006.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/west/frame_007.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/west/frame_008.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/west/frame_009.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/west/frame_010.png"
+            ],
+            "south-west": [
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-west/frame_000.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-west/frame_001.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-west/frame_002.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-west/frame_003.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-west/frame_004.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-west/frame_005.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-west/frame_006.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-west/frame_007.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-west/frame_008.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-west/frame_009.png",
+              "characters/instead_of_a_blue_li/holding_pickaxe_in_b/animations/The_character_raises_the_pickaxe_high_above_their/south-west/frame_010.png"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "character": {
+        "id": "cf8c8986-cfbb-42ed-97f3-d69a794d142e",
+        "name": "only amulet no shove",
+        "prompt": "A weathered female archaeologist in a sleeveless torn expedition shirt and dark trousers, standing in a wide, balanced stance. She carries a reinforced grave shovel, with a compact relic pistol holstered at her hip. Adorned with leather belts holding bone charms, rusted iron chisels, and glowing teal relic fragments. Deep maroon cloth wraps, worn boots, and salt-stained textures, capturing a gritty, gothic silhouette.",
+        "size": {
+          "width": 112,
+          "height": 112
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "high top-down",
+        "created_at": "2026-06-11T02:58:54.519313+00:00"
+      },
+      "folder": "characters/instead_of_a_blue_li/only_amulet_no_shove",
+      "frames": {
+        "rotations": {
+          "south": "characters/instead_of_a_blue_li/only_amulet_no_shove/rotations/south.png",
+          "south-east": "characters/instead_of_a_blue_li/only_amulet_no_shove/rotations/south-east.png",
+          "east": "characters/instead_of_a_blue_li/only_amulet_no_shove/rotations/east.png",
+          "north-east": "characters/instead_of_a_blue_li/only_amulet_no_shove/rotations/north-east.png",
+          "north": "characters/instead_of_a_blue_li/only_amulet_no_shove/rotations/north.png",
+          "north-west": "characters/instead_of_a_blue_li/only_amulet_no_shove/rotations/north-west.png",
+          "west": "characters/instead_of_a_blue_li/only_amulet_no_shove/rotations/west.png",
+          "south-west": "characters/instead_of_a_blue_li/only_amulet_no_shove/rotations/south-west.png"
+        },
+        "animations": {
+          "The_character_holds_her_arm_out_causing_the_amulet": {
+            "west": [
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/west/frame_000.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/west/frame_001.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/west/frame_002.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/west/frame_003.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/west/frame_004.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/west/frame_005.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/west/frame_006.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/west/frame_007.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/west/frame_008.png"
+            ],
+            "north": [
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north/frame_000.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north/frame_001.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north/frame_002.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north/frame_003.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north/frame_004.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north/frame_005.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north/frame_006.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north/frame_007.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north/frame_008.png"
+            ],
+            "east": [
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/east/frame_000.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/east/frame_001.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/east/frame_002.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/east/frame_003.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/east/frame_004.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/east/frame_005.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/east/frame_006.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/east/frame_007.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/east/frame_008.png"
+            ],
+            "north-west": [
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-west/frame_000.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-west/frame_001.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-west/frame_002.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-west/frame_003.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-west/frame_004.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-west/frame_005.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-west/frame_006.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-west/frame_007.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-west/frame_008.png"
+            ],
+            "south-east": [
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-east/frame_000.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-east/frame_001.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-east/frame_002.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-east/frame_003.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-east/frame_004.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-east/frame_005.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-east/frame_006.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-east/frame_007.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-east/frame_008.png"
+            ],
+            "south-west": [
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-west/frame_000.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-west/frame_001.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-west/frame_002.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-west/frame_003.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-west/frame_004.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-west/frame_005.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-west/frame_006.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-west/frame_007.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south-west/frame_008.png"
+            ],
+            "north-east": [
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-east/frame_000.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-east/frame_001.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-east/frame_002.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-east/frame_003.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-east/frame_004.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-east/frame_005.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-east/frame_006.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-east/frame_007.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/north-east/frame_008.png"
+            ],
+            "south": [
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south/frame_000.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south/frame_001.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south/frame_002.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south/frame_003.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south/frame_004.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south/frame_005.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south/frame_006.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south/frame_007.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_holds_her_arm_out_causing_the_amulet/south/frame_008.png"
+            ]
+          },
+          "The_character_lifts_their_left_hand_holding_the_gl": {
+            "north-west": [
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-west/frame_000.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-west/frame_001.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-west/frame_002.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-west/frame_003.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-west/frame_004.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-west/frame_005.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-west/frame_006.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-west/frame_007.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-west/frame_008.png"
+            ],
+            "south-west": [
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-west/frame_000.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-west/frame_001.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-west/frame_002.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-west/frame_003.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-west/frame_004.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-west/frame_005.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-west/frame_006.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-west/frame_007.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-west/frame_008.png"
+            ],
+            "south": [
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south/frame_000.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south/frame_001.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south/frame_002.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south/frame_003.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south/frame_004.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south/frame_005.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south/frame_006.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south/frame_007.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south/frame_008.png"
+            ],
+            "north": [
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north/frame_000.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north/frame_001.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north/frame_002.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north/frame_003.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north/frame_004.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north/frame_005.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north/frame_006.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north/frame_007.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north/frame_008.png"
+            ],
+            "south-east": [
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-east/frame_000.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-east/frame_001.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-east/frame_002.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-east/frame_003.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-east/frame_004.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-east/frame_005.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-east/frame_006.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-east/frame_007.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/south-east/frame_008.png"
+            ],
+            "west": [
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/west/frame_000.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/west/frame_001.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/west/frame_002.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/west/frame_003.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/west/frame_004.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/west/frame_005.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/west/frame_006.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/west/frame_007.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/west/frame_008.png"
+            ],
+            "north-east": [
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-east/frame_000.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-east/frame_001.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-east/frame_002.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-east/frame_003.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-east/frame_004.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-east/frame_005.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-east/frame_006.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-east/frame_007.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/north-east/frame_008.png"
+            ],
+            "east": [
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/east/frame_000.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/east/frame_001.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/east/frame_002.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/east/frame_003.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/east/frame_004.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/east/frame_005.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/east/frame_006.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/east/frame_007.png",
+              "characters/instead_of_a_blue_li/only_amulet_no_shove/animations/The_character_lifts_their_left_hand_holding_the_gl/east/frame_008.png"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "export_version": "3.0",
+  "export_date": "2026-06-11T04:59:29.734500"
+}
