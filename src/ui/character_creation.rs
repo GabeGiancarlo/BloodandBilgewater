@@ -25,13 +25,13 @@ use super::characters::{
 };
 
 // --- Runtime asset paths (relative to `assets/`) ---
-const BACKGROUND_PATH: &str = "ui/titlescreen/default-menu-background.png";
-const PLATFORM_PATH: &str = "ui/hud/charater_platform.png";
-const INFO_PATH: &str = "ui/menus/info-ui.png";
-const NAME_PLATE_PATH: &str = "ui/menus/buttons/menu-button-1.png";
-const CONFIRM_BUTTON_PATH: &str = "ui/menus/buttons/menu-button-2.png";
-const BACK_BUTTON_PATH: &str = "ui/menus/buttons/menu-button-4.png";
-const BUTTON_ACTIVE_PATH: &str = "ui/menus/buttons/menu-button-active.png";
+const BACKGROUND_PATH: &str = "runtime/ui/titlescreen/default-menu-background.png";
+const PLATFORM_PATH: &str = "runtime/ui/hud/charater_platform.png";
+const INFO_PATH: &str = "runtime/ui/menus/info-ui.png";
+const NAME_PLATE_PATH: &str = "runtime/ui/menus/buttons/menu-button-1.png";
+const CONFIRM_BUTTON_PATH: &str = "runtime/ui/menus/buttons/menu-button-2.png";
+const BACK_BUTTON_PATH: &str = "runtime/ui/menus/buttons/menu-button-4.png";
+const BUTTON_ACTIVE_PATH: &str = "runtime/ui/menus/buttons/menu-button-active.png";
 
 const HEADING_COLOR: Color = Color::srgb(0.96, 0.90, 0.74);
 const DIM_COLOR: Color = Color::srgb(0.55, 0.50, 0.42);

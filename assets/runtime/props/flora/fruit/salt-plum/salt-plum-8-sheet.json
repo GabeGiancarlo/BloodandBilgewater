@@ -1,0 +1,191 @@
+{
+  "frames": {
+    "salt-plum-8-sheet 0.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 34,
+        "w": 34,
+        "x": 0,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 34,
+        "w": 34
+      },
+      "spriteSourceSize": {
+        "h": 34,
+        "w": 34,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "salt-plum-8-sheet 1.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 34,
+        "w": 34,
+        "x": 34,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 34,
+        "w": 34
+      },
+      "spriteSourceSize": {
+        "h": 34,
+        "w": 34,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "salt-plum-8-sheet 2.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 34,
+        "w": 34,
+        "x": 68,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 34,
+        "w": 34
+      },
+      "spriteSourceSize": {
+        "h": 34,
+        "w": 34,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "salt-plum-8-sheet 3.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 34,
+        "w": 34,
+        "x": 102,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 34,
+        "w": 34
+      },
+      "spriteSourceSize": {
+        "h": 34,
+        "w": 34,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "salt-plum-8-sheet 4.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 34,
+        "w": 34,
+        "x": 136,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 34,
+        "w": 34
+      },
+      "spriteSourceSize": {
+        "h": 34,
+        "w": 34,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "salt-plum-8-sheet 5.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 34,
+        "w": 34,
+        "x": 170,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 34,
+        "w": 34
+      },
+      "spriteSourceSize": {
+        "h": 34,
+        "w": 34,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "salt-plum-8-sheet 6.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 34,
+        "w": 34,
+        "x": 204,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 34,
+        "w": 34
+      },
+      "spriteSourceSize": {
+        "h": 34,
+        "w": 34,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "salt-plum-8-sheet 7.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 34,
+        "w": 34,
+        "x": 238,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 34,
+        "w": 34
+      },
+      "spriteSourceSize": {
+        "h": 34,
+        "w": 34,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    }
+  },
+  "meta": {
+    "app": "https://www.aseprite.org/",
+    "format": "RGBA8888",
+    "frameTags": [],
+    "layers": [
+      {
+        "blendMode": "normal",
+        "name": "Layer",
+        "opacity": 255
+      }
+    ],
+    "scale": "1",
+    "size": {
+      "h": 34,
+      "w": 272
+    },
+    "slices": [],
+    "version": "export_flora"
+  }
+}

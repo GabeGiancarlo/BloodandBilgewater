@@ -1,8 +1,15 @@
 use bevy::prelude::*;
 
-/// Marker for the toggleable help overlay.
+/// Toggleable help overlay.
 #[derive(Component)]
 pub struct LabHelpOverlay;
+
+/// Live load progress (tile spawn queue).
+#[derive(Component)]
+pub struct LabLoadStatusText;
+
+#[derive(Resource, Default)]
+pub struct IslandLoadStatus(pub String);
 
 #[derive(Resource)]
 pub struct HelpOverlayVisible(pub bool);
@@ -12,16 +19,17 @@ pub struct LabOverlayPlugin;
 impl Plugin for LabOverlayPlugin {
     fn build(&self, app: &mut App) {
         app.insert_resource(HelpOverlayVisible(true))
+            .init_resource::<IslandLoadStatus>()
             .add_systems(Startup, spawn_help_overlay)
-            .add_systems(Update, toggle_help_overlay);
+            .add_systems(Update, (toggle_help_overlay, sync_load_status_text));
     }
 }
 
 fn spawn_help_overlay(mut commands: Commands, asset_server: Res<AssetServer>) {
-    let font = asset_server.load("fonts/alagard/alagard.ttf");
-    let overlay_text = "Blood and Bilgewater - The Lab\n\
-1 Ocean Tiles | 2 Shallow Shore | 3 Combat | 4 Ship\n\
-WASD Move Camera | Mouse Wheel Zoom | R Reset | G Grid | H Help";
+    let font = asset_server.load("runtime/fonts/alagard/alagard.ttf");
+    let overlay_text = "Blood and Bilgewater - The Lab (Starter Island)\n\
+Run: scripts/run-lab.ps1\n\
+Space Follow | LMB/RMB cycle | Chest control | WASD move | Tap+hold sprint | RMB action | Tab loadout | H Help";
 
     commands
         .spawn((
@@ -42,12 +50,34 @@ WASD Move Camera | Mouse Wheel Zoom | R Reset | G Grid | H Help";
             parent.spawn(TextBundle::from_section(
                 overlay_text,
                 TextStyle {
-                    font,
+                    font: font.clone(),
                     font_size: 18.0,
                     color: Color::srgb(0.92, 0.92, 0.9),
                 },
             ));
+            parent.spawn((
+                LabLoadStatusText,
+                TextBundle::from_section(
+                    "Loading island…",
+                    TextStyle {
+                        font,
+                        font_size: 14.0,
+                        color: Color::srgb(0.75, 0.85, 0.95),
+                    },
+                ),
+            ));
         });
+}
+
+fn sync_load_status_text(
+    status: Res<IslandLoadStatus>,
+    mut texts: Query<&mut Text, With<LabLoadStatusText>>,
+) {
+    if status.is_changed() {
+        for mut text in &mut texts {
+            text.sections[0].value = status.0.clone();
+        }
+    }
 }
 
 fn toggle_help_overlay(

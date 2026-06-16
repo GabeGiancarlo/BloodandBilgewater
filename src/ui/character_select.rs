@@ -23,15 +23,15 @@ use super::characters::{
 };
 
 // --- Runtime asset paths (relative to `assets/`) ---
-const BACKGROUND_PATH: &str = "ui/titlescreen/default-menu-background.png";
-const BANNER_PATH: &str = "ui/menus/charater-select-banner.png";
-const PANEL_PATH: &str = "ui/menus/empty-chararter-select.png";
-const INFO_PATH: &str = "ui/menus/info-ui.png";
-const BACK_BUTTON_PATH: &str = "ui/menus/buttons/menu-button-4.png";
-const CREATE_BUTTON_PATH: &str = "ui/menus/buttons/menu-button-1.png";
-const BUTTON_ACTIVE_PATH: &str = "ui/menus/buttons/menu-button-active.png";
-const ARROW_LEFT_PATH: &str = "ui/icons/left-arrow.png";
-const ARROW_RIGHT_PATH: &str = "ui/icons/right-arrow.png";
+const BACKGROUND_PATH: &str = "runtime/ui/titlescreen/default-menu-background.png";
+const BANNER_PATH: &str = "runtime/ui/menus/charater-select-banner.png";
+const PANEL_PATH: &str = "runtime/ui/menus/empty-chararter-select.png";
+const INFO_PATH: &str = "runtime/ui/menus/info-ui.png";
+const BACK_BUTTON_PATH: &str = "runtime/ui/menus/buttons/menu-button-4.png";
+const CREATE_BUTTON_PATH: &str = "runtime/ui/menus/buttons/menu-button-1.png";
+const BUTTON_ACTIVE_PATH: &str = "runtime/ui/menus/buttons/menu-button-active.png";
+const ARROW_LEFT_PATH: &str = "runtime/ui/icons/left-arrow.png";
+const ARROW_RIGHT_PATH: &str = "runtime/ui/icons/right-arrow.png";
 
 const HEADING_COLOR: Color = Color::srgb(0.96, 0.90, 0.74);
 const EMPTY_SLOT_BG: Color = Color::srgba(0.10, 0.09, 0.08, 0.45);

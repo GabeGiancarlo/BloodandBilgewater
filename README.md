@@ -2,181 +2,193 @@
 
 # Blood and Bilgewater
 
-**A dark, gothic, SNES-inspired pirate action-RPG set across a cursed archipelago of blood, wreckage, and haunted tides.**
+**A dark, gothic, SNES-inspired pirate action-RPG across a cursed archipelago of blood, wreckage, and haunted tides.**
 
 ![Status](https://img.shields.io/badge/status-early%20development-8b0000?style=flat-square)
 ![Engine](https://img.shields.io/badge/engine-Rust%20%2B%20Bevy%200.14-dea584?style=flat-square)
 ![Architecture](https://img.shields.io/badge/architecture-ECS-1a1a1a?style=flat-square)
-![Target](https://img.shields.io/badge/target-Desktop%20%2F%20Steam-2d2d2d?style=flat-square)
 ![Art](https://img.shields.io/badge/art-Aseprite%20source--of--truth-b7410e?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-555?style=flat-square)
 
-<br>
-
-<img src="Archive/LegacyRuntimePngExports/assets/ui/titlescreen/default-menu-background.png" width="760" alt="Cursed harbor under a blood moon — drowned galleon, ruined keep, lantern-lit dock">
-
 </div>
 
 ---
 
-## The Pitch
+## What we’re building
 
-You wake in the wreckage. The moon is the color of a wound, the keep on the headland is long dead, and the only way off this drowned coast is to **claw your way back onto a deck and take the cursed seas for yourself.**
+You wash up in the wreckage. The moon looks like a fresh cut, the keep on the headland has been dead for decades, and the only respectable way off this drowned coast is to **command a crew, rig a ship, and sail the cursed waters yourself.**
 
-**Blood and Bilgewater** is a top-down pirate action-RPG built around a haunted, storm-bitten archipelago. Fight on foot and across boarding planks, haul loot out of sunken wrecks, repair and re-rig modular ships, and grow a crew defined by **roles** rather than rigid classes.
+**Blood and Bilgewater** is a top-down pirate action-RPG: fight on foot and across boarding planks, salvage haunted wrecks, repair modular ships tile by tile, and grow a crew defined by **roles**—not rigid class locks. The world is a **seeded, persistent sandbox**: deterministic generation, chunk streaming, and a home island hub between voyages. Visually: **gothic nautical decay**—blood-moon skies, salt-rotted timber, lantern-lit docks, crisp nearest-neighbor pixels.
 
-The world is a **procedurally seeded, persistent sandbox**: deterministic generation from a seed, chunk/region streaming, tile-based ships, and a persistent home island as the prep hub between voyages. The whole thing wears a single aesthetic — **gothic nautical decay**: blood-moon skies, lantern-lit docks, salt-rotted timber, and crisp nearest-neighbor pixel art.
-
-> **Honest status:** early-development. Art masters exist; the engine is **Rust + Bevy 0.14** and the project builds. Gameplay systems are scaffolding, not a finished game.
+> **Honest status:** early development. The **Starter Island Lab** runs today (procedural island, nine animated crew, trees, patrol AI, player takeover). Full home loop and sailing are design + scaffold.
 
 ---
 
-## Engine — Rust + Bevy 0.14 (active)
-
-This repository is **Bevy-first**. A brief Unity 2D experiment was evaluated and **reversed**; the Unity project is preserved as archived reference only.
-
-- **Active engine:** Rust + **Bevy 0.14**, ECS architecture, desktop / **Steam-first**.
-- **Unity:** archived under [`Archive/UnityPrototype/`](Archive/UnityPrototype/) — reference only, not active game code.
-- **Art source of truth:** **Aseprite** files under `assets/source/aseprite/`.
-- **Runtime assets:** exported **PNG / JSON** under `assets/textures/` and `assets/data/`, loaded by Bevy.
-- The legacy/archived Bevy copy lives at [`Archive/BevyReference/`](Archive/BevyReference/) (backup); the active project is restored at the repo root.
-
-Full migration record: [`docs/migration/`](docs/migration/) — see
-[`bevy_restoration_summary.md`](docs/migration/bevy_restoration_summary.md).
-
----
-
-## Getting Started (Bevy)
-
-Requires a recent stable Rust toolchain.
+## See it in the lab
 
 ```bash
-# Run the game
-cargo run
-
-# Run the developer "Lab" harness (tile / shoreline experiments)
 cargo run --example lab --features lab
 ```
 
-The first milestone target is **Bevy Proof 01 — Starter Island Animation Lab** (camera, one
-character sprite, beach/shallow-water/ocean tiles, keyboard + controller movement, idle/walk
-scaffold). See [`docs/migration/bevy_restoration_summary.md`](docs/migration/bevy_restoration_summary.md).
+Hold **Space** to follow a crew member. **Ctrl** or the chest icon to take the helm. **WASD** to walk, **Shift** to sprint, **Tab** / **Q** for loadouts, **LMB/RMB** for class actions. Full bindings: [`docs/WIKI.md`](docs/WIKI.md).
 
----
+### The island
 
-## The Cursed Fleet — Sprite Sheet & Spin
+Procedural volcanic and haunted biomes, 64×64 terrain tiles, coast autotiles, and trees that **block at the trunk** but **fade at the crown** when you walk behind them.
 
-Every ship is authored once in Aseprite and rendered across **8 directions**.
+| Volcanic shore | Haunted grass | Patrol crew |
+| --- | --- | --- |
+| ![volcanic tile](assets/runtime/tilesets/volcanic/volcanic_ash_soil_base_v01.png) | ![haunted tile](assets/runtime/tilesets/haunted/haunted_moon_grass_base_v01.png) | ![helmsman](assets/runtime/characters/player_default/helmsman/idle/idle-south-sheet.png) |
 
-<div align="center">
+<sub>Terrain: `runtime/tilesets/` · Crew: nine roles under `runtime/characters/player_default/`</sub>
 
-<img src="docs/art/preview/ship_rotation_sheet.png" width="900" alt="Eight-direction rotation sprite sheet of the sails-up galleon">
+### The crew — nine roles, hundreds of sheets
 
-<sub>8-direction rotation sheet — `docs/art/preview/ship_rotation_sheet.png`</sub>
-
-<br><br>
-
-<img src="docs/art/preview/ship_rotation_spin.gif" width="240" alt="Sails-up galleon spinning through all 8 directions">
-
-<sub>Looping spin built from the real rotation frames.</sub>
-
-</div>
-
-Ship sources now live at `assets/source/aseprite/ships/default_3_sails/`.
-
----
-
-## The Crew — Animated Roster
-
-Characters specialize through **roles**, not hard class locks. Shown below are classes with animation work done.
+Characters specialize through **roles**. Each role exports loadouts (what they hold), actions (idle / walk / run / slash / shoot / play / dig), and **eight directions** from Aseprite.
 
 <div align="center">
 
-<img src="Archive/LegacyRuntimePngExports/assets/sprites/characters/player_default/swordsman/swordsman_charater_select.png" height="150" alt="Swordsman / Boarder">
-&nbsp;
-<img src="Archive/LegacyRuntimePngExports/assets/sprites/characters/player_default/marksman/marksman_charater_select.png" height="150" alt="Gunner / Marksman">
-&nbsp;
-<img src="Archive/LegacyRuntimePngExports/assets/sprites/characters/player_default/doctor/doctor_charater_select.png" height="150" alt="Doctor / Surgeon">
-&nbsp;
-<img src="Archive/LegacyRuntimePngExports/assets/sprites/characters/player_default/shipwright/shipwright_charater_select.png" height="150" alt="Shipwright">
-&nbsp;
-<img src="Archive/LegacyRuntimePngExports/assets/sprites/characters/player_default/cook/cook_charater_select.png" height="150" alt="Cook / Quartermaster">
-
-<sub>Animated classes (WIP) — Swordsman, Marksman, Surgeon, Shipwright, Quartermaster.</sub>
+| | | |
+|:---:|:---:|:---:|
+| ![swordsman](assets/runtime/characters/player_default/swordsman/loadouts/sword/idle/idle-south-sheet.png) | ![marksman](assets/runtime/characters/player_default/marksman/loadouts/pistol/idle/idle-south-sheet.png) | ![helmsman](assets/runtime/characters/player_default/helmsman/loadouts/dual-axe/idle/idle-south-sheet.png) |
+| Swordsman | Marksman | Helmsman |
+| ![doctor](assets/runtime/characters/player_default/doctor/loadouts/saw/idle/idle-south-sheet.png) | ![musician](assets/runtime/characters/player_default/musician/loadouts/guitar/idle/idle-south-sheet.png) | ![archaeologist](assets/runtime/characters/player_default/archaeologist/loadouts/amulet-shovel/idle/south-idle-amulet-shovel-sheet.png) |
+| Doctor | Musician | Historian |
 
 </div>
 
-| Role | Pitch |
+**Every sheet, frame count, cycle length, and pixel size:** [`docs/WIKI.md`](docs/WIKI.md) · **Visual gallery:** [`docs/art/CHARACTER_GALLERY.md`](docs/art/CHARACTER_GALLERY.md)
+
+| Role | Slug | Land focus | Lab loadouts (Tab cycle) |
+| --- | --- | --- | --- |
+| Swordsman / Boarder | `swordsman` | melee, boarding | sword → empty |
+| Gunner / Marksman | `marksman` | firearms | empty → pistol → rifle |
+| Helmsman | `helmsman` | ship handling | empty → gun-and-rope → dual-axe |
+| Navigator | `navigator` | maps, scouting | empty → eyeglass-and-compass |
+| Doctor / Surgeon | `doctor` | healing | empty → needle → saw → saw-and-needle |
+| Shipwright | `shipwright` | repairs | empty → hammer-and-box |
+| Cook / Quartermaster | `cook` | supplies, morale | empty-hands → knife → spoon-and-stew |
+| Musician / Bosun | `musician` | morale, instruments | empty_hands → flute → guitar → trumpet → drum_hold → drum_on_back |
+| Historian / Scholar | `archaeologist` | relics, digging | amulet-shovel → amulet → pickaxe |
+
+Design detail: [`docs/systems/ROLES.md`](docs/systems/ROLES.md)
+
+### Flora & fruit
+
+Trees are biome-native (**ashen laurel** on volcanic soil, **moon willow** in haunted ground), with sapling / mature / stump growth and hanging fruit sheets.
+
+| Brineberry | Ghost pear |
 | --- | --- |
-| **Swordsman / Boarder** | Close combat, boarding actions, deck defense. |
-| **Gunner / Marksman** | Firearms, cannon work, ranged pressure. |
-| **Doctor / Surgeon** | Healing, injury control, grim battlefield survival. |
-| **Shipwright** | Repairs, hull maintenance, crafting support. |
-| **Cook / Quartermaster** | Supplies, morale, storage and rationing. |
+| ![brineberry](assets/runtime/props/flora/fruit/brine-berry/brine-berry-8-sheet.png) | ![ghost pear](assets/runtime/props/flora/fruit/ghost-pear/ghost-pear-8-sheet.png) |
 
-Character sources: `assets/source/aseprite/characters/player_default/<class>/` ·
-runtime/raw frames: `assets/textures/characters/player_default/<class>/`.
+<sub>`runtime/props/flora/` — fruit JSON sheets indexed in WIKI after `cargo run --bin generate_wiki`</sub>
 
----
+### The ship (art + vision)
 
-## Art Pipeline — Aseprite Is The Source of Truth
+Ships are authored in **eight directions** from Aseprite masters under `assets/source/ships/`. Modular **64×64 ship tiles** align to the world grid; stations (helm, guns, cargo) attach to tile coordinates. Gameplay plugin is still scaffold—see [`docs/systems/SHIP.md`](docs/systems/SHIP.md).
 
-- `.aseprite` masters live under **`assets/source/aseprite/`** (characters, tilesets, ships, props, ui, references).
-- Runtime exports (PNG sprite sheets + JSON metadata) live under **`assets/textures/`** and **`assets/data/`**, loaded by Bevy with nearest-neighbor sampling to stay crisp.
-- World/grid tiles follow a **64×64** standard.
-- Migration + export helpers live in [`tools/art_pipeline/`](tools/art_pipeline/).
+<div align="center">
+
+<img src="docs/art/preview/ship_rotation_sheet.png" width="720" alt="Eight-direction galleon rotation sheet (when exported to docs/art/preview/)">
+
+<sub>Export ship rotation previews to `docs/art/preview/` for README embeds. Sources: `assets/source/ships/`.</sub>
+
+</div>
 
 ---
 
-## Repository Layout
+## Engine & architecture
+
+| Layer | Choice |
+| --- | --- |
+| Runtime | **Rust + Bevy 0.14**, ECS, desktop / Steam-first |
+| Simulation | Deterministic seed, command-driven input (no raw keys in sim) |
+| Art pipeline | **Aseprite** → PNG + JSON under `assets/runtime/` |
+| World tiles | **64×64 px** display; **32 px** logic cells for collision |
+
+Enforceable rules: [`docs/ARCHITECTURE_RULES.md`](docs/ARCHITECTURE_RULES.md) · Unity prototype archived under `Archive/UnityPrototype/`.
+
+### Repository map
 
 ```text
 BloodandBilgewater/
-├── Cargo.toml / Cargo.lock
-├── src/                     # Bevy game (ECS): app, gameplay, rendering, world, ui, lab, ...
-├── examples/lab.rs          # standalone dev harness (cargo run --example lab --features lab)
+├── src/                     # Bevy game: gameplay, rendering, lab, world
+├── examples/lab.rs          # Starter Island Lab harness
 ├── assets/
-│   ├── source/
-│   │   ├── aseprite/         # SOURCE OF TRUTH: characters, ships, tilesets, props, ui, references
-│   │   └── references/       # concept / reference PNG
-│   ├── textures/             # runtime PNG (characters, props, ...)
-│   ├── data/                 # gameplay data (classes, items, loot_tables, ships, world)
-│   ├── audio/                # music, sfx
-│   └── fonts/                # UI fonts (verify licensing before redistribution)
+│   ├── source/              # Aseprite masters (never loaded at runtime)
+│   └── runtime/             # PNG + JSON the engine loads
 ├── docs/
-│   └── migration/            # restoration audit, manifest, move log, system map, summary
-├── tools/art_pipeline/       # art migration + pipeline scripts
-└── Archive/
-    ├── UnityPrototype/        # archived Unity project (reference only)
-    ├── BevyReference/         # backup of the archived Bevy source
-    └── LegacyRuntimePngExports/  # old runtime PNG exports (README previews source)
+│   ├── README.md            # Documentation hub
+│   ├── WIKI.md              # All animation sheets + lab numbers (generated)
+│   ├── TILESET_RULES.md     # Tile adjacency & biome families (generated)
+│   └── art/                 # Character + tile visual galleries (generated)
+└── tools/art_pipeline/      # Export helpers
 ```
 
 ---
 
-## Roadmap
+## Tile libraries & adjacency
 
-- [x] Reverse the Unity migration and restore **Rust + Bevy 0.14** as the active engine
-- [x] Preserve all Unity-phase Aseprite + PNG art into the Bevy asset structure
-- [x] Archive the Unity prototype as reference only
-- [ ] **Bevy Proof 01 — Starter Island Animation Lab** (camera, one character, beach/shallow/ocean tiles, movement, idle/walk)
-- [ ] Aseprite → sprite-sheet export script + metadata convention
-- [ ] Data-driven character/role definitions in `assets/data/` (RON/JSON)
-- [ ] Controller support and input mapping
-- [ ] Tile / chunk streaming for islands
+**164+ terrain PNGs** across beach, volcanic, haunted, mangrove, cliff, ocean, and shallow sets. Tiles are **not** free-painted—they follow coast masks and biome blend bands.
 
-See also: [`docs/ROADMAP.md`](docs/ROADMAP.md) and [`docs/DESIGN_SNAPSHOT.md`](docs/DESIGN_SNAPSHOT.md).
+| Rule | Detail |
+| --- | --- |
+| Size | 64×64 px, nearest-neighbor |
+| Ocean ↔ land | Must use coast / corner / bridge modules |
+| Volcanic ↔ haunted | `BiomeBlend` strip; no raw interior across border |
+| Cohesion | 72% neighbor variant match (WFC-style, local) |
+
+Full libraries + rules: [`docs/art/TILESET_GALLERY.md`](docs/art/TILESET_GALLERY.md) · [`docs/TILESET_RULES.md`](docs/TILESET_RULES.md)
 
 ---
 
-## License & Credits
+## Documentation
 
-Licensed under the **MIT License** — see [`LICENSE`](LICENSE). Design intent lives in
-[`DESIGN_DOCUMENT.md`](DESIGN_DOCUMENT.md) and [`docs/`](docs/). All art shown is
-work-in-progress and part of this repository.
+| Doc | Contents |
+| --- | --- |
+| [`docs/README.md`](docs/README.md) | Hub — systems, art, architecture |
+| [`docs/WIKI.md`](docs/WIKI.md) | Every animation sheet + lab constants |
+| [`docs/systems/HOME_LOOP.md`](docs/systems/HOME_LOOP.md) | Shipwreck → home → voyage vision |
+| [`docs/systems/PLAYER.md`](docs/systems/PLAYER.md) | On-foot control |
+| [`assets/README.md`](assets/README.md) | Source vs runtime layout |
+
+Regenerate wiki tables after art exports:
+
+```bash
+cargo run --bin generate_wiki
+```
+
+---
+
+## Getting started
+
+Requires stable Rust.
+
+```bash
+# Default app entry (scaffold)
+cargo run
+
+# Starter Island Lab — playable island + crew
+cargo run --example lab --features lab
+
+# Refresh WIKI + galleries from assets
+cargo run --bin generate_wiki
+```
+
+---
+
+## Vision in one paragraph
+
+We want the feeling of **Sunless Sea’s dread** and **classic Zelda pacing** on a **living pirate sandbox**: your island is a cluttered, repairable home; your ship is a tile-built machine you walk across in combat; your crew are individuals with roles that matter in voyage prep and on the deck. The lab proves the hardest part first—**eight-way character animation, terrain cohesion, and on-foot control**—on a cursed starter island before the full loop ships.
+
+---
+
+## License
+
+MIT — see [`LICENSE`](LICENSE). Design intent: [`DESIGN_DOCUMENT.md`](DESIGN_DOCUMENT.md).
 
 <div align="center">
 
-<sub>Blood and Bilgewater — the deck is scrubbed, the cannons aligned, and the cursed banner raised.</sub>
+<sub>Blood and Bilgewater — scrub the deck, align the guns, raise the cursed banner.</sub>
 
 </div>

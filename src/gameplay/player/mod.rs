@@ -3,7 +3,9 @@
 
 mod components;
 mod plugin;
+mod stats;
 mod systems;
 
 pub use components::*;
+pub use stats::CharacterStats;
 pub use plugin::PlayerPlugin;

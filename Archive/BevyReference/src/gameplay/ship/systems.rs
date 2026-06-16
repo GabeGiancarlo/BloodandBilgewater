@@ -1,1 +1,0 @@
-//! Ship feature placeholder systems.

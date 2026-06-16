@@ -1,0 +1,6 @@
+@echo off
+echo Exporting character sheets...
+cargo run --bin export_character_sheets --features asset-export
+echo Exporting trees and fruit...
+cargo run --bin export_flora --features asset-export
+echo Done. Run scripts\run-lab.cmd to preview.

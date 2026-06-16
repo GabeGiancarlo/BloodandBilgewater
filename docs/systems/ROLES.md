@@ -41,6 +41,9 @@ Small ships may not have room for every role. NPC/AI crew can cover duties such 
 helm, cannon, repair, medicine, lookout, supplies, boarding, and research.
 Specialized players outperform NPCs, but NPCs keep solo and small-crew play viable.
 
+**Exported lab profiles** (loadout cycles, patrol actions, base stats): see
+[`docs/WIKI.md`](../WIKI.md) and [`docs/art/CHARACTER_GALLERY.md`](../art/CHARACTER_GALLERY.md).
+
 ## Ship size limits active stations
 
 Ship size and available stations determine how many duties can be active at once,

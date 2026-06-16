@@ -14,11 +14,11 @@ use bevy::prelude::*;
 use crate::gameplay::classes::CharacterRole;
 
 /// Chunky pixel display font used for every menu label, button, and title.
-pub const PIXEL_FONT: &str = "fonts/thaleahfat/ThaleahFat.ttf";
+pub const PIXEL_FONT: &str = "runtime/fonts/thaleahfat/ThaleahFat.ttf";
 
 /// Class-emblem icon sheet (relative to `assets/`). A 3x3 grid whose cells line
 /// up, in reading order, with [`CharacterRole::ALL`].
-const ICON_SHEET_PATH: &str = "ui/icons/charater-seleect-icons.png";
+const ICON_SHEET_PATH: &str = "runtime/ui/icons/charater-seleect-icons.png";
 const ICON_SHEET_COLUMNS: u32 = 3;
 const ICON_SHEET_ROWS: u32 = 3;
 /// One cell of the 1448x1086 sheet (1448/3 x 1086/3).
@@ -142,42 +142,42 @@ pub const CLASS_CHOICES: [ClassChoice; 7] = [
         role: CharacterRole::SwordsmanBoarder,
         name: "Swordsman",
         blurb: "A boarding specialist who excels in close-quarters melee. First over the rail when ships lock together.",
-        sprite_path: "sprites/characters/player_default/swordsman/swordsman_charater_select.png",
+        sprite_path: "runtime/characters/player_default/swordsman/swordsman_charater_select.png",
     },
     ClassChoice {
         role: CharacterRole::GunnerMarksman,
         name: "Marksman",
         blurb: "A deadly shot with cannon and pistol. Turns powder and patience into broadsides that find their mark.",
-        sprite_path: "sprites/characters/player_default/marksman/marksman_charater_select.png",
+        sprite_path: "runtime/characters/player_default/marksman/marksman_charater_select.png",
     },
     ClassChoice {
         role: CharacterRole::Navigator,
         name: "Navigator",
         blurb: "Reads the stars, charts, and currents. Finds faster routes and spots danger from the crow's nest first.",
-        sprite_path: "sprites/characters/player_default/navigator/navigator_charater_select.png",
+        sprite_path: "runtime/characters/player_default/navigator/navigator_charater_select.png",
     },
     ClassChoice {
         role: CharacterRole::DoctorSurgeon,
         name: "Doctor",
         blurb: "Surgeon and healer of the crew. Keeps hands on deck and patches the wounds the sea leaves behind.",
-        sprite_path: "sprites/characters/player_default/doctor/doctor_charater_select.png",
+        sprite_path: "runtime/characters/player_default/doctor/doctor_charater_select.png",
     },
     ClassChoice {
         role: CharacterRole::Shipwright,
         name: "Shipwright",
         blurb: "Master of timber and tar. Repairs the hull mid-storm and keeps the ship afloat against all odds.",
-        sprite_path: "sprites/characters/player_default/shipwright/shipwright_charater_select.png",
+        sprite_path: "runtime/characters/player_default/shipwright/shipwright_charater_select.png",
     },
     ClassChoice {
         role: CharacterRole::CookQuartermaster,
         name: "Cook",
         blurb: "Quartermaster of the galley. Stretches the stores, lifts morale, and keeps the crew fed and fighting.",
-        sprite_path: "sprites/characters/player_default/cook/cook_charater_select.png",
+        sprite_path: "runtime/characters/player_default/cook/cook_charater_select.png",
     },
     ClassChoice {
         role: CharacterRole::HistorianScholar,
         name: "Archaeologist",
         blurb: "Scholar of lost coasts and buried hoards. Deciphers maps and relics others would sail right past.",
-        sprite_path: "sprites/characters/player_default/archaeologist/archaeologist_charater_select.png",
+        sprite_path: "runtime/characters/player_default/archaeologist/archaeologist_charater_select.png",
     },
 ];

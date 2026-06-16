@@ -6,25 +6,23 @@ use super::LabScene;
 #[derive(Component)]
 pub struct LabScenePlaceholder;
 
-/// Lab scene hotkeys:
-/// 1 = OceanTiles, 2 = ShallowShore, 3 = CombatSandbox, 4 = ShipSandbox.
+/// Lab scene hotkeys: 1–5 all load Starter Island (this lab is island-only for now).
 pub fn scene_switch_hotkeys(
     keys: Res<ButtonInput<KeyCode>>,
     mut next_state: ResMut<NextState<LabScene>>,
 ) {
-    if keys.just_pressed(KeyCode::Digit1) {
-        next_state.set(LabScene::OceanTiles);
-    } else if keys.just_pressed(KeyCode::Digit2) {
-        next_state.set(LabScene::ShallowShore);
-    } else if keys.just_pressed(KeyCode::Digit3) {
-        next_state.set(LabScene::CombatSandbox);
-    } else if keys.just_pressed(KeyCode::Digit4) {
-        next_state.set(LabScene::ShipSandbox);
+    if keys.just_pressed(KeyCode::Digit1)
+        || keys.just_pressed(KeyCode::Digit2)
+        || keys.just_pressed(KeyCode::Digit3)
+        || keys.just_pressed(KeyCode::Digit4)
+        || keys.just_pressed(KeyCode::Digit5)
+    {
+        next_state.set(LabScene::StarterIsland);
     }
 }
 
 pub fn spawn_combat_placeholder(mut commands: Commands, asset_server: Res<AssetServer>) {
-    let font = asset_server.load("fonts/alagard/alagard.ttf");
+    let font = asset_server.load("runtime/fonts/alagard/alagard.ttf");
     commands.spawn((
         LabScenePlaceholder,
         Text2dBundle {
@@ -43,7 +41,7 @@ pub fn spawn_combat_placeholder(mut commands: Commands, asset_server: Res<AssetS
 }
 
 pub fn spawn_ship_placeholder(mut commands: Commands, asset_server: Res<AssetServer>) {
-    let font = asset_server.load("fonts/alagard/alagard.ttf");
+    let font = asset_server.load("runtime/fonts/alagard/alagard.ttf");
     commands.spawn((
         LabScenePlaceholder,
         Text2dBundle {

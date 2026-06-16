@@ -25,7 +25,7 @@ const CAMERA_MAX_ZOOM: f32 = 5.0;
 const CAMERA_DEFAULT_ZOOM: f32 = 1.0;
 const CAMERA_SCROLL_STEP: f32 = 0.1;
 
-const HINT_FONT: &str = "fonts/alagard/alagard.ttf";
+const HINT_FONT: &str = "runtime/fonts/alagard/alagard.ttf";
 
 /// Which lab scene to enter when transitioning into [`GameState::InLab`].
 /// Set by the World Select screen before the transition.

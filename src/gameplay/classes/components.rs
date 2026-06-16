@@ -40,6 +40,21 @@ impl CharacterRole {
         CharacterRole::HistorianScholar,
     ];
 
+    /// Folder slug under `assets/{source,runtime}/characters/player_default/`.
+    pub fn asset_slug(self) -> &'static str {
+        match self {
+            CharacterRole::SwordsmanBoarder => "swordsman",
+            CharacterRole::GunnerMarksman => "marksman",
+            CharacterRole::Helmsman => "helmsman",
+            CharacterRole::Navigator => "navigator",
+            CharacterRole::DoctorSurgeon => "doctor",
+            CharacterRole::Shipwright => "shipwright",
+            CharacterRole::CookQuartermaster => "cook",
+            CharacterRole::MusicianBosun => "musician",
+            CharacterRole::HistorianScholar => "archaeologist",
+        }
+    }
+
     /// Short display name for UI.
     pub fn display_name(self) -> &'static str {
         match self {

@@ -42,29 +42,29 @@ fn setup_ocean_tile_lab(
     let deep = load_first_existing(
         &asset_server,
         &[
-            "tilesets/ocean/basic/deep_ocean.png",
-            "tilesets/ocean/basic/deep_loop.png",
-            "tilesets/ocean/basic/ocean_deep_loop.png",
-            "tilesets/ocean/basic/turbulent_deep_loop.png",
+            "runtime/tilesets/ocean/basic/deep_ocean.png",
+            "runtime/tilesets/ocean/basic/deep_loop.png",
+            "runtime/tilesets/ocean/basic/ocean_deep_loop.png",
+            "runtime/tilesets/ocean/basic/turbulent_deep_loop.png",
         ],
     );
     let mid = load_first_existing(
         &asset_server,
         &[
-            "tilesets/ocean/basic/mid_ocean.png",
-            "tilesets/ocean/basic/mid_sea_loop.png",
-            "tilesets/ocean/basic/open_sea_loop.png",
+            "runtime/tilesets/ocean/basic/mid_ocean.png",
+            "runtime/tilesets/ocean/basic/mid_sea_loop.png",
+            "runtime/tilesets/ocean/basic/open_sea_loop.png",
         ],
     );
     let shallow = load_first_existing(
         &asset_server,
         &[
-            "tilesets/ocean/basic/shallow_water.png",
-            "tilesets/ocean/basic/shallow_loop.png",
-            "tilesets/ocean/basic/ocean_shallow_loop.png",
+            "runtime/tilesets/ocean/basic/shallow_water.png",
+            "runtime/tilesets/ocean/basic/shallow_loop.png",
+            "runtime/tilesets/ocean/basic/ocean_shallow_loop.png",
         ],
     );
-    let font = asset_server.load("fonts/alagard/alagard.ttf");
+    let font = asset_server.load("runtime/fonts/alagard/alagard.ttf");
 
     spawn_zone_a_repetition(&mut commands, &deep, &mid, &shallow, &font);
     spawn_zone_b_gradient(&mut commands, &deep, &mid, &shallow, &font);

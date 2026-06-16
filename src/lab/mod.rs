@@ -17,6 +17,7 @@
 pub mod camera;
 pub mod overlay;
 pub mod scene;
+pub mod starter_island;
 pub mod tiles;
 pub mod world;
 
@@ -39,6 +40,8 @@ pub enum LabScene {
     ShallowShore,
     CombatSandbox,
     ShipSandbox,
+    /// Helmsman patrol on a small starter island (animation lab).
+    StarterIsland,
 }
 
 /// Shared lab scene content: spawns/despawns each scene on `LabScene`
@@ -50,7 +53,11 @@ pub struct LabScenesPlugin;
 
 impl Plugin for LabScenesPlugin {
     fn build(&self, app: &mut App) {
-        app.add_plugins((tiles::OceanTileLabPlugin, tiles::ShallowShoreLabPlugin))
+        app.add_plugins((
+            tiles::OceanTileLabPlugin,
+            tiles::ShallowShoreLabPlugin,
+            starter_island::StarterIslandLabPlugin,
+        ))
             .add_systems(
                 OnEnter(LabScene::CombatSandbox),
                 scene::spawn_combat_placeholder,
@@ -82,7 +89,8 @@ impl Plugin for LabPlugin {
             .add_plugins((
                 camera::LabCameraPlugin,
                 overlay::LabOverlayPlugin,
-                LabScenesPlugin,
+                // Standalone lab is starter-island only (no ocean/shallow asset paths).
+                starter_island::StarterIslandLabPlugin,
             ))
             .add_systems(Startup, enter_default_scene)
             .add_systems(Update, scene::scene_switch_hotkeys);
@@ -92,5 +100,5 @@ impl Plugin for LabPlugin {
 /// The standalone harness defaults to [`LabScene::Inactive`]; jump to the ocean
 /// scene on boot so there is something on screen.
 fn enter_default_scene(mut next_scene: ResMut<NextState<LabScene>>) {
-    next_scene.set(LabScene::OceanTiles);
+    next_scene.set(LabScene::StarterIsland);
 }

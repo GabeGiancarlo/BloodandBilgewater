@@ -16,14 +16,14 @@ use super::characters::PIXEL_FONT;
 
 // --- Runtime asset paths (relative to `assets/`, no `assets/` prefix) ---
 // Backmost layer: the plain scene with no title art or menu cutout.
-const DEFAULT_BG_PATH: &str = "ui/titlescreen/default-menu-background.png";
+const DEFAULT_BG_PATH: &str = "runtime/ui/titlescreen/default-menu-background.png";
 // Title art (logo + ornate menu cutout), layered over the plain background.
-const TITLE_ART_PATH: &str = "ui/titlescreen/title_mock_up.png";
-const HOLDER_PATH: &str = "ui/menus/title-button_holder.png";
-const BUTTON_1_PATH: &str = "ui/menus/buttons/menu-button-1.png";
-const BUTTON_2_PATH: &str = "ui/menus/buttons/menu-button-2.png";
-const BUTTON_3_PATH: &str = "ui/menus/buttons/menu-button-3.png";
-const BUTTON_ACTIVE_PATH: &str = "ui/menus/buttons/menu-button-active.png";
+const TITLE_ART_PATH: &str = "runtime/ui/titlescreen/title_mock_up.png";
+const HOLDER_PATH: &str = "runtime/ui/menus/title-button_holder.png";
+const BUTTON_1_PATH: &str = "runtime/ui/menus/buttons/menu-button-1.png";
+const BUTTON_2_PATH: &str = "runtime/ui/menus/buttons/menu-button-2.png";
+const BUTTON_3_PATH: &str = "runtime/ui/menus/buttons/menu-button-3.png";
+const BUTTON_ACTIVE_PATH: &str = "runtime/ui/menus/buttons/menu-button-active.png";
 
 // --- Layout constants ---
 // Source art: background 640x360, holder 207x140 (an ornate frame with four

@@ -19,12 +19,12 @@ use crate::lab::{ActiveLabWorld, LabScene};
 use super::characters::PIXEL_FONT;
 
 // --- Runtime asset paths (relative to `assets/`) ---
-const BACKGROUND_PATH: &str = "ui/titlescreen/default-menu-background.png";
-const PANEL_PATH: &str = "ui/menus/empty-chararter-select.png";
-const ENTRY_BUTTON_PATH: &str = "ui/menus/buttons/menu-button-4.png";
-const BACK_BUTTON_PATH: &str = "ui/menus/buttons/menu-button-4.png";
-const CREATE_BUTTON_PATH: &str = "ui/menus/buttons/menu-button-1.png";
-const BUTTON_ACTIVE_PATH: &str = "ui/menus/buttons/menu-button-active.png";
+const BACKGROUND_PATH: &str = "runtime/ui/titlescreen/default-menu-background.png";
+const PANEL_PATH: &str = "runtime/ui/menus/empty-chararter-select.png";
+const ENTRY_BUTTON_PATH: &str = "runtime/ui/menus/buttons/menu-button-4.png";
+const BACK_BUTTON_PATH: &str = "runtime/ui/menus/buttons/menu-button-4.png";
+const CREATE_BUTTON_PATH: &str = "runtime/ui/menus/buttons/menu-button-1.png";
+const BUTTON_ACTIVE_PATH: &str = "runtime/ui/menus/buttons/menu-button-active.png";
 
 const HEADING_COLOR: Color = Color::srgb(0.96, 0.90, 0.74);
 const DIM_COLOR: Color = Color::srgb(0.60, 0.55, 0.46);

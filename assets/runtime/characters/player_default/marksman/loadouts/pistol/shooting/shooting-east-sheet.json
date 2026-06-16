@@ -1,0 +1,233 @@
+{
+  "frames": {
+    "shooting-east 0.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 88,
+        "w": 88,
+        "x": 0,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 88,
+        "w": 88
+      },
+      "spriteSourceSize": {
+        "h": 88,
+        "w": 88,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "shooting-east 1.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 88,
+        "w": 88,
+        "x": 88,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 88,
+        "w": 88
+      },
+      "spriteSourceSize": {
+        "h": 88,
+        "w": 88,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "shooting-east 2.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 88,
+        "w": 88,
+        "x": 176,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 88,
+        "w": 88
+      },
+      "spriteSourceSize": {
+        "h": 88,
+        "w": 88,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "shooting-east 3.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 88,
+        "w": 88,
+        "x": 264,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 88,
+        "w": 88
+      },
+      "spriteSourceSize": {
+        "h": 88,
+        "w": 88,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "shooting-east 4.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 88,
+        "w": 88,
+        "x": 352,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 88,
+        "w": 88
+      },
+      "spriteSourceSize": {
+        "h": 88,
+        "w": 88,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "shooting-east 5.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 88,
+        "w": 88,
+        "x": 440,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 88,
+        "w": 88
+      },
+      "spriteSourceSize": {
+        "h": 88,
+        "w": 88,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "shooting-east 6.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 88,
+        "w": 88,
+        "x": 528,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 88,
+        "w": 88
+      },
+      "spriteSourceSize": {
+        "h": 88,
+        "w": 88,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "shooting-east 7.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 88,
+        "w": 88,
+        "x": 616,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 88,
+        "w": 88
+      },
+      "spriteSourceSize": {
+        "h": 88,
+        "w": 88,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "shooting-east 8.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 88,
+        "w": 88,
+        "x": 704,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 88,
+        "w": 88
+      },
+      "spriteSourceSize": {
+        "h": 88,
+        "w": 88,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "shooting-east 9.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 88,
+        "w": 88,
+        "x": 792,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 88,
+        "w": 88
+      },
+      "spriteSourceSize": {
+        "h": 88,
+        "w": 88,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    }
+  },
+  "meta": {
+    "app": "https://www.aseprite.org/",
+    "format": "RGBA8888",
+    "frameTags": [],
+    "layers": [
+      {
+        "blendMode": "normal",
+        "name": "Layer",
+        "opacity": 255
+      }
+    ],
+    "scale": "1",
+    "size": {
+      "h": 88,
+      "w": 880
+    },
+    "slices": [],
+    "version": "export_character_sheets"
+  }
+}

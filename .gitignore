@@ -50,6 +50,9 @@ desktop.ini
 # --- Local-only large archive (kept out of history) ---
 /Archive/DuplicateUnityProject_BloodandBildgewater/
 
+# --- Quarantine for unneeded/junk files (local-only, never committed) ---
+/trashcan/
+
 # NOTE: Art and data are intentionally NOT ignored.
 # Do not add global ignores for: *.aseprite, *.ase, *.png, *.json, *.ron,
 # *.ttf, *.otf, *.wav, *.ogg, *.mp3, or asset manifests.

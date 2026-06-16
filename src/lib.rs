@@ -3,6 +3,7 @@
 //! All game assembly is done via the central app builder; see [`app`].
 
 pub mod app;
+pub mod asset_paths;
 pub mod assets;
 pub mod chunking;
 pub mod core;

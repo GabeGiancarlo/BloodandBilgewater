@@ -41,48 +41,48 @@ const HEADER_COLOR: Color = Color::srgb(0.62, 0.84, 0.95);
 /// Camera zoom applied on entering this scene so the whole shore is in view.
 const SCENE_ZOOM: f32 = 2.7;
 
-const FONT_PATH: &str = "fonts/alagard/alagard.ttf";
+const FONT_PATH: &str = "runtime/fonts/alagard/alagard.ttf";
 
 // --- Shallow tileset paths (relative to `assets/`) ---
-const DIR: &str = "tilesets/ocean/shallow";
-const BASE_WATER: &str = "tilesets/ocean/shallow/shallow_loop_base_01.png";
-const EDGE_N: &str = "tilesets/ocean/shallow/shallow_water_to_sand_edge_n.png";
-const EDGE_E: &str = "tilesets/ocean/shallow/shallow_water_to_sand_edge_e.png";
-const EDGE_S: &str = "tilesets/ocean/shallow/shallow_water_to_sand_edge_s.png";
-const EDGE_W: &str = "tilesets/ocean/shallow/shallow_water_to_sand_edge_w.png";
-const OUTER_NW: &str = "tilesets/ocean/shallow/shallow_water_to_sand_outer_nw.png";
-const OUTER_NE: &str = "tilesets/ocean/shallow/shallow_water_to_sand_outer_ne.png";
-const OUTER_SE: &str = "tilesets/ocean/shallow/shallow_water_to_sand_outer_se.png";
-const OUTER_SW: &str = "tilesets/ocean/shallow/shallow_water_to_sand_outer_sw.png";
-const INNER_NW: &str = "tilesets/ocean/shallow/shallow_water_to_sand_inner_nw.png";
-const INNER_NE: &str = "tilesets/ocean/shallow/shallow_water_to_sand_inner_ne.png";
-const INNER_SE: &str = "tilesets/ocean/shallow/shallow_water_to_sand_inner_se.png";
-const INNER_SW: &str = "tilesets/ocean/shallow/shallow_water_to_sand_inner_sw.png";
+const DIR: &str = "runtime/tilesets/ocean/shallow";
+const BASE_WATER: &str = "runtime/tilesets/ocean/shallow/shallow_loop_base_01.png";
+const EDGE_N: &str = "runtime/tilesets/ocean/shallow/shallow_water_to_sand_edge_n.png";
+const EDGE_E: &str = "runtime/tilesets/ocean/shallow/shallow_water_to_sand_edge_e.png";
+const EDGE_S: &str = "runtime/tilesets/ocean/shallow/shallow_water_to_sand_edge_s.png";
+const EDGE_W: &str = "runtime/tilesets/ocean/shallow/shallow_water_to_sand_edge_w.png";
+const OUTER_NW: &str = "runtime/tilesets/ocean/shallow/shallow_water_to_sand_outer_nw.png";
+const OUTER_NE: &str = "runtime/tilesets/ocean/shallow/shallow_water_to_sand_outer_ne.png";
+const OUTER_SE: &str = "runtime/tilesets/ocean/shallow/shallow_water_to_sand_outer_se.png";
+const OUTER_SW: &str = "runtime/tilesets/ocean/shallow/shallow_water_to_sand_outer_sw.png";
+const INNER_NW: &str = "runtime/tilesets/ocean/shallow/shallow_water_to_sand_inner_nw.png";
+const INNER_NE: &str = "runtime/tilesets/ocean/shallow/shallow_water_to_sand_inner_ne.png";
+const INNER_SE: &str = "runtime/tilesets/ocean/shallow/shallow_water_to_sand_inner_se.png";
+const INNER_SW: &str = "runtime/tilesets/ocean/shallow/shallow_water_to_sand_inner_sw.png";
 
 const COVES: [(&str, &str); 4] = [
     (
         "Cove In L",
-        "tilesets/ocean/shallow/shallow_water_cove_in_left.png",
+        "runtime/tilesets/ocean/shallow/shallow_water_cove_in_left.png",
     ),
     (
         "Cove In R",
-        "tilesets/ocean/shallow/shallow_water_cove_in_right.png",
+        "runtime/tilesets/ocean/shallow/shallow_water_cove_in_right.png",
     ),
     (
         "Cove Out L",
-        "tilesets/ocean/shallow/shallow_water_cove_out_left.png",
+        "runtime/tilesets/ocean/shallow/shallow_water_cove_out_left.png",
     ),
     (
         "Cove Out R",
-        "tilesets/ocean/shallow/shallow_water_cove_out_right.png",
+        "runtime/tilesets/ocean/shallow/shallow_water_cove_out_right.png",
     ),
 ];
 
 const ACCENTS: [&str; 4] = [
-    "tilesets/ocean/shallow/shallow_water_accent_01.png",
-    "tilesets/ocean/shallow/shallow_water_accent_02.png",
-    "tilesets/ocean/shallow/shallow_water_accent_03.png",
-    "tilesets/ocean/shallow/shallow_water_accent_04.png",
+    "runtime/tilesets/ocean/shallow/shallow_water_accent_01.png",
+    "runtime/tilesets/ocean/shallow/shallow_water_accent_02.png",
+    "runtime/tilesets/ocean/shallow/shallow_water_accent_03.png",
+    "runtime/tilesets/ocean/shallow/shallow_water_accent_04.png",
 ];
 
 // --- Big-shore dimensions (world cells) ---
@@ -253,16 +253,16 @@ impl DepthArt {
         let deep = load_first_existing(
             asset_server,
             &[
-                "tilesets/ocean/basic/deep_loop.png",
-                "tilesets/ocean/basic/ocean_deep_loop.png",
-                "tilesets/ocean/basic/turbulent_deep_loop.png",
+                "runtime/tilesets/ocean/basic/deep_loop.png",
+                "runtime/tilesets/ocean/basic/ocean_deep_loop.png",
+                "runtime/tilesets/ocean/basic/turbulent_deep_loop.png",
             ],
         );
         let mid = load_first_existing(
             asset_server,
             &[
-                "tilesets/ocean/basic/mid_sea_loop.png",
-                "tilesets/ocean/basic/open_sea_loop.png",
+                "runtime/tilesets/ocean/basic/mid_sea_loop.png",
+                "runtime/tilesets/ocean/basic/open_sea_loop.png",
             ],
         );
         let shallow = (1..=12)
