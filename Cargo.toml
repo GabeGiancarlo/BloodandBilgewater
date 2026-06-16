@@ -1,0 +1,38 @@
+[package]
+name = "bloodandbilgewater"
+version = "0.1.0"
+edition = "2021"
+description = "Procedural seeded open-world pirate sandbox RPG"
+license = "MIT"
+repository = "https://github.com/GabeGiancarlo/BloodandBilgewater"
+readme = "README.md"
+
+[dependencies]
+bevy = "0.14"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+noise = "0.9"
+rand = { version = "0.8", features = ["small_rng"] }
+asefile = { version = "0.3.8", optional = true }
+image = { version = "0.24.9", optional = true, default-features = false, features = ["png"] }
+
+[[bin]]
+name = "generate_wiki"
+path = "src/bin/generate_wiki.rs"
+
+[[bin]]
+name = "export_character_sheets"
+path = "src/bin/export_character_sheets.rs"
+required-features = ["asset-export"]
+
+[[bin]]
+name = "export_flora"
+path = "src/bin/export_flora.rs"
+required-features = ["asset-export"]
+
+[features]
+default = []
+# Future: headless dedicated server without rendering/window
+headless = []
+lab = []
+asset-export = ["dep:asefile", "dep:image"]

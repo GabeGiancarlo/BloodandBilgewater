@@ -1,0 +1,170 @@
+{
+  "frames": {
+    "idle-southwest 0.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 88,
+        "w": 88,
+        "x": 0,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 88,
+        "w": 88
+      },
+      "spriteSourceSize": {
+        "h": 88,
+        "w": 88,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "idle-southwest 1.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 88,
+        "w": 88,
+        "x": 88,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 88,
+        "w": 88
+      },
+      "spriteSourceSize": {
+        "h": 88,
+        "w": 88,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "idle-southwest 2.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 88,
+        "w": 88,
+        "x": 176,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 88,
+        "w": 88
+      },
+      "spriteSourceSize": {
+        "h": 88,
+        "w": 88,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "idle-southwest 3.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 88,
+        "w": 88,
+        "x": 264,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 88,
+        "w": 88
+      },
+      "spriteSourceSize": {
+        "h": 88,
+        "w": 88,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "idle-southwest 4.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 88,
+        "w": 88,
+        "x": 352,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 88,
+        "w": 88
+      },
+      "spriteSourceSize": {
+        "h": 88,
+        "w": 88,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "idle-southwest 5.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 88,
+        "w": 88,
+        "x": 440,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 88,
+        "w": 88
+      },
+      "spriteSourceSize": {
+        "h": 88,
+        "w": 88,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "idle-southwest 6.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 88,
+        "w": 88,
+        "x": 528,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 88,
+        "w": 88
+      },
+      "spriteSourceSize": {
+        "h": 88,
+        "w": 88,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    }
+  },
+  "meta": {
+    "app": "https://www.aseprite.org/",
+    "format": "RGBA8888",
+    "frameTags": [],
+    "layers": [
+      {
+        "blendMode": "normal",
+        "name": "Layer",
+        "opacity": 255
+      }
+    ],
+    "scale": "1",
+    "size": {
+      "h": 88,
+      "w": 616
+    },
+    "slices": [],
+    "version": "export_character_sheets"
+  }
+}

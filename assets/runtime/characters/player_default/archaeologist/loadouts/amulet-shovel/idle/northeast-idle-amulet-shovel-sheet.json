@@ -1,0 +1,170 @@
+{
+  "frames": {
+    "northeast-idle-amulet-shovel 0.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 112,
+        "w": 112,
+        "x": 0,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 112,
+        "w": 112,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "northeast-idle-amulet-shovel 1.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 112,
+        "w": 112,
+        "x": 112,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 112,
+        "w": 112,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "northeast-idle-amulet-shovel 2.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 112,
+        "w": 112,
+        "x": 224,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 112,
+        "w": 112,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "northeast-idle-amulet-shovel 3.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 112,
+        "w": 112,
+        "x": 336,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 112,
+        "w": 112,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "northeast-idle-amulet-shovel 4.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 112,
+        "w": 112,
+        "x": 448,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 112,
+        "w": 112,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "northeast-idle-amulet-shovel 5.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 112,
+        "w": 112,
+        "x": 560,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 112,
+        "w": 112,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "northeast-idle-amulet-shovel 6.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 112,
+        "w": 112,
+        "x": 672,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 112,
+        "w": 112,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    }
+  },
+  "meta": {
+    "app": "https://www.aseprite.org/",
+    "format": "RGBA8888",
+    "frameTags": [],
+    "layers": [
+      {
+        "blendMode": "normal",
+        "name": "Layer",
+        "opacity": 255
+      }
+    ],
+    "scale": "1",
+    "size": {
+      "h": 112,
+      "w": 784
+    },
+    "slices": [],
+    "version": "export_character_sheets"
+  }
+}

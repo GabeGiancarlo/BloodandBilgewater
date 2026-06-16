@@ -1,0 +1,338 @@
+{
+  "frames": {
+    "opening-southwest 0.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 112,
+        "w": 112,
+        "x": 0,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 112,
+        "w": 112,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "opening-southwest 1.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 112,
+        "w": 112,
+        "x": 112,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 112,
+        "w": 112,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "opening-southwest 10.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 112,
+        "w": 112,
+        "x": 1120,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 112,
+        "w": 112,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "opening-southwest 11.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 112,
+        "w": 112,
+        "x": 1232,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 112,
+        "w": 112,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "opening-southwest 12.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 112,
+        "w": 112,
+        "x": 1344,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 112,
+        "w": 112,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "opening-southwest 13.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 112,
+        "w": 112,
+        "x": 1456,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 112,
+        "w": 112,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "opening-southwest 14.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 112,
+        "w": 112,
+        "x": 1568,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 112,
+        "w": 112,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "opening-southwest 2.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 112,
+        "w": 112,
+        "x": 224,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 112,
+        "w": 112,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "opening-southwest 3.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 112,
+        "w": 112,
+        "x": 336,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 112,
+        "w": 112,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "opening-southwest 4.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 112,
+        "w": 112,
+        "x": 448,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 112,
+        "w": 112,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "opening-southwest 5.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 112,
+        "w": 112,
+        "x": 560,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 112,
+        "w": 112,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "opening-southwest 6.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 112,
+        "w": 112,
+        "x": 672,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 112,
+        "w": 112,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "opening-southwest 7.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 112,
+        "w": 112,
+        "x": 784,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 112,
+        "w": 112,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "opening-southwest 8.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 112,
+        "w": 112,
+        "x": 896,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 112,
+        "w": 112,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "opening-southwest 9.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 112,
+        "w": 112,
+        "x": 1008,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 112,
+        "w": 112,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    }
+  },
+  "meta": {
+    "app": "https://www.aseprite.org/",
+    "format": "RGBA8888",
+    "frameTags": [],
+    "layers": [
+      {
+        "blendMode": "normal",
+        "name": "Layer",
+        "opacity": 255
+      }
+    ],
+    "scale": "1",
+    "size": {
+      "h": 112,
+      "w": 1680
+    },
+    "slices": [],
+    "version": "export_character_sheets"
+  }
+}

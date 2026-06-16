@@ -1,0 +1,191 @@
+{
+  "frames": {
+    "bitter-fig-8-sheet 0.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 48,
+        "w": 48,
+        "x": 0,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "h": 48,
+        "w": 48,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "bitter-fig-8-sheet 1.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 48,
+        "w": 48,
+        "x": 48,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "h": 48,
+        "w": 48,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "bitter-fig-8-sheet 2.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 48,
+        "w": 48,
+        "x": 96,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "h": 48,
+        "w": 48,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "bitter-fig-8-sheet 3.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 48,
+        "w": 48,
+        "x": 144,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "h": 48,
+        "w": 48,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "bitter-fig-8-sheet 4.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 48,
+        "w": 48,
+        "x": 192,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "h": 48,
+        "w": 48,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "bitter-fig-8-sheet 5.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 48,
+        "w": 48,
+        "x": 240,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "h": 48,
+        "w": 48,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "bitter-fig-8-sheet 6.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 48,
+        "w": 48,
+        "x": 288,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "h": 48,
+        "w": 48,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    "bitter-fig-8-sheet 7.aseprite": {
+      "duration": 100,
+      "frame": {
+        "h": 48,
+        "w": 48,
+        "x": 336,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "h": 48,
+        "w": 48,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    }
+  },
+  "meta": {
+    "app": "https://www.aseprite.org/",
+    "format": "RGBA8888",
+    "frameTags": [],
+    "layers": [
+      {
+        "blendMode": "normal",
+        "name": "Layer",
+        "opacity": 255
+      }
+    ],
+    "scale": "1",
+    "size": {
+      "h": 48,
+      "w": 384
+    },
+    "slices": [],
+    "version": "export_flora"
+  }
+}
