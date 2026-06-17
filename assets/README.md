@@ -130,7 +130,7 @@ data/
 └── world/          # world/biome config
 ```
 (Tree/fruit definitions, e.g. `data/trees/` and `data/fruit/`, are planned — see
-`docs/systems/HOME_LOOP.md`.)
+[`docs/systems/HOME_LOOP.md`](../docs/systems/HOME_LOOP.md).)
 
 ---
 
@@ -168,7 +168,7 @@ Reviewers should confirm, before approving an art PR:
 - [ ] **Placement:** files are under the correct one of `source/` `runtime/` `data/`; junk went
       to repo-root `trashcan/`, not into `assets/`.
 - [ ] **Licensing:** third-party fonts/audio have confirmed redistribution rights (current
-      bundled fonts are unverified "Demo" builds — see `docs/migration/bevy_restoration_audit.md`).
+      bundled fonts are unverified "Demo" builds — see [`docs/migration/asset_restructure_move_log.md`](../docs/migration/asset_restructure_move_log.md)).
 
 ---
 
@@ -176,6 +176,4 @@ Reviewers should confirm, before approving an art PR:
 
 This structure was created by consolidating two earlier pipelines (a Bevy-era export set and a
 Unity-phase Aseprite + AI-frame set). Details and the full move log:
-- `docs/migration/asset_restructure_move_log.md`
-- `docs/migration/asset_preservation_manifest.md`
-- `docs/art/ASSET_PIPELINE.md` (older pipeline doc; this README supersedes its folder layout)
+- [`docs/migration/asset_restructure_move_log.md`](../docs/migration/asset_restructure_move_log.md)
