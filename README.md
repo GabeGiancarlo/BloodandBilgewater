@@ -50,9 +50,9 @@ Characters specialize through **roles**. Each role exports loadouts (what they h
 
 | | | |
 |:---:|:---:|:---:|
-| ![swordsman](assets/runtime/characters/player_default/swordsman/loadouts/sword/idle/idle-south-sheet.png) | ![marksman](assets/runtime/characters/player_default/marksman/loadouts/pistol/idle/idle-south-sheet.png) | ![helmsman](assets/runtime/characters/player_default/helmsman/loadouts/dual-axe/idle/idle-south-sheet.png) |
+| ![swordsman](assets/runtime/characters/player_default/swordsman/loadouts/sword/idle/idle-south-sheet.png) | ![marksman](assets/runtime/characters/player_default/marksman/loadouts/pistol/shooting/shooting-south-sheet.png) | ![helmsman](assets/runtime/characters/player_default/helmsman/loadouts/dual-axe/running/running-south-sheet.png) |
 | Swordsman | Marksman | Helmsman |
-| ![doctor](assets/runtime/characters/player_default/doctor/loadouts/saw/idle/idle-south-sheet.png) | ![musician](assets/runtime/characters/player_default/musician/loadouts/guitar/idle/idle-south-sheet.png) | ![archaeologist](assets/runtime/characters/player_default/archaeologist/loadouts/amulet-shovel/idle/south-idle-amulet-shovel-sheet.png) |
+| ![doctor](assets/runtime/characters/player_default/doctor/loadouts/saw/idle/idle-south-sheet.png) | ![musician](assets/runtime/characters/player_default/musician/loadouts/guitar/playing/idle/idle-south-sheet.png) | ![archaeologist](assets/runtime/characters/player_default/archaeologist/loadouts/amulet-shovel/idle/south-idle-amulet-shovel-sheet.png) |
 | Doctor | Musician | Historian |
 
 </div>
@@ -106,7 +106,7 @@ Ships are authored in **eight directions** from Aseprite masters under `assets/s
 | Art pipeline | **Aseprite** → PNG + JSON under `assets/runtime/` |
 | World tiles | **64×64 px** display; **32 px** logic cells for collision |
 
-Enforceable rules: [`docs/ARCHITECTURE_RULES.md`](docs/ARCHITECTURE_RULES.md) · Unity prototype archived under `Archive/UnityPrototype/`.
+Enforceable rules: [`docs/ARCHITECTURE_RULES.md`](docs/ARCHITECTURE_RULES.md) · Unity prototype preserved on the `unity-migration-snapshot` branch (see [`docs/migration/`](docs/migration/)).
 
 ### Repository map
 
