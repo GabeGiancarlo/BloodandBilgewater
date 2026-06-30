@@ -17,9 +17,9 @@ pub fn asset_exists(rel: &str) -> bool {
     assets_relative_path(rel).exists()
 }
 
-/// Bevy `AssetServer` path for a file under `assets/`.
-pub fn asset_server_path(rel: &str) -> &str {
-    rel
+/// Bevy `AssetPlugin` `file_path` pointing at the repo `assets/` folder.
+pub fn assets_file_path() -> String {
+    assets_root().to_string_lossy().into_owned()
 }
 
 /// First existing PNG among lowercase / capital `sheet` suffix variants.

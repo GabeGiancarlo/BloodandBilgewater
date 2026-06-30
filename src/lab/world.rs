@@ -58,7 +58,7 @@ impl Plugin for LabWorldsPlugin {
 /// Dev convenience: if `LAB_WORLD` is set, jump straight into that lab world on
 /// boot (skipping the menus). The normal menu flow is unchanged when unset.
 ///
-/// Accepted values: `ocean`, `shallow`/`shore`, `combat`, `ship`.
+/// Accepted values: `ocean`, `shallow`/`shore`, `combat`, `ship`, `island_gen`/`island`/`terrain`/`mapgen`.
 fn boot_into_lab_world_from_env(
     mut active: ResMut<ActiveLabWorld>,
     mut next_state: ResMut<NextState<GameState>>,
@@ -67,15 +67,9 @@ fn boot_into_lab_world_from_env(
         return;
     };
 
-    let scene = match raw.trim().to_ascii_lowercase().as_str() {
-        "ocean" | "ocean_tiles" | "tiles" => LabScene::OceanTiles,
-        "shallow" | "shallow_shore" | "shore" => LabScene::ShallowShore,
-        "combat" | "combat_sandbox" => LabScene::CombatSandbox,
-        "ship" | "ship_sandbox" => LabScene::ShipSandbox,
-        other => {
-            warn!("LAB_WORLD='{other}' not recognized; staying on the main menu");
-            return;
-        }
+    let Some(scene) = parse_lab_world_env(&raw) else {
+        warn!("LAB_WORLD='{raw}' not recognized; staying on the main menu");
+        return;
     };
 
     info!("LAB_WORLD set: booting straight into {scene:?}");
@@ -149,6 +143,19 @@ fn exit_lab_world(
     }
 }
 
+/// Parse `LAB_WORLD` env values for both in-game and standalone lab boot.
+pub fn parse_lab_world_env(raw: &str) -> Option<LabScene> {
+    match raw.trim().to_ascii_lowercase().as_str() {
+        "ocean" | "ocean_tiles" | "tiles" => Some(LabScene::OceanTiles),
+        "shallow" | "shallow_shore" | "shore" => Some(LabScene::ShallowShore),
+        "combat" | "combat_sandbox" => Some(LabScene::CombatSandbox),
+        "ship" | "ship_sandbox" => Some(LabScene::ShipSandbox),
+        "starter" | "starter_island" => Some(LabScene::StarterIsland),
+        "island_gen" | "island" | "terrain" | "mapgen" => Some(LabScene::IslandGen),
+        _ => None,
+    }
+}
+
 fn exit_on_escape(keys: Res<ButtonInput<KeyCode>>, mut next_state: ResMut<NextState<GameState>>) {
     if keys.just_pressed(KeyCode::Escape) {
         next_state.set(GameState::WorldSelect);
@@ -208,8 +215,12 @@ fn zoom_camera(
 
 fn reset_camera(
     keys: Res<ButtonInput<KeyCode>>,
+    scene: Res<State<LabScene>>,
     mut camera: Query<(&mut Transform, &mut OrthographicProjection), With<PrimaryCamera>>,
 ) {
+    if *scene.get() == LabScene::IslandGen {
+        return;
+    }
     if !keys.just_pressed(KeyCode::KeyR) {
         return;
     }

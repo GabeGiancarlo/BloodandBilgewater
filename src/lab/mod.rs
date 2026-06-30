@@ -15,6 +15,7 @@
 //! Tracking + TODO checklist: `docs/migration/bevy_restoration_summary.md`.
 
 pub mod camera;
+pub mod island_gen_lab;
 pub mod overlay;
 pub mod scene;
 pub mod starter_island;
@@ -42,6 +43,8 @@ pub enum LabScene {
     ShipSandbox,
     /// Helmsman patrol on a small starter island (animation lab).
     StarterIsland,
+    /// Staged procedural home-island generation test bed.
+    IslandGen,
 }
 
 /// Shared lab scene content: spawns/despawns each scene on `LabScene`
@@ -57,6 +60,7 @@ impl Plugin for LabScenesPlugin {
             tiles::OceanTileLabPlugin,
             tiles::ShallowShoreLabPlugin,
             starter_island::StarterIslandLabPlugin,
+            island_gen_lab::IslandGenLabPlugin,
         ))
             .add_systems(
                 OnEnter(LabScene::CombatSandbox),
@@ -89,16 +93,31 @@ impl Plugin for LabPlugin {
             .add_plugins((
                 camera::LabCameraPlugin,
                 overlay::LabOverlayPlugin,
-                // Standalone lab is starter-island only (no ocean/shallow asset paths).
                 starter_island::StarterIslandLabPlugin,
+                island_gen_lab::IslandGenLabPlugin,
             ))
-            .add_systems(Startup, enter_default_scene)
+            .add_systems(Startup, (boot_lab_scene_from_env, enter_default_scene))
             .add_systems(Update, scene::scene_switch_hotkeys);
     }
 }
 
-/// The standalone harness defaults to [`LabScene::Inactive`]; jump to the ocean
-/// scene on boot so there is something on screen.
+/// If `LAB_WORLD` selects a lab scene, that wins over the default boot scene.
+fn boot_lab_scene_from_env(mut next_scene: ResMut<NextState<LabScene>>) {
+    let Ok(raw) = std::env::var("LAB_WORLD") else {
+        return;
+    };
+    if let Some(scene) = world::parse_lab_world_env(&raw) {
+        info!("LAB_WORLD set: standalone lab booting into {scene:?}");
+        next_scene.set(scene);
+    } else {
+        warn!("LAB_WORLD='{raw}' not recognized; using default lab scene");
+    }
+}
+
+/// Default standalone boot: island generation lab (Starter Island via `0`).
 fn enter_default_scene(mut next_scene: ResMut<NextState<LabScene>>) {
-    next_scene.set(LabScene::StarterIsland);
+    if std::env::var("LAB_WORLD").is_ok() {
+        return;
+    }
+    next_scene.set(LabScene::IslandGen);
 }

@@ -35,6 +35,13 @@
 .vs/
 .idea/
 .vscode/
+.cursor/
+
+# --- Local lab dev artifacts ---
+dev_saves/
+
+# --- Runtime-generated caches (rebuilt on first island-gen lab run) ---
+assets/runtime/generated/
 *.swp
 *.swo
 
