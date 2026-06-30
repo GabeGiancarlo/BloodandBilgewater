@@ -1,5 +1,11 @@
 //! Standalone developer harness for testing visuals/system behavior.
-//! This is intentionally separate from `src/main.rs` and the main game plugin.
+//!
+//! Prefer this binary on Windows — some Application Control policies block
+//! `target/debug/examples/lab.exe` but allow `target/debug/lab.exe`.
+//!
+//! ```powershell
+//! $env:LAB_WORLD="island_gen"; cargo run --bin lab --features lab
+//! ```
 
 #[cfg(feature = "lab")]
 use bevy::asset::AssetPlugin;
@@ -12,17 +18,17 @@ use bevy::render::RenderPlugin;
 #[cfg(feature = "lab")]
 use bevy::window::{MonitorSelection, WindowPosition};
 #[cfg(feature = "lab")]
+use bloodandbilgewater::asset_paths::assets_file_path;
 use bloodandbilgewater::lab::LabPlugin;
 
 #[cfg(feature = "lab")]
 fn main() {
-    let assets_dir = std::path::PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("assets");
     App::new()
         .insert_resource(ClearColor(Color::srgb(0.015, 0.02, 0.05)))
         .add_plugins(
             DefaultPlugins
                 .set(AssetPlugin {
-                    file_path: assets_dir.to_string_lossy().into_owned(),
+                    file_path: assets_file_path(),
                     ..default()
                 })
                 .set(RenderPlugin {
@@ -52,6 +58,8 @@ fn main() {
 
 #[cfg(not(feature = "lab"))]
 fn main() {
-    eprintln!("Run with: cargo run --example lab --features lab");
-    eprintln!("On Windows if blocked, use: cargo run --bin lab --features lab");
+    eprintln!("Run with: cargo run --bin lab --features lab");
+    eprintln!("If Windows blocks lab.exe (error 4551), use instead:");
+    eprintln!("  $env:LAB_WORLD=\"island_gen\"; cargo run --bin bloodandbilgewater --features lab");
+    eprintln!("Or: .\\scripts\\run-lab.ps1");
 }

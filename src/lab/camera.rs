@@ -44,7 +44,13 @@ impl Plugin for LabCameraPlugin {
                     move_lab_camera,
                     reset_lab_camera,
                 )
-                    .run_if(not(in_state(LabScene::StarterIsland))),
+                    .run_if(not(in_state(LabScene::StarterIsland)))
+                    .run_if(not(in_state(LabScene::IslandGen))),
+            )
+            .add_systems(
+                Update,
+                (zoom_island_gen_camera, move_island_gen_camera)
+                    .run_if(in_state(LabScene::IslandGen)),
             );
     }
 }
@@ -134,6 +140,55 @@ fn move_lab_camera(
         let movement = input.normalize() * CAMERA_MOVE_SPEED * time.delta_seconds();
         transform.translation.x += movement.x;
         transform.translation.y += movement.y;
+    }
+}
+
+fn move_island_gen_camera(
+    keys: Res<ButtonInput<KeyCode>>,
+    time: Res<Time>,
+    mut camera_query: Query<&mut Transform, With<LabCamera>>,
+) {
+    let Ok(mut transform) = camera_query.get_single_mut() else {
+        return;
+    };
+
+    let mut input = Vec2::ZERO;
+    if keys.pressed(KeyCode::KeyW) {
+        input.y += 1.0;
+    }
+    if keys.pressed(KeyCode::KeyS) {
+        input.y -= 1.0;
+    }
+    if keys.pressed(KeyCode::KeyA) {
+        input.x -= 1.0;
+    }
+    if keys.pressed(KeyCode::KeyD) {
+        input.x += 1.0;
+    }
+
+    if input != Vec2::ZERO {
+        let movement = input.normalize() * CAMERA_MOVE_SPEED * time.delta_seconds();
+        transform.translation.x += movement.x;
+        transform.translation.y += movement.y;
+    }
+}
+
+fn zoom_island_gen_camera(
+    mut scroll: EventReader<bevy::input::mouse::MouseWheel>,
+    mut zoom: ResMut<LabCameraZoom>,
+    mut camera_query: Query<&mut OrthographicProjection, With<LabCamera>>,
+) {
+    let mut delta = 0.0;
+    for ev in scroll.read() {
+        delta += ev.y;
+    }
+    if delta == 0.0 {
+        return;
+    }
+
+    zoom.scale = (zoom.scale - delta * 0.06).clamp(MIN_ZOOM, MAX_ZOOM);
+    if let Ok(mut projection) = camera_query.get_single_mut() {
+        projection.scale = zoom.scale;
     }
 }
 

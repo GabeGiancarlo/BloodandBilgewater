@@ -6,18 +6,29 @@ use super::LabScene;
 #[derive(Component)]
 pub struct LabScenePlaceholder;
 
-/// Lab scene hotkeys: 1–5 all load Starter Island (this lab is island-only for now).
+/// Lab scene hotkeys: `0` Starter Island, `9` Island Gen (stage keys live in island gen controls).
 pub fn scene_switch_hotkeys(
     keys: Res<ButtonInput<KeyCode>>,
+    state: Res<State<LabScene>>,
     mut next_state: ResMut<NextState<LabScene>>,
 ) {
-    if keys.just_pressed(KeyCode::Digit1)
-        || keys.just_pressed(KeyCode::Digit2)
-        || keys.just_pressed(KeyCode::Digit3)
-        || keys.just_pressed(KeyCode::Digit4)
-        || keys.just_pressed(KeyCode::Digit5)
-    {
+    if keys.just_pressed(KeyCode::Digit0) {
         next_state.set(LabScene::StarterIsland);
+    }
+    if keys.just_pressed(KeyCode::Digit9) {
+        next_state.set(LabScene::IslandGen);
+    }
+
+    // When already in Starter Island, digit keys 1–5 stay on that scene (legacy hint).
+    if *state.get() == LabScene::StarterIsland {
+        if keys.just_pressed(KeyCode::Digit1)
+            || keys.just_pressed(KeyCode::Digit2)
+            || keys.just_pressed(KeyCode::Digit3)
+            || keys.just_pressed(KeyCode::Digit4)
+            || keys.just_pressed(KeyCode::Digit5)
+        {
+            next_state.set(LabScene::StarterIsland);
+        }
     }
 }
 
